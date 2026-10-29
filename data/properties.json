@@ -1,0 +1,1192 @@
+{
+ "P217": {
+  "label": "listened to",
+  "description": "work the subject listened to",
+  "type": "WikibaseItem"
+ },
+ "P216": {
+  "label": "hosted by",
+  "description": "person who hosted the subject",
+  "type": "WikibaseItem"
+ },
+ "P219": {
+  "label": "viewed",
+  "description": "visual work or collection the subject viewed",
+  "type": "WikibaseItem"
+ },
+ "P218": {
+  "label": "read",
+  "description": "work the subject read",
+  "type": "WikibaseItem"
+ },
+ "P221": {
+  "label": "property constraint",
+  "description": "constraint system - property",
+  "type": "WikibaseItem"
+ },
+ "P220": {
+  "label": "attended performance of work",
+  "description": "performance work the subject attended or watched",
+  "type": "WikibaseItem"
+ },
+ "P225": {
+  "label": "class",
+  "description": "specifies the class/type of a 'type' or 'value type' constraint",
+  "type": "WikibaseItem"
+ },
+ "P224": {
+  "label": "Wikimedia language code",
+  "description": "specifies the language code of a 'label in language' constraint",
+  "type": "String"
+ },
+ "P227": {
+  "label": "property",
+  "description": "specifies the property parameter of an 'inverse', 'item requires claim', 'value requires claim', 'difference within range', 'mandatory qualifiers', or 'qualifiers' constraint",
+  "type": "WikibaseProperty"
+ },
+ "P226": {
+  "label": "relation",
+  "description": "specifies the relation ('instance of' or 'subclass of') of a 'type' or 'value type' constraint",
+  "type": "WikibaseItem"
+ },
+ "P229": {
+  "label": "minimum quantity",
+  "description": "specifies the minimum quantity parameter of a 'range' or 'diff within range' constraint",
+  "type": "Quantity"
+ },
+ "P228": {
+  "label": "qualifier of property constraint",
+  "description": "specifies the item parameter of an 'item requires claim', 'value requires claim', or 'one of' constraint",
+  "type": "WikibaseItem"
+ },
+ "P231": {
+  "label": "minimum date",
+  "description": "specifies the minimum date parameter of a 'range' or 'diff within range' constraint",
+  "type": "Time"
+ },
+ "P230": {
+  "label": "maximum quantity",
+  "description": "specifies the maximum quantity parameter of a 'range' or 'diff within range' constraint",
+  "type": "Quantity"
+ },
+ "P233": {
+  "label": "namespace",
+  "description": "specifies the namespace parameter of a 'commons link' constraint",
+  "type": "String"
+ },
+ "P232": {
+  "label": "maximum date",
+  "description": "specifies the maximum date parameter of a 'range' or 'diff within range' constraint",
+  "type": "Time"
+ },
+ "P235": {
+  "label": "syntax clarification",
+  "description": "specifies human-readable explanations of a 'format' constraint. The syntax clarification is shown as part of the 'format' constraint violation message, clarifying the regular expression",
+  "type": "Monolingualtext"
+ },
+ "P234": {
+  "label": "format as a regular expression",
+  "description": "specifies the format parameter of a 'format' constraint",
+  "type": "String"
+ },
+ "P237": {
+  "label": "constraint scope",
+  "description": "specifies the context(s) in which a constraint is checked",
+  "type": "WikibaseItem"
+ },
+ "P236": {
+  "label": "constraint clarification",
+  "description": "specifies human-readable explanations of a constraint (of any constraint type). The constraint clarification is shown below the main constraint violation message",
+  "type": "Monolingualtext"
+ },
+ "P239": {
+  "label": "separator",
+  "description": "specifies the allowed separator(s) for “single value” and “single best value” constraints",
+  "type": "WikibaseProperty"
+ },
+ "P238": {
+  "label": "constraint entity types",
+  "description": "entity types on which a constraint is checked. By default, is the same as the 'constraint scope' property, may alsobeset to a different one. recognized values (items representing entity types) are the same as for the 'allowed entity types' constraint",
+  "type": "WikibaseItem"
+ },
+ "P241": {
+  "label": "mentions via attribution",
+  "description": "work the subject mentioned and attributed to an artist or otherwise classified",
+  "type": "WikibaseItem"
+ },
+ "P240": {
+  "label": "property scope",
+  "description": "specifies the scope parameter of a 'scope' constraint",
+  "type": "WikibaseItem"
+ },
+ "P244": {
+  "label": "formatter URL",
+  "description": "web page URL; URI template from which \"$1\" can be automatically replaced with the effective property value on items. If the site goes offline, set it to deprecated rank. If the formatter URL changes, add a new statement with preferred rank.",
+  "type": "String"
+ },
+ "P247": {
+  "label": "bibliographic reference of",
+  "description": "a related resource that is referenced, cited, or otherwise pointed to by the described resource",
+  "type": "WikibaseItem"
+ },
+ "P249": {
+  "label": "full work available at URL",
+  "description": "URL of a web page containing the full body of this item",
+  "type": "Url"
+ },
+ "P248": {
+  "label": "has bibliographic reference",
+  "description": "a related resource that references, cites, or otherwise points to the described resource",
+  "type": "WikibaseItem"
+ },
+ "P251": {
+  "label": "property example",
+  "description": "example of property usage; statement value is item that uses property, qualifier property is property, qualifier value is value of item statement using property (see https://base.semlab.io/entity/P70#P251 for example usage)",
+  "type": "WikibaseItem"
+ },
+ "P250": {
+  "label": "part of collection",
+  "description": "the named institutional collection to which a resource belongs",
+  "type": "WikibaseItem"
+ },
+ "P253": {
+  "label": "described or depicted at URL",
+  "description": "external source where subject is described or depicted",
+  "type": "Url"
+ },
+ "P252": {
+  "label": "work performed at",
+  "description": "used to indicate the location or event where a work (concept-level) was performed; to indicate the location or event where a person or group performed (event-level), use 'performed at' (P68) instead.",
+  "type": "WikibaseItem"
+ },
+ "P255": {
+  "label": "founded by",
+  "description": "used to indicate that the subject is founded by this person",
+  "type": "WikibaseItem"
+ },
+ "P254": {
+  "label": "founder of",
+  "description": "used to indicate that the subject is the founder of this group, organization, or place",
+  "type": "WikibaseItem"
+ },
+ "P88": {
+  "label": "volume",
+  "description": "Bibliographical unit; Volume number of a particular publication",
+  "type": "String"
+ },
+ "P91": {
+  "label": "author",
+  "description": "main creator(s) of a written document",
+  "type": "WikibaseItem"
+ },
+ "P93": {
+  "label": "participated in",
+  "description": "the object is an artwork, event, performance, or other entity in which the subject was a participant",
+  "type": "WikibaseItem"
+ },
+ "P92": {
+  "label": "participant group",
+  "description": "group in which the subject is a participant in; refers to artists and engineers within the R.R./E.A.T. project, but this description may be expanded.",
+  "type": "WikibaseItem"
+ },
+ "P95": {
+  "label": "writes about",
+  "description": "topic a person writes about",
+  "type": "WikibaseItem"
+ },
+ "P94": {
+  "label": "mentions",
+  "description": "subject has mentioned, by name or label, the object of this statement; use a more specific property if applicable",
+  "type": "WikibaseItem"
+ },
+ "P96": {
+  "label": "part of",
+  "description": "object of which the subject is a part; indicates an item that this item is part of",
+  "type": "WikibaseItem"
+ },
+ "P98": {
+  "label": "date",
+  "description": "The date or point in time associated with the work. The specific type of date, if known (e.g. publication date, creation date, etc.) should be listed as a qualifier. If different from the standardized form of date that appears here, the date as written should be included as a reference.",
+  "type": "Time"
+ },
+ "P101": {
+  "label": "number of pages",
+  "description": "number of pages in an edition of a written work",
+  "type": "Quantity"
+ },
+ "P100": {
+  "label": "subtitle",
+  "description": "For works, when the title is followed by a subtitle",
+  "type": "Monolingualtext"
+ },
+ "P103": {
+  "label": "published in",
+  "description": "Larger work that a given work was published in, like a book, journal or music album. Includes news outlet/periodical that published the article",
+  "type": "WikibaseItem"
+ },
+ "P102": {
+  "label": "collection creator",
+  "description": "entity (person, organization, etc.) that caused a record or collection to be produced or gathered",
+  "type": "WikibaseItem"
+ },
+ "P105": {
+  "label": "stated in",
+  "description": "to be used in the references field to refer to the information document in which a claim is made",
+  "type": "WikibaseItem"
+ },
+ "P104": {
+  "label": "place of publication",
+  "description": "geographical place of publication",
+  "type": "WikibaseItem"
+ },
+ "P107": {
+  "label": "date type",
+  "description": "the type of date that is listed (used to qualify date property)",
+  "type": "WikibaseItem"
+ },
+ "P106": {
+  "label": "language of work",
+  "description": "language associated with this work (book, letter, newsletter, booklet, piece of music, etc.)",
+  "type": "WikibaseItem"
+ },
+ "P110": {
+  "label": "employer",
+  "description": "person or organization for which the subject works or worked",
+  "type": "WikibaseItem"
+ },
+ "P114": {
+  "label": "reference URL",
+  "description": "a web address (URL) identifying the online source that supports or substantiates the statement. This property is used to reference the source of the information.",
+  "type": "Url"
+ },
+ "P117": {
+  "label": "subject has role",
+  "description": "role of the item (subject) in a statement; to qualify an object with its role, use P262",
+  "type": "WikibaseItem"
+ },
+ "P116": {
+  "label": "educated at",
+  "description": "used to indicate a place where the subject was taught (school, academy, center)",
+  "type": "WikibaseItem"
+ },
+ "P119": {
+  "label": "is relation",
+  "description": "definition of object's relationship to subject",
+  "type": "WikibaseItem"
+ },
+ "P118": {
+  "label": "member",
+  "description": "used as a property to indicate object was a member of the subject entity",
+  "type": "WikibaseItem"
+ },
+ "P120": {
+  "label": "start time",
+  "description": "time an entity begins to exist or a statement starts being valid",
+  "type": "Time"
+ },
+ "P123": {
+  "label": "life partner",
+  "description": "person to whom the subject is married or the domestic partner of",
+  "type": "WikibaseItem"
+ },
+ "P122": {
+  "label": "nature of relation",
+  "description": "used to further indicate the nature of a kinship relationship between people, for example \"stepfamily\" or \"adoption\"",
+  "type": "WikibaseItem"
+ },
+ "P125": {
+  "label": "location",
+  "description": "location of the object, structure or event",
+  "type": "WikibaseItem"
+ },
+ "P127": {
+  "label": "work performed",
+  "description": "used to connect a performance event",
+  "type": "WikibaseItem"
+ },
+ "P126": {
+  "label": "performer",
+  "description": "actor, musician, band or other performer associated with this role or musical work",
+  "type": "WikibaseItem"
+ },
+ "P128": {
+  "label": "performance event",
+  "description": "used to connect an artwork to a performance event",
+  "type": "WikibaseItem"
+ },
+ "P130": {
+  "label": "description",
+  "description": "Free-text description of the resource. E.A.T. Bibliography project usage:  description text copied verbatim from the original source document.",
+  "type": "String"
+ },
+ "P133": {
+  "label": "Library of Congress authority ID",
+  "description": "Library of Congress identifier for persons, organizations, events, places, titles, and subject headings",
+  "type": "ExternalId"
+ },
+ "P135": {
+  "label": "depicts",
+  "description": "depicted entity",
+  "type": "WikibaseItem"
+ },
+ "P137": {
+  "label": "certainty",
+  "description": "qualifier expressing the level of confidence for the information given in a value",
+  "type": "WikibaseItem"
+ },
+ "P136": {
+  "label": "credit line",
+  "description": "credit for creation of document as stated in the original source",
+  "type": "String"
+ },
+ "P139": {
+  "label": "sourcing circumstances",
+  "description": "qualification of the truth or accuracy of a date: circa, near, presumably, etc.",
+  "type": "WikibaseItem"
+ },
+ "P138": {
+  "label": "archives collection",
+  "description": "institution holding the archives",
+  "type": "WikibaseItem"
+ },
+ "P141": {
+  "label": "object named as",
+  "description": "used as qualifier to record the value of a statement’s object as it appears in the original source",
+  "type": "String"
+ },
+ "P140": {
+  "label": "location type",
+  "description": "qualifier for use with the location property to add additional detail about the relationship between the item and the location property",
+  "type": "WikibaseItem"
+ },
+ "P142": {
+  "label": "copyright statement",
+  "description": "a property to record copyright information about an item",
+  "type": "String"
+ },
+ "P145": {
+  "label": "price",
+  "description": "price to purchase or do something",
+  "type": "String"
+ },
+ "P147": {
+  "label": "citation or reference",
+  "description": "string to record citations or references",
+  "type": "String"
+ },
+ "P146": {
+  "label": "coordinate location",
+  "description": "geocoordinates of the subject; see property talk page for how to determine coordinate location values",
+  "type": "GlobeCoordinate"
+ },
+ "P149": {
+  "label": "price type",
+  "description": "property used primarily as a qualifier to further describe the nature of a price",
+  "type": "WikibaseItem"
+ },
+ "P150": {
+  "label": "monetary amount",
+  "description": "monetary value",
+  "type": "Quantity"
+ },
+ "P153": {
+  "label": "audience count",
+  "description": "number of people who are at an event at a particular time",
+  "type": "Quantity"
+ },
+ "P152": {
+  "label": "street address",
+  "description": "full street address where subject is located",
+  "type": "Monolingualtext"
+ },
+ "P155": {
+  "label": "sponsored by",
+  "description": "entity that gives money to a person, organization, or project for a specific purpose",
+  "type": "WikibaseItem"
+ },
+ "P154": {
+  "label": "supervised by",
+  "description": "Is the natural person who has the authority of giving instructions and/or orders to subordinates and is held responsible for the work and actions of subordinates",
+  "type": "WikibaseItem"
+ },
+ "P157": {
+  "label": "sponsor of",
+  "description": "entity (person, organization, or project) that recieves money for a specific purpose",
+  "type": "WikibaseItem"
+ },
+ "P158": {
+  "label": "supervisor of",
+  "description": "connects a supervisor to their subordinate",
+  "type": "WikibaseItem"
+ },
+ "P179": {
+  "label": "employee",
+  "description": "a person who works or worked for another  person or organization",
+  "type": "WikibaseItem"
+ },
+ "P178": {
+  "label": "shown at",
+  "description": "exhibitions, events, or places where an item is or was displayed",
+  "type": "WikibaseItem"
+ },
+ "P181": {
+  "label": "operating area",
+  "description": "geographic area or jurisdiction an organisation or industry operates in, serves, or has responsibility for",
+  "type": "WikibaseItem"
+ },
+ "P185": {
+  "label": "uses",
+  "description": "item or concept used by the subject or in the operation",
+  "type": "WikibaseItem"
+ },
+ "P186": {
+  "label": "duration",
+  "description": "length of time of an event, performance, or process",
+  "type": "Quantity"
+ },
+ "P188": {
+  "label": "budget",
+  "description": "assigned or proposed monetary amount for a project",
+  "type": "Quantity"
+ },
+ "P191": {
+  "label": "format",
+  "description": "description of the physical form of media item or subject",
+  "type": "WikibaseItem"
+ },
+ "P192": {
+  "label": "color",
+  "description": "color of resource",
+  "type": "WikibaseItem"
+ },
+ "P195": {
+  "label": "has part(s)",
+  "description": "part of this subject",
+  "type": "WikibaseItem"
+ },
+ "P194": {
+  "label": "used in",
+  "description": "main use of the subject (includes current and former usage)",
+  "type": "WikibaseItem"
+ },
+ "P197": {
+  "label": "curator",
+  "description": "content specialist responsible for this collection or exhibition",
+  "type": "WikibaseItem"
+ },
+ "P196": {
+  "label": "contributed to",
+  "description": "person, group, or organization that contributed to creating an object, work, or event",
+  "type": "WikibaseItem"
+ },
+ "P199": {
+  "label": "superclass of",
+  "description": "inverse property for P55: subclass of",
+  "type": "WikibaseItem"
+ },
+ "P198": {
+  "label": "organizer",
+  "description": "person, organization, or venue that organizes or coordinates an event or work",
+  "type": "WikibaseItem"
+ },
+ "P200": {
+  "label": "file URL",
+  "description": "source URL for the visual representation of an asset displayed on Semantic Lab Wikibase items",
+  "type": "Url"
+ },
+ "P203": {
+  "label": "verification batch",
+  "description": "property used to indicate statements to be verified by a living source",
+  "type": "String"
+ },
+ "P202": {
+  "label": "field of work",
+  "description": "specialization of a person or organization",
+  "type": "WikibaseItem"
+ },
+ "P205": {
+  "label": "created for",
+  "description": "used to indicate that a class or property was created for a particular Semantic Lab project",
+  "type": "WikibaseItem"
+ },
+ "P204": {
+  "label": "export alias name",
+  "description": "The name used in the context.jsonld file for this property",
+  "type": "String"
+ },
+ "P207": {
+  "label": "vocabulary",
+  "description": "standardized and organized arrangements of words and phrases and provide a consistent way to describe data",
+  "type": "WikibaseItem"
+ },
+ "P206": {
+  "label": "IEEE Term",
+  "description": "a controlled vocabulary term from the IEEE Thesaurus",
+  "type": "String"
+ },
+ "P211": {
+  "label": "dined at",
+  "description": "place where subject dined",
+  "type": "WikibaseItem"
+ },
+ "P210": {
+  "label": "performer of",
+  "description": "an artwork a person or group performs; inverse of performer (P126)",
+  "type": "WikibaseItem"
+ },
+ "P213": {
+  "label": "prepared",
+  "description": "work the subject prepared",
+  "type": "WikibaseItem"
+ },
+ "P212": {
+  "label": "dined with",
+  "description": "person or group subject dined with",
+  "type": "WikibaseItem"
+ },
+ "P215": {
+  "label": "presented at",
+  "description": "place subject presented a work",
+  "type": "WikibaseItem"
+ },
+ "P214": {
+  "label": "presenter of",
+  "description": "work the subject presented",
+  "type": "WikibaseItem"
+ },
+ "P266": {
+  "label": "extent",
+  "description": null,
+  "type": "String"
+ },
+ "P271": {
+  "label": "performance engineer",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P35": {
+  "label": "in music group with",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P36": {
+  "label": "played with",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P39": {
+  "label": "influenced by",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P40": {
+  "label": "52nd St. user consensus",
+  "description": null,
+  "type": "String"
+ },
+ "P48": {
+  "label": "subproperty of",
+  "description": null,
+  "type": "WikibaseProperty"
+ },
+ "P55": {
+  "label": "subclass of",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P54": {
+  "label": "skos:exactMatch",
+  "description": null,
+  "type": "Url"
+ },
+ "P63": {
+  "label": "attended performance of",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P67": {
+  "label": "visited place",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P66": {
+  "label": "knows of place",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P71": {
+  "label": "recorded with",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P70": {
+  "label": "grew up with",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P72": {
+  "label": "bandleader of",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P111": {
+  "label": "invited to",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P113": {
+  "label": "relative of",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P121": {
+  "label": "end time",
+  "description": null,
+  "type": "Time"
+ },
+ "P129": {
+  "label": "equivalent semlab demographic term",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P143": {
+  "label": "frequented place",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P144": {
+  "label": "booked",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P159": {
+  "label": "recorded at place",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P161": {
+  "label": "teacher of",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P160": {
+  "label": "musician leader of",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P162": {
+  "label": "student of",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P169": {
+  "label": "signed with",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P168": {
+  "label": "attended performance at",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P171": {
+  "label": "interviewed",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P170": {
+  "label": "interviewed by",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P173": {
+  "label": "photographed",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P172": {
+  "label": "photographed by",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P175": {
+  "label": "preceded by",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P177": {
+  "label": "different from",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P176": {
+  "label": "succeeded by",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P180": {
+  "label": "inverse property",
+  "description": null,
+  "type": "WikibaseProperty"
+ },
+ "P183": {
+  "label": "similar property",
+  "description": null,
+  "type": "Url"
+ },
+ "P201": {
+  "label": "skos:closeMatch",
+  "description": null,
+  "type": "Url"
+ },
+ "P208": {
+  "label": "superproperty of",
+  "description": null,
+  "type": "WikibaseProperty"
+ },
+ "P223": {
+  "label": "constraint status",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P222": {
+  "label": "exception to constraint",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P245": {
+  "label": "E.A.T. Datascape Page Identifier",
+  "description": null,
+  "type": "ExternalId"
+ },
+ "P246": {
+  "label": "part of series",
+  "description": null,
+  "type": "WikibaseItem"
+ },
+ "P257": {
+  "label": "together with",
+  "description": "qualifier property to indicate value engaged in activity of statement with subject; if property of statement is visited place (P67), ensure both subject traveled with (P256) object and object traveled with (P256) subject statements also exist",
+  "type": "WikibaseItem"
+ },
+ "P256": {
+  "label": "traveled with",
+  "description": "to indicate that the subject and object traveled together; qualify with location (P125); ensure subject visited place (P67) and object visited place (P67) statements also exist, each qualified with together with (P257)",
+  "type": "WikibaseItem"
+ },
+ "P259": {
+  "label": "honored",
+  "description": "used to indicate an organization honored a person or group; if the relationship is financial in nature, use sponsor of (P157) instead",
+  "type": "WikibaseItem"
+ },
+ "P258": {
+  "label": "honored by",
+  "description": "used to indicate a person was honored by an organization; if relationship is financial in nature, use sponsored by (P157) instead",
+  "type": "WikibaseItem"
+ },
+ "P261": {
+  "label": "has works collected by",
+  "description": "to indicate a person or artist collective has works collected by a person or organization",
+  "type": "WikibaseItem"
+ },
+ "P260": {
+  "label": "collected works by",
+  "description": "to indicate a person or organization collected works by a person or artist collective",
+  "type": "WikibaseItem"
+ },
+ "P263": {
+  "label": "subject named as",
+  "description": "used as a main statement property to indicate an alternate label of the item; used as qualifier property to record the value of a statement’s subject as it appears in the original source",
+  "type": "String"
+ },
+ "P262": {
+  "label": "object has role",
+  "description": "role of the value (object) in a statement; to qualify a subject with its role, use P117",
+  "type": "WikibaseItem"
+ },
+ "P265": {
+  "label": null,
+  "description": "TEMP PROPERTY",
+  "type": "WikibaseItem"
+ },
+ "P264": {
+  "label": null,
+  "description": "TEMP PROPERTY",
+  "type": "WikibaseItem"
+ },
+ "P267": {
+  "label": "cinematographer",
+  "description": "temp SAA property (do not use)",
+  "type": "WikibaseItem"
+ },
+ "P269": {
+  "label": "production team member",
+  "description": "temp SAA property (do not use)",
+  "type": "WikibaseItem"
+ },
+ "P268": {
+  "label": "presenter",
+  "description": "temp SAA property (do not use)",
+  "type": "WikibaseItem"
+ },
+ "P270": {
+  "label": "artist",
+  "description": "person or group responsible for creating an artwork (concept) or artwork (object). Use as a qualifier / role of work performed",
+  "type": "WikibaseItem"
+ },
+ "P273": {
+  "label": "translator",
+  "description": "person responsible for translating a written work from one language to another",
+  "type": "WikibaseItem"
+ },
+ "P272": {
+  "label": "review of",
+  "description": "used to connect a work with the thing it reviews",
+  "type": "WikibaseItem"
+ },
+ "P275": {
+  "label": "Selavy Instructions",
+  "description": "Instructions sent along for automated processes in Selavy which describe how to use / not use the property",
+  "type": "String"
+ },
+ "P274": {
+  "label": "place of birth",
+  "description": "most specific known place (borough, city, country, neighborhood, or state) a person was born; ensure place item has coordinates (P146) statement",
+  "type": "WikibaseItem"
+ },
+ "P277": {
+  "label": "retrieved",
+  "description": "date or point in time that information was retrieved",
+  "type": "Time"
+ },
+ "P276": {
+  "label": "exhibited work at",
+  "description": "place or organization a person or artist collective has exhibited work; ensure range item has coordinates (P146) statement",
+  "type": "WikibaseItem"
+ },
+ "P279": {
+  "label": "modified by",
+  "description": "qualifier property to denote when an existing technology was modified to fit the artistic needs of a 9 Evenings performance artwork",
+  "type": "WikibaseItem"
+ },
+ "P278": {
+  "label": "proposed collaborator",
+  "description": "a person or organization proposed as a collaborator, whether or not the collaboration was ultimately realized.",
+  "type": "WikibaseItem"
+ },
+ "P281": {
+  "label": "modified",
+  "description": "main statement property to denote when a person modified an existing technology to fit the artistic needs of a 9 Evenings performance artwork",
+  "type": "WikibaseItem"
+ },
+ "P280": {
+  "label": "edition number",
+  "description": "number of an edition",
+  "type": "String"
+ },
+ "P1": {
+  "label": "instance of",
+  "description": "that class of which this subject is a particular example and member",
+  "type": "WikibaseItem"
+ },
+ "P3": {
+  "label": "thumbnail URL",
+  "description": "URL to a thumbnail image of the entity",
+  "type": "Url"
+ },
+ "P2": {
+  "label": "legacy URI",
+  "description": "An old URI used from the inital project",
+  "type": "Url"
+ },
+ "P5": {
+  "label": "Linked Jazz coin info",
+  "description": "A note about who this entity is and why it was minted",
+  "type": "String"
+ },
+ "P4": {
+  "label": "Linked Jazz coin URL",
+  "description": "A url that was used to justify the minting of this URI in LJ",
+  "type": "Url"
+ },
+ "P7": {
+  "label": "Linked Jazz slug",
+  "description": "A unique text indentifier that was used within the LJ ecosystem",
+  "type": "String"
+ },
+ "P6": {
+  "label": "Linked Jazz author",
+  "description": "The LJ team member that created this entity",
+  "type": "String"
+ },
+ "P8": {
+  "label": "Wikidata QID",
+  "description": "a unique numeric identifier assigned to every item (entity) in Wikidata",
+  "type": "ExternalId"
+ },
+ "P11": {
+  "label": "part of project",
+  "description": "Describes project components such as properties, objects, agents, etc. which are part of a Semantic Lab project. This property should not be used with meta-level classes.",
+  "type": "WikibaseItem"
+ },
+ "P13": {
+  "label": "transcript interviewee",
+  "description": "transcript interviewee",
+  "type": "WikibaseItem"
+ },
+ "P12": {
+  "label": "document source URL",
+  "description": "source URL of the document (UNSTABLE AS OF 2024.10.14 PER KH/SAA, DO NOT USE TKS!)",
+  "type": "Url"
+ },
+ "P15": {
+  "label": "document source",
+  "description": "source of the document (UNSTABLE AS OF 2024.10.14 PER KH/SAA, DO NOT USE TKS!)",
+  "type": "WikibaseItem"
+ },
+ "P14": {
+  "label": "transcript interviewer",
+  "description": "transcript interviewer",
+  "type": "WikibaseItem"
+ },
+ "P17": {
+  "label": "local ID",
+  "description": "locally assigned identifier",
+  "type": "String"
+ },
+ "P16": {
+  "label": "legacy MD5 hash",
+  "description": "a md5 hash identfier",
+  "type": "String"
+ },
+ "P19": {
+  "label": "block text",
+  "description": "first 400 text characters of the block",
+  "type": "String"
+ },
+ "P18": {
+  "label": "legacy Linked Jazz block type",
+  "description": "legacy Linked Jazz block type",
+  "type": "String"
+ },
+ "P21": {
+  "label": "associated entities",
+  "description": "If an entity is related to another entity, i.e. if a person (entity one) is mentioned in a block (entity two), this property will connect them.",
+  "type": "WikibaseItem"
+ },
+ "P20": {
+  "label": "block text URL",
+  "description": "external URL of full block text; to query the first 400 characters of the block text, use block text (P19)",
+  "type": "Url"
+ },
+ "P23": {
+  "label": "speaker in block",
+  "description": "The person speaking in a specific section (block) of a oral history document. Used with Blocks",
+  "type": "WikibaseItem"
+ },
+ "P22": {
+  "label": "source",
+  "description": "source",
+  "type": "WikibaseItem"
+ },
+ "P25": {
+  "label": "relationship generation method",
+  "description": "relationship generation method",
+  "type": "WikibaseItem"
+ },
+ "P24": {
+  "label": "parent document",
+  "description": "the original document that the reference block comes from; when documents are processed with Sélavy, parent statements are automatically added to Wikibase upon completion of the \"Publish Blocks\" page",
+  "type": "WikibaseItem"
+ },
+ "P27": {
+  "label": "confidence level",
+  "description": "confidence level of accuracy of 52nd St user",
+  "type": "WikibaseItem"
+ },
+ "P26": {
+  "label": "reference block",
+  "description": "the block of text where you derive information",
+  "type": "WikibaseItem"
+ },
+ "P29": {
+  "label": "knows of",
+  "description": "a person known by this person",
+  "type": "WikibaseItem"
+ },
+ "P28": {
+  "label": "52nd St. user",
+  "description": "crowd source participant of linked jazz project",
+  "type": "WikibaseItem"
+ },
+ "P31": {
+  "label": "collaborated with",
+  "description": "describes participation in the making or performance of a work between people or organizations",
+  "type": "WikibaseItem"
+ },
+ "P30": {
+  "label": "mentor of",
+  "description": "a person who serves as trusted counselor or teacher to another person",
+  "type": "WikibaseItem"
+ },
+ "P33": {
+  "label": "has met",
+  "description": "a person who has met another person whether in passing or longer",
+  "type": "WikibaseItem"
+ },
+ "P32": {
+  "label": "acquaintance of",
+  "description": "describes some referenced or implied relationship between people beyond cursory awareness of each other",
+  "type": "WikibaseItem"
+ },
+ "P34": {
+  "label": "friend of",
+  "description": "describes a referenced friendship between people",
+  "type": "WikibaseItem"
+ },
+ "P37": {
+  "label": "played under",
+  "description": "played under",
+  "type": "WikibaseItem"
+ },
+ "P38": {
+  "label": "toured with",
+  "description": "describes a relationship of collaboration or support in touring",
+  "type": "WikibaseItem"
+ },
+ "P41": {
+  "label": "equivalent property",
+  "description": "equivalent property in other ontologies",
+  "type": "Url"
+ },
+ "P43": {
+  "label": "country of citizenship",
+  "description": "the object is a country that recognizes the subject as its citizen",
+  "type": "WikibaseItem"
+ },
+ "P42": {
+  "label": "demographica",
+  "description": "sex, gender, relgion, race, ethnicity, or orientation a person identifies with and/or participates in",
+  "type": "WikibaseItem"
+ },
+ "P44": {
+  "label": "occupation",
+  "description": "occupation of a person",
+  "type": "WikibaseItem"
+ },
+ "P47": {
+  "label": "genre",
+  "description": "creative work's genre or an artist's field of work",
+  "type": "WikibaseItem"
+ },
+ "P46": {
+  "label": "date of birth",
+  "description": "date when a person was born",
+  "type": "Time"
+ },
+ "P51": {
+  "label": "range",
+  "description": "rules for object",
+  "type": "WikibaseItem"
+ },
+ "P50": {
+  "label": "domain",
+  "description": "rules for subject",
+  "type": "WikibaseItem"
+ },
+ "P57": {
+  "label": "instrument",
+  "description": "instrument played by a person",
+  "type": "WikibaseItem"
+ },
+ "P59": {
+  "label": "sex or gender",
+  "description": "self-description or participation in gender identity groups men, women, and/or gender non-conforming (includes non-binary identities and gender performance and presentation of historical subjects that diverged from their contextual gender norms).",
+  "type": "WikibaseItem"
+ },
+ "P65": {
+  "label": "member of",
+  "description": "organization, club or musical group to which the subject belongs",
+  "type": "WikibaseItem"
+ },
+ "P69": {
+  "label": "lived in",
+  "description": "the location a person lived for any amount of time; can hold multiple values; can optionally qualify with street address (P152), start time (P120), end time (P121), coordinate location (P146); groups/orgs should instead use operating area (P181)",
+  "type": "WikibaseItem"
+ },
+ "P68": {
+  "label": "performed at",
+  "description": "used to indicate the location or event a person or group performed; to indicate the location or event a work was performed, use work performed at (P252)",
+  "type": "WikibaseItem"
+ },
+ "P73": {
+  "label": "R.R.F.A. identifier",
+  "description": "Unique identifier for a digitized archival document, photograph or video from the Robert Rauschenberg Foundation Archives",
+  "type": "String"
+ },
+ "P75": {
+  "label": "contributor",
+  "description": "object, work, or event that a person, group, or organization contributed to",
+  "type": "WikibaseItem"
+ },
+ "P74": {
+  "label": "creator",
+  "description": "entity (person, organization, etc.) that caused a record or collection to be produced, or, the maker of this creative work or other object",
+  "type": "WikibaseItem"
+ },
+ "P77": {
+  "label": "main subject",
+  "description": "primary topic of a work",
+  "type": "WikibaseItem"
+ },
+ "P79": {
+  "label": "addressee",
+  "description": "person or organization to whom a information, letter or note is addressed",
+  "type": "WikibaseItem"
+ },
+ "P78": {
+  "label": "sender",
+  "description": "person sending a shipment to be delivered, as in mail.",
+  "type": "WikibaseItem"
+ },
+ "P81": {
+  "label": "copyright holder",
+  "description": "person or organization who holds the copyright of a work",
+  "type": "WikibaseItem"
+ },
+ "P83": {
+  "label": "document type",
+  "description": "a specific type of document identified by test cases in Semantic Lab",
+  "type": "WikibaseItem"
+ },
+ "P82": {
+  "label": "title",
+  "description": "title of a work, such as a newspaper article, a literary work, a website, or a performance work. This may also refer to a label ascribed to an archival document by an archive.",
+  "type": "Monolingualtext"
+ },
+ "P85": {
+  "label": "designer",
+  "description": "person(s) who designed an item",
+  "type": "WikibaseItem"
+ },
+ "P84": {
+  "label": "publisher",
+  "description": "organization or person responsible for publishing a document",
+  "type": "WikibaseItem"
+ },
+ "P87": {
+  "label": "page number",
+  "description": "the page of a document which a block or text or entity appears on; or the page of an article within a publication",
+  "type": "String"
+ },
+ "P86": {
+  "label": "editor",
+  "description": "editor of a compiled work such as a book or a periodical (newspaper or an academic journal) or a document",
+  "type": "WikibaseItem"
+ },
+ "P89": {
+  "label": "issue number",
+  "description": "bibliographical unit; issue number of a particular publication",
+  "type": "String"
+ }
+}

@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>E.A.T. Data Connections</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;900&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+/* Layout: one reading column (72ch) for prose; figures and tables break out to 1120px. Card-yellow accent on cool paper. */
+:root{
+  --bg:#f3f4f0; --fg:#1c1f24; --muted:#5b6270; --rule:#cfd3cc; --panel:#ffffff;
+  --accent:#d9a416; --ink:#1f3a5f;
+  --enc:#f6dc79; --kg:#bcd3ef; --bib:#c6e3c2; --ds:#e9c2dc; --ext:#e4e5e0;
+  --sans:"Archivo",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  --mono:"Courier Prime","Courier New",Courier,monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#15181c; --fg:#e8e6df; --muted:#a3a8b1; --rule:#3a3f47; --panel:#1e2228;
+  --accent:#f0c33c; --ink:#9fc0ea;
+  --enc:#5c4a0f; --kg:#1f3a5f; --bib:#20452a; --ds:#4d2743; --ext:#2a2e34; color-scheme:dark } }
+:root[data-theme="dark"]{
+  --bg:#15181c; --fg:#e8e6df; --muted:#a3a8b1; --rule:#3a3f47; --panel:#1e2228;
+  --accent:#f0c33c; --ink:#9fc0ea;
+  --enc:#5c4a0f; --kg:#1f3a5f; --bib:#20452a; --ds:#4d2743; --ext:#2a2e34; color-scheme:dark }
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:16px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+.wrap{max-width:1120px;margin:0 auto}
+.prose{max-width:72ch}
+header{padding-block:48px 24px;border-bottom:3px solid var(--accent);margin-bottom:32px}
+.eyebrow{font-family:var(--mono);font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:clamp(32px,5vw,52px);font-weight:900;line-height:1.02;margin:8px 0 12px;text-wrap:balance;letter-spacing:-.01em}
+h2{font-size:26px;font-weight:700;margin:56px 0 12px;text-wrap:balance;letter-spacing:-.005em}
+h3{font-size:18px;font-weight:700;margin:28px 0 6px}
+p{margin:0 0 14px}
+.lede{font-size:19px;color:var(--fg);max-width:64ch}
+code,.mono{font-family:var(--mono);font-size:.92em}
+.prop{font-family:var(--mono);font-size:13px;background:var(--ext);padding:1px 6px;border-radius:3px;white-space:nowrap}
+figure{margin:24px 0 36px}
+figure svg{display:block;max-width:100%;height:auto;font-family:var(--sans)}
+figcaption{font-size:14px;color:var(--muted);margin-top:10px;max-width:80ch}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:15px;margin:12px 0 20px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.swatch{display:inline-block;width:12px;height:12px;border:1px solid var(--rule);vertical-align:-1px;margin-right:6px}
+.ideas{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));margin:20px 0 8px}
+.idea{background:var(--panel);border:1px solid var(--rule);padding:18px 20px 16px;min-width:0;display:flex;flex-direction:column;gap:8px}
+.idea h3{margin:0;font-size:18px}
+.idea .rank{font-family:var(--mono);font-size:12px;color:var(--muted);letter-spacing:.06em}
+.idea p{margin:0;font-size:15px}
+.idea .path{font-family:var(--mono);font-size:12.5px;color:var(--muted);border-top:1px dashed var(--rule);padding-top:8px;margin-top:auto;line-height:1.5;overflow-wrap:anywhere}
+.idea .strong{color:var(--accent)}
+.card{font-family:var(--mono);font-size:14px;background:var(--enc);color:var(--fg);padding:14px 18px;border-left:4px solid var(--accent);margin:16px 0;max-width:72ch;line-height:1.5}
+ul{padding-left:20px;margin:0 0 14px}
+li{margin-bottom:6px}
+.gaps li{margin-bottom:10px}
+.small{font-size:14px;color:var(--muted)}
+a{color:var(--ink)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<style>body{margin:0}img{max-width:100%}</style>
+</head>
+<body>
+<div class="wrap" style="max-width:1120px;margin:0 auto"><p class="small" style="padding-top:12px"><a href="./">← E.A.T. Explore</a></p></div>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">base.semlab.io · four projects · surveyed 26 Oct 2026</div>
+  <h1>E.A.T. Data Connections</h1>
+  <p class="lede">How the Knowledge Graph, the Technical Services edge-notched cards, the Bibliography and the Datascape import join up in the Wikibase, where the joins are thin, and which of them would carry an exploration interface.</p>
+</header>
+
+<div class="prose">
+<h2 style="margin-top:0">The four projects, as they actually are</h2>
+<p>Every item carries <span class="prop">P11 part of project</span>, so project membership is a clean partition except where it overlaps on purpose. The table counts items, not statements.</p>
+</div>
+
+<div class="scroll"><table>
+<tr><th>Project</th><th class="n">Items</th><th>What it mostly contains</th><th>What it really is</th></tr>
+<tr><td><span class="swatch" style="background:var(--kg)"></span><b>Knowledge Graph</b> <span class="mono small">Q19104</span></td><td class="n">2,939</td><td>1,132 persons · 501 text blocks · 141 R.R.F.A. archive documents · 37 performances, 30 performance works · 144 organizations · 200+ devices, materials, phenomena</td><td>The hub. Archive documents from the Rauschenberg Foundation (letters, press releases, artist statements, photographs) chopped into text blocks, with 9 Evenings modelled night by night.</td></tr>
+<tr><td><span class="swatch" style="background:var(--enc)"></span><b>Edge-Notched Cards</b> <span class="mono small">Q28603</span></td><td class="n">2,147</td><td>385 McBee cards · 771 blocks (front + back) · 688 persons · 158 businesses · 65 fields of work</td><td>A 1966–67 matchmaking file. Each card is one engineer; the handwritten back lists the artists they were proposed to.</td></tr>
+<tr><td><span class="swatch" style="background:var(--bib)"></span><b>Bibliography</b> <span class="mono small">Q20517</span></td><td class="n">756</td><td>438 bibliographic references · 150 publications · 114 persons (mostly authors)</td><td>Press and print about E.A.T., 1965–1980, dense in 1966–69. Dates on every reference, 154 venues, 300 places of publication.</td></tr>
+<tr><td><span class="swatch" style="background:var(--ds)"></span><b>Datascape</b> <span class="mono small">Q27735</span></td><td class="n">738</td><td>544 persons · 194 organizations, all with <span class="prop">P245</span> page IDs</td><td>Stubs imported from the Sciences Po médialab site. Every one is also in the Knowledge Graph; 615 KG persons have nothing but a name, an occupation and this pointer.</td></tr>
+</table></div>
+
+<div class="prose">
+<p>Two things shape everything below. First, <b>persons are the only entity type that crosses all four projects</b>, and even there the overlap is lopsided: the Datascape is a subset of the Knowledge Graph, while the card file is almost entirely its own population.</p>
+</div>
+
+<div class="scroll"><table style="max-width:640px">
+<tr><th>Persons by project membership</th><th class="n">Count</th></tr>
+<tr><td>Edge-notched cards only</td><td class="n">670</td></tr>
+<tr><td>Knowledge Graph only</td><td class="n">573</td></tr>
+<tr><td>Knowledge Graph + Datascape</td><td class="n">534</td></tr>
+<tr><td>Bibliography only</td><td class="n">106</td></tr>
+<tr><td>Cards + Knowledge Graph (with or without Datascape)</td><td class="n">17</td></tr>
+<tr><td>Bibliography + Knowledge Graph (with or without cards)</td><td class="n">8</td></tr>
+<tr><td><b>Total persons</b></td><td class="n"><b>1,908</b></td></tr>
+</table></div>
+
+<div class="prose">
+<p>Second, <b>the cross-project links are made by properties, not by shared membership</b>. A card artist points at a Knowledge Graph artist through <span class="prop">P278 proposed collaborator</span>; a bibliography entry points at a Knowledge Graph press release through <span class="prop">P247 bibliographic reference of</span>; a card engineer's employer is a Knowledge Graph organization. Those bridges are what an interface can walk.</p>
+</div>
+
+<h2>Figure 1. The joined data model</h2>
+
+<figure>
+<svg viewBox="0 0 1200 780" role="img" aria-label="Diagram of the four E.A.T. projects as connected boxes. Persons sit in the middle. On the left, edge-notched cards link to engineers and artists through main subject and proposed collaborator, and engineers link to employers, addresses and fields of work. On the right, Knowledge Graph documents, blocks, performances, works and devices link to persons through contributor and contributed-to with roles. Below, bibliography references link to persons as authors, and Datascape stubs link out to the external site.">
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker>
+</defs>
+<g fill="none" stroke="var(--rule)" stroke-width="1.2" stroke-dasharray="4 3">
+  <rect x="20" y="20" width="400" height="500" rx="4" fill="var(--enc)" fill-opacity=".28"/>
+  <rect x="780" y="20" width="400" height="500" rx="4" fill="var(--kg)" fill-opacity=".28"/>
+  <rect x="20" y="560" width="560" height="200" rx="4" fill="var(--bib)" fill-opacity=".28"/>
+  <rect x="620" y="560" width="560" height="200" rx="4" fill="var(--ds)" fill-opacity=".28"/>
+</g>
+<g font-size="12" font-weight="700" fill="currentColor" letter-spacing=".06em">
+  <text x="32" y="42">EDGE-NOTCHED CARDS · Q28603</text>
+  <text x="792" y="42">KNOWLEDGE GRAPH · Q19104</text>
+  <text x="32" y="582">BIBLIOGRAPHY · Q20517</text>
+  <text x="632" y="582">DATASCAPE · Q27735</text>
+</g>
+
+<!-- ENC nodes: column 1 facets, column 2 people -->
+<g stroke="currentColor" stroke-width="1.2" fill="var(--panel)">
+  <rect x="40" y="60" width="150" height="46" rx="3"/>
+  <rect x="40" y="150" width="150" height="46" rx="3"/>
+  <rect x="40" y="250" width="150" height="46" rx="3"/>
+  <rect x="40" y="320" width="150" height="46" rx="3"/>
+  <rect x="40" y="390" width="150" height="46" rx="3"/>
+  <rect x="250" y="250" width="150" height="56" rx="3"/>
+  <rect x="250" y="360" width="150" height="56" rx="3"/>
+  <rect x="40" y="450" width="360" height="46" rx="3"/>
+</g>
+<g fill="currentColor" font-size="12.5" text-anchor="middle">
+  <text x="115" y="79" font-weight="700">Card · 385</text><text x="115" y="96" font-size="11">front + back scans ×772</text>
+  <text x="115" y="169" font-weight="700">Block · 771</text><text x="115" y="186" font-size="11">typed front / handwritten back</text>
+  <text x="115" y="269" font-weight="700">Employer · 334</text><text x="115" y="286" font-size="11">158 businesses</text>
+  <text x="115" y="339" font-weight="700">Street address · 352</text><text x="115" y="356" font-size="11">131 NYC · 68 NJ · 23 CA</text>
+  <text x="115" y="409" font-weight="700">Field of work · 65</text><text x="115" y="426" font-size="11">laser, holography, optics…</text>
+  <text x="325" y="272" font-weight="700">Engineer · 385</text><text x="325" y="289" font-size="11">card subject · 48 also in KG</text>
+  <text x="325" y="382" font-weight="700">Artist · 350</text><text x="325" y="399" font-size="11">306 exist only here</text>
+  <text x="220" y="469" font-weight="700">Mentions · 1,846</text><text x="220" y="486" font-size="11">P21 from block text to person, employer, place, field of work</text>
+</g>
+
+<!-- KG nodes -->
+<g stroke="currentColor" stroke-width="1.2" fill="var(--panel)">
+  <rect x="800" y="60" width="170" height="46" rx="3"/>
+  <rect x="800" y="150" width="170" height="46" rx="3"/>
+  <rect x="1000" y="60" width="160" height="46" rx="3"/>
+  <rect x="1000" y="150" width="160" height="46" rx="3"/>
+  <rect x="800" y="250" width="170" height="56" rx="3"/>
+  <rect x="1000" y="250" width="160" height="56" rx="3"/>
+  <rect x="800" y="360" width="170" height="56" rx="3"/>
+  <rect x="1000" y="360" width="160" height="56" rx="3"/>
+  <rect x="800" y="450" width="360" height="46" rx="3"/>
+</g>
+<g fill="currentColor" font-size="12.5" text-anchor="middle">
+  <text x="885" y="79" font-weight="700">Archive document · 470</text><text x="885" y="96" font-size="11">141 R.R.F.A. · 95 scans · 62 photos</text>
+  <text x="885" y="169" font-weight="700">Block · 501</text><text x="885" y="186" font-size="11">passage with block text URL</text>
+  <text x="1080" y="79" font-weight="700">Collection · 6</text><text x="1080" y="96" font-size="11">Rauschenberg Fdn, Getty, Cooper Union</text>
+  <text x="1080" y="169" font-weight="700">Event · 19</text><text x="1080" y="186" font-size="11">9 Evenings, Pepsi Pavilion, Expo '70</text>
+  <text x="885" y="272" font-weight="700">Performance · 37</text><text x="885" y="289" font-size="11">dated, located instances</text>
+  <text x="1080" y="272" font-weight="700">Work · 88</text><text x="1080" y="289" font-size="11">concepts, sculptures, films</text>
+  <text x="885" y="382" font-weight="700">Device / material · 199</text><text x="885" y="399" font-size="11">TEEM, transmitters, Plexiglass</text>
+  <text x="1080" y="382" font-weight="700">Place</text><text x="1080" y="399" font-size="11">69th Regiment Armory, Stockholm</text>
+  <text x="980" y="469" font-weight="700">Mentions · 2,870</text><text x="980" y="486" font-size="11">P21 from block text to person, event, work, device, place</text>
+</g>
+
+<!-- Person hub -->
+<rect x="470" y="236" width="260" height="84" rx="4" fill="var(--panel)" stroke="var(--accent)" stroke-width="2.5"/>
+<g fill="currentColor" text-anchor="middle">
+  <text x="600" y="262" font-weight="900" font-size="16">Person · 1,908</text>
+  <text x="600" y="282" font-size="11.5">396 occupations · 435 employers · 355 thumbnails</text>
+  <text x="600" y="299" font-size="11.5">431 Wikidata QIDs · 638 with proposed collaborators</text>
+</g>
+
+<!-- BIB nodes -->
+<g stroke="currentColor" stroke-width="1.2" fill="var(--panel)">
+  <rect x="40" y="610" width="190" height="56" rx="3"/>
+  <rect x="270" y="610" width="140" height="46" rx="3"/>
+  <rect x="270" y="690" width="140" height="46" rx="3"/>
+  <rect x="430" y="690" width="130" height="46" rx="3"/>
+</g>
+<g fill="currentColor" font-size="12.5" text-anchor="middle">
+  <text x="135" y="632" font-weight="700">Reference · 438</text><text x="135" y="649" font-size="11">all dated · 18 link to KG documents</text>
+  <text x="340" y="629" font-weight="700">Publication · 154</text><text x="340" y="646" font-size="11">NYT 27 · Nation 19 · Voice 13</text>
+  <text x="340" y="709" font-weight="700">Place of publ. · 300</text><text x="340" y="726" font-size="11">NYC 142 · Tokyo 16 · Stockholm 14</text>
+  <text x="495" y="709" font-weight="700">Author · 148</text><text x="495" y="726" font-size="11">71 are KG persons</text>
+</g>
+
+<!-- DS nodes -->
+<rect x="640" y="610" width="200" height="56" rx="3" fill="var(--panel)" stroke="currentColor" stroke-width="1.2"/>
+<rect x="900" y="600" width="260" height="140" rx="3" fill="var(--ext)" stroke="currentColor" stroke-width="1.2" stroke-dasharray="5 3"/>
+<g fill="currentColor" font-size="12.5" text-anchor="middle">
+  <text x="740" y="632" font-weight="700">Stub · 738</text><text x="740" y="649" font-size="11">544 persons · 194 orgs · P245 only</text>
+  <text x="1030" y="622" font-weight="700">eat_datascape.medialab.sciences-po.fr</text>
+  <text x="1030" y="642" font-size="11.5">actor pages · ~150 projects · activities</text>
+  <text x="1030" y="659" font-size="11.5">related actors with counts · places with</text>
+  <text x="1030" y="676" font-size="11.5">street addresses · network graph view</text>
+  <text x="1030" y="700" font-size="11.5" font-style="italic">not in the Wikibase; only reachable</text>
+  <text x="1030" y="717" font-size="11.5" font-style="italic">by formatting P245 into a URL</text>
+</g>
+
+<!-- edges -->
+<g stroke="currentColor" stroke-width="1.3" fill="none" marker-end="url(#arr)">
+  <!-- ENC -->
+  <path d="M115 150 L115 106"/>
+  <path d="M190 83 L325 83 L325 250"/>
+  <path d="M250 268 L190 273"/>
+  <path d="M250 278 L190 343"/>
+  <path d="M250 288 L190 413"/>
+  <path d="M325 306 L325 360"/>
+  <path d="M325 360 L325 306"/>
+  <!-- ENC -> person hub -->
+  <path d="M400 262 L470 262"/>
+  <path d="M400 388 L470 298"/>
+  <!-- KG -->
+  <path d="M885 150 L885 106"/>
+  <path d="M970 83 L1000 83"/>
+  <path d="M970 273 L1000 273"/>
+  <path d="M885 306 L885 360"/>
+  <path d="M970 290 L1000 190"/>
+  <path d="M970 300 L1000 370"/>
+  <path d="M1000 300 L970 365"/>
+  <!-- KG <-> person hub -->
+  <path d="M800 268 L730 268"/>
+  <path d="M730 288 L800 288"/>
+  <path d="M1000 185 L985 185 L985 225 L760 225 L760 236"/>
+  <!-- BIB -->
+  <path d="M230 630 L270 630"/>
+  <path d="M230 650 L270 705"/>
+  <path d="M230 640 L430 705"/>
+  <path d="M495 690 L560 320"/>
+  <!-- DS -->
+  <path d="M840 638 L900 638"/>
+  <path d="M740 610 L740 540 L640 540 L640 320"/>
+</g>
+<!-- edge labels -->
+<g font-size="10.5" fill="currentColor" font-family="var(--mono)">
+  <text x="120" y="132">parent document</text>
+  <text x="200" y="76">main subject · 387</text>
+  <text x="196" y="262">employer</text>
+  <text x="202" y="312">address</text>
+  <text x="204" y="352">field</text>
+  <text x="332" y="330">proposed collaborator</text>
+  <text x="332" y="343">1,927 edges, reciprocal</text>
+  <text x="435" y="255" text-anchor="middle">same item</text>
+  <text x="440" y="360" text-anchor="middle">181 artists are</text>
+  <text x="440" y="372" text-anchor="middle">KG persons</text>
+  <text x="890" y="132">parent document</text>
+  <text x="972" y="76">archives · 141</text>
+  <text x="975" y="266">work performed</text>
+  <text x="890" y="338">uses · 716</text>
+  <text x="992" y="236">part of</text>
+  <text x="992" y="345">location · 185</text>
+  <text x="950" y="330">uses · 40</text>
+  <text x="765" y="262" text-anchor="middle">contributor · 711</text>
+  <text x="765" y="302" text-anchor="middle">contributed to · 556</text>
+  <text x="765" y="315" text-anchor="middle">+ role qualifier</text>
+  <text x="870" y="219" text-anchor="middle">contributed to (event) · 145</text>
+  <text x="235" y="625">published in</text>
+  <text x="240" y="676">place</text>
+  <text x="320" y="668">author · 251</text>
+  <text x="535" y="500" transform="rotate(-80 535 500)">author is a KG person · 71</text>
+  <text x="634" y="470" transform="rotate(-90 634 470)">same item as KG person · 738 of 738</text>
+  <text x="846" y="630">P245 →</text>
+</g>
+</svg>
+<figcaption>Figure 1. Every entity class in the four projects, with the properties that connect them and the number of statements on each link. Persons are the only shared spine. The card file and the Knowledge Graph each have their own block-and-mention layer; the Bibliography and the Datascape hang off the Knowledge Graph through persons and a handful of document links.</figcaption>
+</figure>
+
+<div class="prose">
+<h2>Figure 2. Every claim remembers the passage it came from</h2>
+<p>This is the property that makes the dataset unusual. 8,480 of the 16,422 statements on link-bearing items carry a <span class="prop">reference block</span> reference pointing to the text block that justifies them. The block has the passage, the passage has a parent document, the document has a scan. The same chain exists for cards. Roles sit in qualifiers on the same statements: <span class="prop">object has role</span> on 437 contributor claims, <span class="prop">subject has role</span> on 725 memberships and 394 contributed-to claims.</p>
+</div>
+
+<figure>
+<svg viewBox="0 0 1120 250" role="img" aria-label="A chain of five boxes left to right: a statement about a performance contributor, its reference block, the block's text, the parent document, and the scanned file. A second row shows the same chain for an edge-notched card.">
+<defs><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+<g stroke="currentColor" stroke-width="1.2" fill="var(--panel)">
+  <rect x="10" y="20" width="230" height="78" rx="3"/>
+  <rect x="300" y="20" width="150" height="78" rx="3"/>
+  <rect x="510" y="20" width="230" height="78" rx="3"/>
+  <rect x="800" y="20" width="140" height="78" rx="3"/>
+  <rect x="980" y="20" width="130" height="78" rx="3"/>
+  <rect x="10" y="140" width="230" height="78" rx="3"/>
+  <rect x="300" y="140" width="150" height="78" rx="3"/>
+  <rect x="510" y="140" width="230" height="78" rx="3"/>
+  <rect x="800" y="140" width="140" height="78" rx="3"/>
+  <rect x="980" y="140" width="130" height="78" rx="3"/>
+</g>
+<g fill="currentColor" font-size="12">
+  <text x="22" y="40" font-weight="700">Statement</text>
+  <text x="22" y="58" font-family="var(--mono)" font-size="11">Open Score (Oct 14) · contributor</text>
+  <text x="22" y="74" font-family="var(--mono)" font-size="11">→ David Tudor</text>
+  <text x="22" y="90" font-family="var(--mono)" font-size="11">role: performing artist</text>
+  <text x="312" y="40" font-weight="700">Reference</text>
+  <text x="312" y="58" font-family="var(--mono)" font-size="11">P26 reference block</text>
+  <text x="312" y="74" font-size="11">on 8,480 statements</text>
+  <text x="312" y="90" font-size="11">(37 refs on this item alone)</text>
+  <text x="522" y="40" font-weight="700">Block</text>
+  <text x="522" y="58" font-family="var(--mono)" font-size="11">Q19762 · "Rauschenberg and</text>
+  <text x="522" y="74" font-family="var(--mono)" font-size="11">Lucinda Childs discussing TEEM…"</text>
+  <text x="522" y="90" font-size="11">block text + block text URL + mentions</text>
+  <text x="812" y="40" font-weight="700">Document</text>
+  <text x="812" y="58" font-family="var(--mono)" font-size="11">A68 9 Evenings</text>
+  <text x="812" y="74" font-family="var(--mono)" font-size="11">Program</text>
+  <text x="812" y="90" font-size="11">date, creator, collection</text>
+  <text x="992" y="40" font-weight="700">Scan</text>
+  <text x="992" y="58" font-family="var(--mono)" font-size="11">file URL</text>
+  <text x="992" y="74" font-size="11">rauschenberg-</text>
+  <text x="992" y="90" font-size="11">foundation.org</text>
+
+  <text x="22" y="160" font-weight="700">Statement</text>
+  <text x="22" y="178" font-family="var(--mono)" font-size="11">Eugene Dolgoff · proposed</text>
+  <text x="22" y="194" font-family="var(--mono)" font-size="11">collaborator → 28 artists</text>
+  <text x="22" y="210" font-family="var(--mono)" font-size="11">field of work ×32</text>
+  <text x="312" y="160" font-weight="700">Reference</text>
+  <text x="312" y="178" font-family="var(--mono)" font-size="11">P26 reference block</text>
+  <text x="312" y="194" font-size="11">1,951 collaborator refs</text>
+  <text x="312" y="210" font-size="11">390 address refs</text>
+  <text x="522" y="160" font-weight="700">Block (back of card)</text>
+  <text x="522" y="178" font-family="var(--mono)" font-size="11">"letter Mierle Uk"</text>
+  <text x="522" y="194" font-size="11">handwritten list, OCR'd, entities</text>
+  <text x="522" y="210" font-size="11">reconciled via P21</text>
+  <text x="812" y="160" font-weight="700">Card</text>
+  <text x="812" y="178" font-family="var(--mono)" font-size="11">B14 Eugene Dolgoff</text>
+  <text x="812" y="194" font-size="11">creator E.A.T. · part of</text>
+  <text x="812" y="210" font-size="11">Technical Services Program</text>
+  <text x="992" y="160" font-weight="700">Scans ×2</text>
+  <text x="992" y="178" font-family="var(--mono)" font-size="11">Q…_f.jpg</text>
+  <text x="992" y="194" font-family="var(--mono)" font-size="11">Q…_b.jpg</text>
+  <text x="992" y="210" font-size="11">semlab S3 bucket</text>
+</g>
+<g stroke="currentColor" stroke-width="1.3" fill="none" marker-end="url(#arr2)">
+  <path d="M240 59 L300 59"/><path d="M450 59 L510 59"/><path d="M740 59 L800 59"/><path d="M940 59 L980 59"/>
+  <path d="M240 179 L300 179"/><path d="M450 179 L510 179"/><path d="M740 179 L800 179"/><path d="M940 179 L980 179"/>
+</g>
+<g font-size="10.5" fill="currentColor" font-family="var(--mono)">
+  <text x="270" y="52" text-anchor="middle">cites</text><text x="480" y="52" text-anchor="middle">is</text><text x="770" y="52" text-anchor="middle">P24</text><text x="960" y="52" text-anchor="middle">P200</text>
+  <text x="270" y="172" text-anchor="middle">cites</text><text x="480" y="172" text-anchor="middle">is</text><text x="770" y="172" text-anchor="middle">P24</text><text x="960" y="172" text-anchor="middle">P200</text>
+</g>
+</svg>
+<figcaption>Figure 2. The provenance chain from a claim back to a scanned page, for a Knowledge Graph performance (top) and an edge-notched card (bottom). An interface can show the evidence for any fact in two hops, and can run the chain backwards: pick a passage, see every claim extracted from it.</figcaption>
+</figure>
+
+<div class="prose">
+<h2>Where an interface would be interesting</h2>
+<p>Ranked by how much of the data each one actually exercises, and by whether the join it depends on is strong enough today.</p>
+</div>
+
+<div class="ideas">
+<div class="idea">
+  <div class="rank">1 · STRONGEST JOIN</div>
+  <h3>The matchmaking file</h3>
+  <p>Flip through 385 engineer cards with front and back scans. Each engineer has an employer, a street address, and fields of work; the back of the card names the artists they were proposed to. The 1,927 reciprocal <span class="prop">proposed collaborator</span> edges make a bipartite engineer–artist graph: Agnes Denes was proposed 25 engineers, Eugene Dolgoff 28 artists. Filter by field (laser, holography, ultrasonics), by employer (IBM, Grumman, Bell Labs), or by region (131 Manhattan, 68 New Jersey).</p>
+  <p class="strong">The question the data can almost answer: did any match happen? Only 48 card engineers exist in the Knowledge Graph and none shares a credited work with an artist they were paired with. That gap is itself a finding worth showing.</p>
+  <div class="path">card ─P77→ engineer ─P278⇄ artist · engineer ─P110/P152/P202→ employer / address / field · card ─P200→ scans · every edge ─P26→ back-of-card block</div>
+</div>
+
+<div class="idea">
+  <div class="rank">2 · DENSEST SUBGRAPH</div>
+  <h3>9 Evenings, night by night</h3>
+  <p>Ten works, twenty dated performance instances between 13 and 23 October 1966 at the 69th Regiment Armory, 99 distinct contributors and 118 distinct devices, materials and phenomena. Contributors carry roles (performing artist 221, engineer 90, production team 29, performance engineer 27, choreographer, projectionist). The devices link upward to works and sideways to the engineers who built them. 96 archive documents and the 1966 press (101 references) have 9 Evenings as main subject.</p>
+  <p>A calendar strip across the top, one performance per cell; click a cell for its crew, its kit, the programme page that documents it, and the reviews that followed.</p>
+  <div class="path">event ←P96─ performance ─P127→ work · performance ─P75→ person [P262 role] · performance ─P185→ device [P26 → block → programme scan] · reference ─P98→ date, ─P103→ publication</div>
+</div>
+
+<div class="idea">
+  <div class="rank">3 · UNIQUE TO THIS DATASET</div>
+  <h3>Read the archive, with the graph underneath</h3>
+  <p>470 documents are already split into blocks, with 4,716 mentions of 2,045 entities. Render each document as its passages, with every mentioned entity hot. Click a name and see the person; click the person and see every passage, across letters, press releases, programme and card backs, that mentions them. Reverse the provenance chain: highlight which sentence produced which claim.</p>
+  <p>This is the view that no other E.A.T. resource has, and it is 52% of all statements.</p>
+  <div class="path">document ←P24─ block ─P19/P20→ text · block ─P21→ entity · statement ─P26→ block · document ─P200→ scan, ─P138→ collection, ─P248→ bibliography entry</div>
+</div>
+
+<div class="idea">
+  <div class="rank">4 · FOUR SOURCES, ONE PROFILE</div>
+  <h3>Who's who, assembled</h3>
+  <p>A person page that stitches the four projects: Knowledge Graph facts and roles, authored bibliography entries (71 authors are KG persons), the engineer's card if one exists, and a link out to the Datascape actor page through the <span class="prop">P245</span> formatter URL, where related actors, places and the médialab network graph live. 355 persons have thumbnails, 431 have Wikidata QIDs for further pull-through.</p>
+  <p>The Datascape pointer is the only way to reach that site's project–actor–activity data; it was never imported, so 615 Knowledge Graph persons are bare stubs here.</p>
+  <div class="path">person ─P196→ work [P117 role] · person ←P91─ reference · person ←P77─ card · person ─P245→ https://eat_datascape.medialab.sciences-po.fr/$1 · person ─P8→ wikidata</div>
+</div>
+
+<div class="idea">
+  <div class="rank">5 · TIME</div>
+  <h3>Archive against press, 1960–1972</h3>
+  <p>Knowledge Graph dates cluster hard on 1966 (166 of 283). Bibliography dates run 1965–1969 with the peak in 1969 (157). Two lanes on one axis: what E.A.T. produced (performances, letters, press releases, photographs) and what the world printed about it (New York Times 27, The Nation 19, Village Voice 13, Dagens Nyheter, Bijutsu-Techo, IEEE Spectrum). 18 explicit links tie a press release to its bibliography entry.</p>
+  <div class="path">kg item ─P98→ date · reference ─P98→ date, ─P103→ publication, ─P104→ place · document ─P248⇄P247─ reference</div>
+</div>
+
+<div class="idea">
+  <div class="rank">6 · PLACE</div>
+  <h3>Where the engineers were</h3>
+  <p>352 engineers have street addresses as typed on the cards (Bell Labs in Murray Hill and Berkeley Heights, IBM, Grumman on Long Island, NYU, Rutgers). Geocode them and the Technical Services Program becomes a map of the 1966 New York–New Jersey industrial research belt. Add the 300 places of publication from the bibliography for a second layer: New York 142, Los Angeles 17, Tokyo 16, Stockholm 14, San Francisco 13.</p>
+  <p class="small">Only 19 coordinates exist on E.A.T. items today; addresses are free text and would need geocoding.</p>
+  <div class="path">engineer ─P152→ address (text) · ─P110→ employer · reference ─P104→ city [P146 coordinates on some]</div>
+</div>
+
+<div class="idea">
+  <div class="rank">7 · A BRIDGE TO BUILD</div>
+  <h3>Technology as the join</h3>
+  <p>Works say what they <span class="prop">use</span> (199 targets: TEEM, transmitters, contact microphones, Plexiglass); engineers say their <span class="prop">field of work</span> (65 targets). Only nine terms are shared today: laser, film, neon, motor, sound, computers, television, transducer, circuit. Reconcile the two vocabularies and you can ask: which card engineers worked in the technologies 9 Evenings actually needed?</p>
+  <div class="path">performance ─P185→ term ←P202─ engineer · term ─P55→ class (subclass hierarchy is sparse)</div>
+</div>
+</div>
+
+<div class="prose">
+<h2>Gaps that limit the joins</h2>
+<ul class="gaps">
+<li><b>The card population is unreconciled.</b> 670 of 688 card persons exist only in the card project. 306 of the 350 artists on card backs have no Knowledge Graph counterpart, and only 30 of them carry an occupation. Reconciling artists to the Knowledge Graph and Datascape persons is the single highest-value cleanup for ideas 1 and 4.</li>
+<li><b>Datascape stubs are hollow.</b> All 738 items are also Knowledge Graph items, but 615 persons carry only name, occupation and page ID. The site's own activities, project links and places were not imported, and its actor timeline looks broken (dates in 2010–2102). Either import it or treat P245 as a link-out.</li>
+<li><b>Bibliography rarely points at works.</b> Only 2 references have a main subject and 18 link to a document. Dates and venues are complete, so the time view works, but "reviews of this performance" needs subject tagging.</li>
+<li><b>Duplicates.</b> Seven Wikidata QIDs sit on two local items each (Drexel University twice, Design Research twice, Plexiglass/Lucite, National Endowment for the Arts twice, Black Mountain College twice, computer science in both projects).</li>
+<li><b>Isolated persons.</b> 387 persons have no item links in either direction; 568 have no outgoing links. Most are Datascape stubs and card artists.</li>
+<li><b>Places are mostly free text.</b> Street addresses are statement text; coordinates exist on 274 items in the Wikibase, but only 19 of them belong to E.A.T. projects.</li>
+</ul>
+
+<h2>What was downloaded</h2>
+<p>Everything is in the project folder, pulled with the <code>semlab-data-process</code> user agent.</p>
+<ul>
+<li><code>data/items.json</code> · 5,773 items with labels, descriptions, project tags and all direct claims (43,500 claims, objects labelled).</li>
+<li><code>data/entities_full.json</code> · full Wikibase JSON with qualifiers and references for the 1,737 items that carry link properties.</li>
+<li><code>data/properties.json</code> · all 280-odd property labels, descriptions and datatypes. <code>data/external_items.json</code> · the 279 items linked from E.A.T. items but belonging to other projects (Linked Jazz places, occupations, roles).</li>
+<li><code>q.py</code> runs a SPARQL query with the prefixes set; <code>dump.py</code>, <code>fetch_entities.py</code>, <code>analyze.py</code>, <code>analyze2.py</code> reproduce every number on this page.</li>
+</ul>
+<p class="small">Statement-level SPARQL (qualifiers, references) times out on query.semlab.io for whole-project scans; the Wikibase API <code>wbgetentities</code> in batches of 50 was fast and complete.</p>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Where the Engineers Were</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;900&family=Courier+Prime:wght@400;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="../shared/style.css">
+<style>
+#map{height:68vh;min-height:420px;border:1px solid var(--rule);background:var(--panel2)}
+.leaflet-container{font-family:var(--sans);font-size:13px}
+.leaflet-popup-content{margin:10px 12px;line-height:1.4}
+.leaflet-popup-content a{color:var(--ink)}
+.layers{display:flex;flex-wrap:wrap;gap:8px 18px;margin:12px 0;font-size:14px;align-items:center}
+.layers label{display:flex;gap:6px;align-items:center;cursor:pointer}
+.layers i{display:inline-block;width:12px;height:12px;border-radius:50%;border:2px solid var(--panel)}
+.side{display:grid;gap:18px;grid-template-columns:1fr 1fr 1fr;margin-top:16px}
+@media (max-width:900px){.side{grid-template-columns:1fr}}
+.side h3{border-bottom:2px solid var(--rule);padding-bottom:3px}
+.side ul{list-style:none;margin:0;padding:0;font-size:14px}
+.side li{display:flex;justify-content:space-between;gap:8px;padding:4px 0;border-bottom:1px solid var(--rule)}
+.side li a{cursor:pointer}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .leaflet-tile{filter:brightness(.7) contrast(1.1) saturate(.6)} :root:not([data-theme="light"]) .leaflet-popup-content-wrapper,:root:not([data-theme="light"]) .leaflet-popup-tip{background:var(--panel);color:var(--fg)} }
+:root[data-theme="dark"] .leaflet-tile{filter:brightness(.7) contrast(1.1) saturate(.6)}
+:root[data-theme="dark"] .leaflet-popup-content-wrapper,:root[data-theme="dark"] .leaflet-popup-tip{background:var(--panel);color:var(--fg)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div id="top"></div>
+<header class="page">
+  <div class="eyebrow">Card addresses · employers · Knowledge Graph places · places of publication</div>
+  <h1>Where the Engineers Were</h1>
+  <p class="lede">The Technical Services Program drew on the research belt around New York: Bell Labs in Murray Hill, IBM, Grumman on Long Island, the universities. Each engineer card carries a typed address. Here those addresses are placed on the map, with the Knowledge Graph's own places and the bibliography's places of publication as further layers.</p>
+</header>
+<div class="layers" id="layers">
+  <label><input type="checkbox" id="l-eng" checked><i style="background:var(--chart1)"></i> Engineers (card addresses) <span class="count" id="n-eng"></span></label>
+  <label><input type="checkbox" id="l-kg" checked><i style="background:var(--chart2)"></i> Knowledge Graph places <span class="count" id="n-kg"></span></label>
+  <label><input type="checkbox" id="l-pub"><i style="background:var(--ok)"></i> Places of publication <span class="count" id="n-pub"></span></label>
+  <span class="status mono small" id="mapstatus"></span>
+</div>
+<div id="map"></div>
+<p class="small muted">Addresses are the free text typed on the cards, geocoded with OpenStreetMap Nominatim into a lookup file shipped with this site. Where only the town could be resolved the marker is placed at the town centre and marked approximate. Knowledge Graph and publication places use the coordinates stored in the Wikibase.</p>
+<div class="side">
+  <div><h3>Employers by headcount</h3><ul id="employers"></ul></div>
+  <div><h3>Regions</h3><ul id="regions"></ul></div>
+  <div><h3>Places of publication</h3><ul id="pubs"></ul></div>
+</div>
+<div id="foot"></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>

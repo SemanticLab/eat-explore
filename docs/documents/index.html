@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Paper Trail</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;900&family=Courier+Prime:wght@400;700&display=swap">
+<link rel="stylesheet" href="../shared/style.css">
+<style>
+body{padding-block:0 0}
+.wrap{max-width:none}
+.stage{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:0;height:calc(100vh - 62px);min-height:520px}
+@media (max-width:860px){.stage{grid-template-columns:1fr;height:auto}.stage #panel{max-height:45vh}}
+#canvas{position:relative;min-width:0;background:var(--bg);border:1px solid var(--rule);overflow:hidden}
+#canvas svg{display:block;width:100%;height:100%;cursor:grab}
+#canvas svg:active{cursor:grabbing}
+.hud{position:absolute;left:12px;top:10px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;z-index:2;max-width:calc(100% - 24px)}
+.hud input[type=search]{min-width:200px}
+.hud .depth{display:flex;align-items:center;gap:6px;font-size:13px;background:var(--panel);border:1px solid var(--rule);padding:4px 8px;border-radius:3px}
+.hud .depth input{width:80px}
+.trail{position:absolute;left:12px;top:48px;z-index:2;font-size:13px;color:var(--muted);max-width:calc(100% - 24px);background:var(--panel);padding:3px 8px;border-radius:3px}
+.trail:empty{display:none}
+.trail a{color:var(--ink);text-decoration:none}
+.card{position:absolute;z-index:5;width:290px;background:var(--panel);border:1px solid var(--rule);box-shadow:0 6px 18px rgba(0,0,0,.12);padding:10px 12px;font-size:13px;line-height:1.35;display:flex;flex-direction:column;gap:6px}
+.card .cls{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.card img{width:100%;max-height:140px;object-fit:contain;border:1px solid var(--rule);background:var(--panel2)}
+.card .acts{display:flex;flex-wrap:wrap;gap:5px;margin-top:2px}
+.card .acts button,.card .acts .btn{font-size:12px;padding:4px 8px}
+.hint{position:absolute;left:12px;bottom:10px;font-size:12.5px;color:var(--muted);background:var(--panel);padding:4px 8px;border:1px solid var(--rule);border-radius:3px;z-index:2;max-width:70%}
+.legend{position:absolute;right:12px;bottom:10px;z-index:2;display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;color:var(--muted);background:var(--panel);padding:5px 8px;border:1px solid var(--rule);border-radius:3px;max-width:60%}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:4px;vertical-align:0}
+#panel{border:1px solid var(--rule);border-left:none;background:var(--panel);overflow:auto;padding:14px 16px;min-width:0}
+#panel h2{margin:4px 0 2px;font-size:19px;line-height:1.2}
+#panel .cls{font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+#panel img.doc{width:100%;height:auto;border:1px solid var(--rule);margin:8px 0;display:block;max-height:260px;object-fit:contain;background:var(--panel2)}
+.rel h4{margin:12px 0 2px;font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);display:flex;justify-content:space-between}
+.rel ul{list-style:none;margin:0;padding:0;font-size:13.5px}
+.rel li{padding:3px 0;border-bottom:1px solid var(--rule);display:flex;gap:6px;align-items:center;cursor:pointer}
+.rel li:hover{color:var(--ink)}
+.rel li i{display:inline-block;width:8px;height:8px;border-radius:50%;flex:none}
+.rel li .c{font-family:var(--mono);font-size:11px;color:var(--muted);margin-left:auto;white-space:nowrap}
+.actions{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+.passage-mini{font-family:var(--mono);font-size:12.5px;line-height:1.45;border-left:3px solid var(--rule);padding:4px 8px;margin:6px 0;color:var(--muted);max-height:120px;overflow:auto}
+.sr{position:absolute;left:-9999px}
+svg .edge{stroke:currentColor;stroke-opacity:.3;stroke-width:1.2;fill:none}
+svg text.head{font-family:var(--mono);font-size:10.5px;fill:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+svg .nlabel,svg .doclabel{font-size:12px;fill:var(--fg)}
+svg .edge.mention{stroke-dasharray:3 3}
+svg .edge.cross{stroke-opacity:.08}
+svg .edge.hl{stroke:var(--accent);stroke-opacity:.9;stroke-width:1.8}
+svg .ring{fill:none;stroke:var(--rule);stroke-width:1;stroke-dasharray:2 4}
+svg .sector{font-family:var(--mono);font-size:10px;fill:var(--muted);letter-spacing:.06em;text-transform:uppercase;paint-order:stroke;stroke:var(--bg);stroke-width:3px}
+svg .elabel{font-size:9.5px;fill:var(--muted);font-family:var(--mono);pointer-events:none;paint-order:stroke;stroke:var(--bg);stroke-width:3px;letter-spacing:.03em}
+svg .xedge{fill:none;stroke:var(--accent);stroke-opacity:.18;stroke-width:1}
+svg .dlink{stroke:var(--ink);stroke-width:1;stroke-opacity:0}
+svg .dlink.hl{stroke:var(--accent);stroke-opacity:1!important;stroke-width:2}
+svg .xedge.hl{stroke-opacity:.9;stroke-width:1.6}
+svg .node{cursor:pointer}
+svg .node text{font-size:11px;fill:var(--fg);paint-order:stroke;stroke:var(--bg);stroke-width:3px;pointer-events:none}
+svg .node.floating{opacity:.55}
+svg .node.floating:hover{opacity:1}
+svg .node.floating.dim{opacity:.25}
+svg .node.active .frame{stroke:var(--accent);stroke-width:3}
+svg .paper{fill:var(--panel);stroke:var(--rule)}
+svg .paper-title{font-family:var(--mono);fill:var(--fg)}
+svg .paper-type{font-family:var(--mono);fill:var(--muted);letter-spacing:.04em}
+svg .frame{fill:var(--panel);stroke:var(--rule);stroke-width:1.5}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div id="top"></div>
+<div class="stage">
+  <div id="canvas">
+    <div class="hud">
+      <input id="q" type="search" placeholder="Find a document…" list="doclist"><datalist id="doclist"></datalist>
+      <span class="depth"><label for="depth">hops</label><input id="depth" type="range" min="1" max="3" value="2"><b id="depthv">2</b></span>
+      <button id="clear">Clear</button>
+      <span class="status mono small" id="status"></span>
+    </div>
+    <div class="trail" id="trail"></div>
+    <div class="card" id="card" hidden></div>
+    <svg id="g" role="img" aria-label="Documents floating; click one to expand its connections"></svg>
+    <div class="hint" id="hint">Documents from the Rauschenberg Foundation and Getty archives, grouped by what they share. Click one: its relations fan out to the right, hop by hop. Click any node to make it the root. Dashed lines are passage mentions, solid lines recorded facts. Wheel to zoom, drag to pan. In the tree, wheel scrolls and ⌘/Ctrl + wheel zooms.</div>
+    <div class="legend"><span><i style="background:var(--panel);border:1px solid var(--muted)"></i>document</span><span><i style="background:var(--ink)"></i>person</span><span><i style="background:var(--ok)"></i>organization</span><span><i style="background:var(--accent)"></i>work · event</span><span><i style="background:var(--warn)"></i>device · material</span><span><i style="background:#9a6fb0"></i>place</span><span><i style="background:var(--muted)"></i>other</span></div>
+  </div>
+  <aside id="panel"><p class="muted">Pick a document on the left.</p></aside>
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>

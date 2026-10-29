@@ -1,0 +1,75 @@
+{
+ "Q22785": {
+  "url": "https://www.rauschenbergfoundation.org/sites/default/files/2026-10/P2866_00.jpeg",
+  "note": "stand-in: the foundation publishes no image for A118; this is its P2866, a related print with a matching caption (similarity 0.36)",
+  "site_id": "P2866",
+  "page": "https://www.rauschenbergfoundation.org/art/archive/model-airplane-381-lafayette-street"
+ },
+ "Q22935": {
+  "url": "https://www.rauschenbergfoundation.org/sites/default/files/2026-10/A193_00.jpg",
+  "note": "stand-in: the foundation publishes no image for A190; this is its A193, a related print with a matching caption (similarity 0.31)",
+  "site_id": "A193",
+  "page": "https://www.rauschenbergfoundation.org/art/archive/9-evenings-correspondence-0"
+ },
+ "Q22883": {
+  "url": "https://www.rauschenbergfoundation.org/sites/default/files/2026-10/A221_00.jpg",
+  "note": "stand-in: the foundation publishes no image for A220; this is its A221, a related print with a matching caption (similarity 0.40)",
+  "site_id": "A221",
+  "page": "https://www.rauschenbergfoundation.org/art/archive/eat-organizational-chart"
+ },
+ "Q22923": "https://www.rauschenbergfoundation.org/sites/default/files/2026-10/P359_00.jpeg",
+ "Q22914": {
+  "url": "https://www.rauschenbergfoundation.org/sites/default/files/2026-10/P1452_00.jpg",
+  "note": "stand-in: the foundation publishes no image for P1425; this is its P1452, a related print with a matching caption (similarity 0.43)",
+  "site_id": "P1452",
+  "page": "https://www.rauschenbergfoundation.org/art/archive/9-evenings-technical-rehearsal-9"
+ },
+ "Q22917": {
+  "url": "https://www.rauschenbergfoundation.org/sites/default/files/2026-10/P1452_00.jpg",
+  "note": "stand-in: the foundation publishes no image for P1428; this is its P1452, a related print with a matching caption (similarity 0.40)",
+  "site_id": "P1452",
+  "page": "https://www.rauschenbergfoundation.org/art/archive/9-evenings-technical-rehearsal-9"
+ },
+ "Q22927": {
+  "url": "https://www.rauschenbergfoundation.org/sites/default/files/2026-10/P1437_00.jpeg",
+  "note": "stand-in: the foundation publishes no image for P1436; this is its P1437, a related print with a matching caption (similarity 0.57)",
+  "site_id": "P1437",
+  "page": "https://www.rauschenbergfoundation.org/art/archive/9-evenings-technical-rehearsal-2"
+ },
+ "Q22727": {
+  "url": "https://www.rauschenbergfoundation.org/sites/default/files/2026-10/P1447_00.jpg",
+  "note": "stand-in: the foundation publishes no image for P1449; this is its P1447, a related print with a matching caption (similarity 0.42)",
+  "site_id": "P1447",
+  "page": "https://www.rauschenbergfoundation.org/art/archive/9-evenings-technical-rehearsal-8"
+ },
+ "Q22737": {
+  "url": "https://www.rauschenbergfoundation.org/sites/default/files/2026-10/P1462_00.jpeg",
+  "note": "stand-in: the foundation publishes no image for P1461; this is its P1462, a related print with a matching caption (similarity 0.40)",
+  "site_id": "P1462",
+  "page": "https://www.rauschenbergfoundation.org/art/archive/9-evenings-theatre-engineering-0"
+ },
+ "Q22739": {
+  "url": "https://www.rauschenbergfoundation.org/sites/default/files/2026-10/P1462_00.jpeg",
+  "note": "stand-in: the foundation publishes no image for P1463; this is its P1462, a related print with a matching caption (similarity 0.67)",
+  "site_id": "P1462",
+  "page": "https://www.rauschenbergfoundation.org/art/archive/9-evenings-theatre-engineering-0"
+ },
+ "Q22750": {
+  "url": "https://www.rauschenbergfoundation.org/sites/default/files/2026-10/P1474_00.jpg",
+  "note": "stand-in: the foundation publishes no image for P1471; this is its P1474, a related print with a matching caption (similarity 0.50)",
+  "site_id": "P1474",
+  "page": "https://www.rauschenbergfoundation.org/art/archive/open-score"
+ },
+ "Q22466": {
+  "url": "https://www.rauschenbergfoundation.org/sites/default/files/2026-10/P1474_00.jpg",
+  "note": "stand-in: the foundation publishes no image for P1472; this is its P1474, a related print with a matching caption (similarity 0.53)",
+  "site_id": "P1474",
+  "page": "https://www.rauschenbergfoundation.org/art/archive/open-score"
+ },
+ "Q22752": {
+  "url": "https://www.rauschenbergfoundation.org/sites/default/files/2026-10/P1474_00.jpg",
+  "note": "stand-in: the foundation publishes no image for P1473; this is its P1474, a related print with a matching caption (similarity 0.44)",
+  "site_id": "P1474",
+  "page": "https://www.rauschenbergfoundation.org/art/archive/open-score"
+ }
+}

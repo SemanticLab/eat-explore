@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>E.A.T. Explore</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;900&family=Courier+Prime:wght@400;700&display=swap">
+<link rel="stylesheet" href="shared/style.css">
+<style>
+.hero{padding-block:40px 24px;border-bottom:3px solid var(--accent);margin-bottom:28px}
+.apps{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.app{background:var(--panel);border:1px solid var(--rule);padding:18px 20px;display:flex;flex-direction:column;gap:8px;text-decoration:none;color:var(--fg);min-width:0}
+.app:hover{border-color:var(--accent)}
+.app h2{margin:0;font-size:20px}
+.app .n{font-family:var(--mono);font-size:12px;color:var(--muted);letter-spacing:.06em}
+.app p{margin:0;font-size:14.5px;color:var(--muted)}
+.app .path{font-family:var(--mono);font-size:12px;color:var(--muted);border-top:1px dashed var(--rule);padding-top:8px;margin-top:auto}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+  <div class="eyebrow">Experiments in Art and Technology · base.semlab.io</div>
+  <h1>E.A.T. Explore</h1>
+  <p class="lede">Seven small interfaces onto the E.A.T. data in the Semantic Lab Wikibase: the Knowledge Graph, the Technical Services Program edge-notched cards, the Bibliography and the Datascape import. Every page queries the live SPARQL endpoint when it opens.</p>
+  <p class="small"><a href="report.html">Read the data-connections report</a> that these pages were designed from.</p>
+</header>
+
+<div class="apps">
+  <a class="app" href="documents/"><span class="n">00 · DOCUMENTS OUTWARD</span><h2>Paper Trail</h2><p>The archive documents drift on screen. Click one and everything it names, depicts or was sent to appears, then everything those connect to, hop by hop. The document is the interface.</p><span class="path">document → mentions · subject · creator → person · work · place → further documents</span></a>
+  <a class="app" href="matchmaker/"><span class="n">01 · EDGE-NOTCHED CARDS</span><h2>The Matchmaking File</h2><p>385 engineer cards from 1966–67 with front and back scans, and the artists each engineer was proposed to. Filter by field, employer or region; follow the engineer–artist graph.</p><span class="path">card → engineer ⇄ artist · employer · address · field of work</span></a>
+  <a class="app" href="nine-evenings/"><span class="n">02 · KNOWLEDGE GRAPH</span><h2>9 Evenings, Night by Night</h2><p>Ten works across nine nights at the 69th Regiment Armory, October 1966. Each performance with its crew and roles, the devices it used, and the documents that record it.</p><span class="path">event ← performance → work · contributor [role] · uses → device</span></a>
+  <a class="app" href="reader/"><span class="n">03 · ARCHIVE</span><h2>Read the Archive</h2><p>Letters, press releases, programmes and card backs as passages with every mentioned entity hot. Pick an entity and see every passage that names it.</p><span class="path">document ← block → text · mentions → entity · claim → reference block</span></a>
+  <a class="app" href="whos-who/"><span class="n">04 · PERSONS</span><h2>Who's Who</h2><p>One profile per person assembled from all four projects: roles, memberships, works, card, bibliography, passages, Wikidata and the Datascape actor page.</p><span class="path">person → contributed to [role] · ← author · ← card subject · P245 → datascape</span></a>
+  <a class="app" href="timeline/"><span class="n">05 · TIME</span><h2>Archive Against Press</h2><p>What E.A.T. produced and what the world printed about it, 1960–1980, on one axis. Drill from a year to the month to the item.</p><span class="path">item → date · reference → date, publication, place</span></a>
+  <a class="app" href="map/"><span class="n">06 · PLACE</span><h2>Where the Engineers Were</h2><p>Card addresses geocoded across the New York–New Jersey research belt, with employers, Knowledge Graph places and the bibliography's places of publication as layers.</p><span class="path">engineer → address · employer · reference → place → coordinates</span></a>
+  <a class="app" href="technology/"><span class="n">07 · VOCABULARY</span><h2>Technology as the Join</h2><p>What works used against what engineers worked in. Two vocabularies, nine shared terms, and suggested reconciliations between them.</p><span class="path">performance → uses → term ← field of work ← engineer</span></a>
+</div>
+
+<footer>Static site, no build step. Source and data dumps in the repository. Queries carry the <code>Api-User-Agent: semlab-data-process</code> header.</footer>
+</div>
+</body>
+</html>

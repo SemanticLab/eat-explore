@@ -1,0 +1,2861 @@
+{
+"10 North 8th avenue Highland Park, New Jersey 08904": {
+"lat": 40.501937,
+"lon": -74.4219472,
+"display": "10, North 8th Avenue, Highland Park, Middlesex County, New Jersey, 08904, United States",
+"approx": false,
+"query": "10 North 8th avenue Highland Park, New Jersey 08904, USA"
+},
+"100 Prospect Terrace, Tenafly, New Jersey 07670": {
+"lat": 40.9301176,
+"lon": -73.9580998,
+"display": "100, Prospect Terrace, Tenafly, Bergen County, New Jersey, 07670, United States",
+"approx": false,
+"query": "100 Prospect Terrace, Tenafly, New Jersey 07670, USA"
+},
+"1010 5th Ave., New York, NY": {
+"lat": 40.7789146,
+"lon": -73.9619858,
+"display": "1010, 5th Avenue, Upper East Side, Manhattan Community Board 8, Manhattan, New York County, New York, 10028, United States",
+"approx": false,
+"query": "1010 5th Ave., New York, NY, USA"
+},
+"102 East 22 Street, New York, New York 10010": {
+"lat": 40.7391264,
+"lon": -73.9864204,
+"display": "102, East 22nd Street, Flatiron District, Manhattan Community Board 6, Manhattan, New York County, New York, 10010, United States",
+"approx": false,
+"query": "102 East 22 Street, New York, New York 10010, USA"
+},
+"10401 Foothill Blvd. Lake View Terrace, California 91342": {
+"lat": 34.2739118,
+"lon": -118.3565219,
+"display": "10401, Foothill Boulevard, Lake View Terrace, Los Angeles, Los Angeles County, California, 91342, United States",
+"approx": false,
+"query": "10401 Foothill Blvd. Lake View Terrace, California 91342, USA"
+},
+"105 Raglan Ave. Apt. 502, Toronto 10, Ontario, Canada": {
+"lat": 50.000678,
+"lon": -86.000977,
+"display": "Ontario, Canada",
+"approx": true,
+"query": "105 Raglan Ave. Apt. 502, Toronto 10, Ontario, Canada"
+},
+"105 Washington Square, Syracuse, New York": {
+"lat": 43.0697481,
+"lon": -76.1621128,
+"display": "105, Washington Square, City of Syracuse, Onondaga County, New York, 13208, United States",
+"approx": false,
+"query": "105 Washington Square, Syracuse, New York, USA"
+},
+"10648 S.E. 22nd. St. Bellevue, 98004": {
+"lat": 47.6182859,
+"lon": -122.2047645,
+"display": "98004, Bellevue, King County, Washington, United States",
+"approx": true,
+"query": "10648 S.E. 22nd. St. Bellevue, 98004, USA"
+},
+"10765 South West Barnes Road, Apartment 4, Portland, Oregon 97225": {
+"lat": 45.5583175,
+"lon": -122.9218439,
+"display": "DB Schenker USA Logistics, 5615, Northeast Huffman Street, Hillsboro, Washington County, Oregon, 97124, United States",
+"approx": true,
+"query": "10765 South West Barnes Road, Apartment 4, Portland, Oregon 97225, USA"
+},
+"108 Meadowbrook Drive, Somerville, New Jersey 08876": {
+"lat": 40.6127104,
+"lon": -74.725019,
+"display": "USA Energy, 3548, US 22, Branchburg Township, Hunterdon County, New Jersey, 08876, United States",
+"approx": true,
+"query": "108 Meadowbrook Drive, Somerville, New Jersey 08876, USA"
+},
+"108 Mountview, Toronto 9": {
+"lat": 33.5731756,
+"lon": -117.7354178,
+"display": "9, Toronto, Aliso Viejo, Orange County, California, 92656, United States",
+"approx": true,
+"query": "108 Mountview, Toronto 9, USA"
+},
+"1089 Mills Way, Redwood City, CA": {
+"lat": 37.487415,
+"lon": -122.2087669,
+"display": "1089, Mills Way, Redwood City, San Mateo County, California, 94063, United States",
+"approx": false,
+"query": "1089 Mills Way, Redwood City, CA, USA"
+},
+"110 Chestnut Lane, Moylan, Pennsylvania 19065": {
+"lat": 40.0439862,
+"lon": -75.3960692,
+"display": "Seafood USA, 330, West Lancaster Avenue, Wayne, Radnor Township, Delaware County, Pennsylvania, 19087, United States",
+"approx": true,
+"query": "110 Chestnut Lane, Moylan, Pennsylvania 19065, USA"
+},
+"110 Halsted Street, East Orange New Jersey": {
+"lat": 40.7624136,
+"lon": -74.2196579,
+"display": "110, Halsted Street, East Orange, Essex County, New Jersey, 07018, United States",
+"approx": false,
+"query": "110 Halsted Street, East Orange New Jersey, USA"
+},
+"1100 Madison Ave, New York, NY 10028": {
+"lat": 42.6659509,
+"lon": -73.7918289,
+"display": "1100, Madison Avenue, West Albany, City of Albany, Albany County, New York, 12208, United States",
+"approx": false,
+"query": "1100 Madison Ave, New York, USA"
+},
+"1105 Little East Neck Road, North Babylon, New York 11703": {
+"lat": 40.7273016,
+"lon": -73.3614598,
+"display": "1105, Little East Neck Road, West Babylon, Town of Babylon, Suffolk County, New York, 11704, United States",
+"approx": false,
+"query": "1105 Little East Neck Road, North Babylon, New York 11703, USA"
+},
+"1108 Park Manor Boulevard, Endicott, New York": {
+"lat": 42.1269759,
+"lon": -76.0307232,
+"display": "1108, Park Manor Boulevard, Village of Endicott, Town of Union, Broome County, New York, 13760, United States",
+"approx": false,
+"query": "1108 Park Manor Boulevard, Endicott, New York, USA"
+},
+"111 East 26th Street, New York, New York 10010": {
+"lat": 40.7419558,
+"lon": -73.9841565,
+"display": "111, East 26th Street, Rose Hill, Manhattan Community Board 5, Manhattan, New York County, New York, 10016, United States",
+"approx": false,
+"query": "111 East 26th Street, New York, New York 10010, USA"
+},
+"112 East First Street, Freeport, New York 11520": {
+"lat": 40.7000871,
+"lon": -73.6909527,
+"display": "USA, Meacham Avenue, North Valley Stream, Town of Hempstead, Nassau County, New York, 11003, United States",
+"approx": true,
+"query": "112 East First Street, Freeport, New York 11520, USA"
+},
+"1121 Morrison Avenue, Bronx, New York": {
+"lat": 40.8272461,
+"lon": -73.8744027,
+"display": "1121, Morrison Avenue, The Bronx, Bronx County, New York, 10472, United States",
+"approx": false,
+"query": "1121 Morrison Avenue, Bronx, New York, USA"
+},
+"115 Central Park West, New York City, New York, 10023": {
+"lat": 40.7760644,
+"lon": -73.9763812,
+"display": "The Majestic, 115, Central Park West, Manhattan Community Board 7, Manhattan, New York County, New York, 10023, United States",
+"approx": false,
+"query": "115 Central Park West, New York City, New York, 10023, USA"
+},
+"116 Remsen Street, Brooklyn, New York, 11201": {
+"lat": 40.6937779,
+"lon": -73.9940603,
+"display": "116, Remsen Street, Brooklyn Heights, Brooklyn, Kings County, New York, 11201, United States",
+"approx": false,
+"query": "116 Remsen Street, Brooklyn, New York, 11201, USA"
+},
+"1164 Rose Hill Boulevard, Schenectady, New York 12309": {
+"lat": 42.6840289,
+"lon": -73.8480069,
+"display": "USA, 1600, Western Avenue, Dunes, McKownville, Town of Guilderland, Albany County, New York, 12203, United States",
+"approx": true,
+"query": "1164 Rose Hill Boulevard, Schenectady, New York 12309, USA"
+},
+"118 Poplar Avenue, Apartment 5, Redwood City, California 94063": {
+"lat": 37.4854799,
+"lon": -122.2330697,
+"display": "California Street, Redwood Junction, Redwood City, San Mateo County, California, 94063, United States",
+"approx": true,
+"query": "118 Poplar Avenue, Apartment 5, Redwood City, California 94063, USA"
+},
+"11808 Georgia Ave, Wheaton, Maryland 20902": {
+"lat": 39.0503515,
+"lon": -77.052032,
+"display": "11808, Georgia Avenue, Arcola, Glenmont, Montgomery County, Maryland, 20902, United States",
+"approx": false,
+"query": "11808 Georgia Ave, Wheaton, Maryland 20902, USA"
+},
+"11934 Curritulk Drive, Los Angeles, California 90049": {
+"lat": 34.0745997,
+"lon": -118.0534304,
+"display": "USA Gasoline, 3618, Baldwin Avenue, El Monte, Los Angeles County, California, 91731, United States",
+"approx": true,
+"query": "11934 Curritulk Drive, Los Angeles, California 90049, USA"
+},
+"12 Blue Sea Lane, Kings Point, NY": {
+"lat": 40.8160775,
+"lon": -73.719897,
+"display": "12, Blue Sea Lane, Village of Great Neck, Town of North Hempstead, Nassau County, New York, 11024, United States",
+"approx": false,
+"query": "12 Blue Sea Lane, Kings Point, NY, USA"
+},
+"12 Nottingham Rd, Edison, New Jersey 08817": {
+"lat": 40.5694841,
+"lon": -74.3728867,
+"display": "12, Nottingham Road, Glenwood Park, Oak Tree, Edison, Middlesex County, New Jersey, 08820, United States",
+"approx": false,
+"query": "12 Nottingham Rd, Edison, New Jersey 08817, USA"
+},
+"12 Pine Street, Princeton, New Jersey 08540": {
+"lat": 40.3526426,
+"lon": -74.6512215,
+"display": "12, Pine Street, Princeton Center, Princeton, Mercer County, New Jersey, 08542, United States",
+"approx": false,
+"query": "12 Pine Street, Princeton, New Jersey 08540, USA"
+},
+"12 Potter Avenue, New Rochelle, New York 10801": {
+"lat": 40.9279228,
+"lon": -73.772863,
+"display": "12, Potter Avenue, Sun Haven, Beechmont, New Rochelle, Westchester County, New York, 10801, United States",
+"approx": false,
+"query": "12 Potter Avenue, New Rochelle, New York 10801, USA"
+},
+"12 Sandra Circle, Westfield N.J. 07090": {
+"lat": 40.66949,
+"lon": -74.3264898,
+"display": "12, Sandra Circle, Wychwood Gardens, Westfield, Union County, New Jersey, 07090, United States",
+"approx": false,
+"query": "12 Sandra Circle, Westfield N.J. 07090, USA"
+},
+"120 East 56th Street, New York, New York 10022": {
+"lat": 40.7604267,
+"lon": -73.970652,
+"display": "120, East 56th Street, Manhattan Community Board 5, Manhattan, New York County, New York, 10022, United States",
+"approx": false,
+"query": "120 East 56th Street, New York, New York 10022, USA"
+},
+"122 Rayette Road, Maple, Ontario, Canada": {
+"lat": 50.000678,
+"lon": -86.000977,
+"display": "Ontario, Canada",
+"approx": true,
+"query": "122 Rayette Road, Maple, Ontario, Canada"
+},
+"123 West Maple Ave., Monsey, New York 10952": {
+"lat": 41.1247519,
+"lon": -74.077606,
+"display": "123, West Maple Avenue, Monsey, Town of Ramapo, Rockland County, New York, 10952, United States",
+"approx": false,
+"query": "123 West Maple Ave., Monsey, New York 10952, USA"
+},
+"124 Beach Rd, Westhampton Beach, N.Y. 11978": {
+"lat": 40.8191345,
+"lon": -72.6409728,
+"display": "124, Beach Road, Village of Westhampton Beach, Town of Southampton, Suffolk County, New York, 11978, United States",
+"approx": false,
+"query": "124 Beach Rd, Westhampton Beach, N.Y. 11978, USA"
+},
+"1258 Gainer Ave, Schenectady New York 12309": {
+"lat": 42.8009687,
+"lon": -73.9591723,
+"display": "Citgo, Broadway, Bellevue, City of Schenectady, Schenectady County, New York, 12306, United States",
+"approx": true,
+"query": "1258 Gainer Ave, Schenectady New York 12309, USA"
+},
+"127 Princeton Road, Piscataway, New Jersey": {
+"lat": 40.5697301,
+"lon": -74.4405524,
+"display": "127, Princeton Road, New Market, Piscataway Township, Middlesex County, New Jersey, 08854, United States",
+"approx": false,
+"query": "127 Princeton Road, Piscataway, New Jersey, USA"
+},
+"128 Deloraine Avenue, Toronto": {
+"lat": 41.9048584,
+"lon": -90.8640346,
+"display": "Toronto, Liberty Township, Clinton County, Iowa, United States",
+"approx": true,
+"query": "128 Deloraine Avenue, Toronto, USA"
+},
+"130 E. 59th St., New York, NY": {
+"lat": 40.7621908,
+"lon": -73.9687021,
+"display": "130, East 59th Street, Manhattan Community Board 5, Manhattan, New York County, New York, 10022, United States",
+"approx": false,
+"query": "130 E. 59th St., New York, NY, USA"
+},
+"130 East 59th Street, New York, New York 10022, Plaza 9-1800": {
+"lat": 18.418367,
+"lon": -66.159428,
+"display": "Plaza 9, Hato Tejas, Bayamón, Puerto Rico, 00961, United States",
+"approx": true,
+"query": "130 East 59th Street, New York, New York 10022, Plaza 9-1800, USA"
+},
+"1301 Hillside Drive, Vestal, New York, 13850": {
+"lat": 42.0768986,
+"lon": -76.0723379,
+"display": "1301, Hillside Drive, Town of Vestal, Broome County, New York, 13850, United States",
+"approx": false,
+"query": "1301 Hillside Drive, Vestal, New York, 13850, USA"
+},
+"131 Bloor Street West, Toronto 5 Ontario Canada": {
+"lat": 43.6705529,
+"lon": -79.387322,
+"display": "MasterCard Canada, 2, Bloor Street West, Annex, Downtown, Toronto, Ontario, M4W 1A3, Canada",
+"approx": false,
+"query": "131 Bloor Street West, Toronto 5 Ontario Canada"
+},
+"131 Greene Street, New York, New York 10012": {
+"lat": 40.7256642,
+"lon": -73.9989626,
+"display": "Panther Coffee, 131, Greene Street, University Village, Manhattan, New York County, New York, 10012, United States",
+"approx": false,
+"query": "131 Greene Street, New York, New York 10012, USA"
+},
+"132 Beaumont Ave, Boston, Massachusetts, 02115": {
+"lat": 42.3450207,
+"lon": -71.0901791,
+"display": "02115, Fenway-Kenmore, Boston, Suffolk County, Massachusetts, United States",
+"approx": true,
+"query": "132 Beaumont Ave, Boston, Massachusetts, 02115, USA"
+},
+"1335 Ferry Rd, Fountainville PA": {
+"lat": 40.3412269,
+"lon": -75.1511771,
+"display": "Fountainville, New Britain Township, Bucks County, Pennsylvania, 18923, United States",
+"approx": true,
+"query": "1335 Ferry Rd, Fountainville PA, USA"
+},
+"1336 Webster, Palo Alto, CALIFORNIA": {
+"lat": 37.4426694,
+"lon": -122.1475526,
+"display": "1336, Webster Street, University South, Palo Alto, Santa Clara County, California, 94301, United States",
+"approx": false,
+"query": "1336 Webster, Palo Alto, CALIFORNIA, USA"
+},
+"1339 Stony Brook Road, Stony Brook, New York 11790": {
+"lat": 40.8808347,
+"lon": -73.1199883,
+"display": "1339, Stony Brook Road, Centereach, Town of Brookhaven, Suffolk County, New York, 11790, United States",
+"approx": false,
+"query": "1339 Stony Brook Road, Stony Brook, New York 11790, USA"
+},
+"135 Eastern Parkway, Brooklyn, NY 11238": {
+"lat": 40.6725106,
+"lon": -73.9640524,
+"display": "135, Eastern Parkway, Brooklyn, Kings County, New York, 11238, United States",
+"approx": false,
+"query": "135 Eastern Parkway, Brooklyn, USA"
+},
+"135 Farmington Ave, Waterbury, Connecticut": {
+"lat": 41.5702067,
+"lon": -73.0436918,
+"display": "135, Farmington Avenue, Overlook Historic District, Overlook, Waterbury, Naugatuck Valley Planning Region, Connecticut, 06710, United States",
+"approx": false,
+"query": "135 Farmington Ave, Waterbury, Connecticut, USA"
+},
+"135-22 224 St., Laurelton, New York, 11413": {
+"lat": 40.6667703,
+"lon": -73.7515212,
+"display": "Laurelton, Queens, Queens County, New York, 11413, United States",
+"approx": false,
+"query": "135-22 224 St., Laurelton, New York, 11413, USA"
+},
+"139 Sunset Drive, Ithaca, New York 14850": {
+"lat": 42.4608649,
+"lon": -76.493661,
+"display": "139, Sunset Drive, Village of Cayuga Heights, Town of Ithaca, Tompkins County, New York, 14850, United States",
+"approx": false,
+"query": "139 Sunset Drive, Ithaca, New York 14850, USA"
+},
+"14 Horatio St, New York, New York 10014": {
+"lat": 40.7388364,
+"lon": -74.0036665,
+"display": "14, Horatio Street, Meatpacking District, Manhattan, New York County, New York, 10014, United States",
+"approx": false,
+"query": "14 Horatio St, New York, New York 10014, USA"
+},
+"14 Pierrepont Street, Brooklyn, New York 11201": {
+"lat": 40.6960017,
+"lon": -73.9965896,
+"display": "14, Pierrepont Street, Brooklyn Heights, Brooklyn, Kings County, New York, 11201, United States",
+"approx": false,
+"query": "14 Pierrepont Street, Brooklyn, New York 11201, USA"
+},
+"140 East 7th Street, New York City, New York": {
+"lat": 40.7256683,
+"lon": -73.9831051,
+"display": "140, East 7th Street, Alphabet City, Manhattan Community Board 3, Manhattan, New York County, New York, 10009, United States",
+"approx": false,
+"query": "140 East 7th Street, New York City, New York, USA"
+},
+"140 West End Avenue, Apartment 19E, New York, New York 10023": {
+"lat": 40.750632,
+"lon": -73.9687884,
+"display": "Permanent Mission of the United States to the United Nations, 799, 1st Avenue, Turtle Bay, Manhattan Community Board 6, Manhattan, New York County, New York, 10017, United States",
+"approx": true,
+"query": "140 West End Avenue, Apartment 19E, New York, New York 10023, USA"
+},
+"1401 Apple Lane, East Meadow, New York": {
+"lat": 40.7099376,
+"lon": -73.5694816,
+"display": "1401, Apple Lane, East Meadow, Town of Hempstead, Nassau County, New York, 11554, United States",
+"approx": false,
+"query": "1401 Apple Lane, East Meadow, New York, USA"
+},
+"142 Inwood Avenue, Upper Montclair, New Jersey 07043": {
+"lat": 40.8436045,
+"lon": -74.1990388,
+"display": "142, Inwood Avenue, Upper Montclair, Montclair, Essex County, New Jersey, 07043, United States",
+"approx": false,
+"query": "142 Inwood Avenue, Upper Montclair, New Jersey 07043, USA"
+},
+"143 Five Mile River road, Darien, Connecticut 06820": {
+"lat": 41.0614099,
+"lon": -73.4483395,
+"display": "143, Five Mile River Road, Tokeneke, Darien, Western Connecticut Planning Region, Connecticut, 06820, United States",
+"approx": false,
+"query": "143 Five Mile River road, Darien, Connecticut 06820, USA"
+},
+"15 Cortlandt St. Milltown N.J.": {
+"lat": 40.4627075,
+"lon": -74.4447513,
+"display": "15, Cortlandt Street, Milltown, Middlesex County, New Jersey, 08850, United States",
+"approx": false,
+"query": "15 Cortlandt St. Milltown N.J, USA"
+},
+"15 East 13th Street, N.Y. N.Y. 10003": {
+"lat": 40.7350272,
+"lon": -73.9930517,
+"display": "15, East 13th Street, Union Square, Manhattan, New York County, New York, 10003, United States",
+"approx": false,
+"query": "15 East 13th Street, N.Y. N.Y. 10003, USA"
+},
+"155 Balliol Street, apartment 1113, Toronto 7, Ontario, Canada.": {
+"lat": 50.000678,
+"lon": -86.000977,
+"display": "Ontario, Canada",
+"approx": true,
+"query": "155 Balliol Street, apartment 1113, Toronto 7, Ontario, Canada"
+},
+"157 Atlas Avenue, Toronto 10, Ontario, Canada": {
+"lat": 50.000678,
+"lon": -86.000977,
+"display": "Ontario, Canada",
+"approx": true,
+"query": "157 Atlas Avenue, Toronto 10, Ontario, Canada"
+},
+"157 Franklyn Road, Oakdale, NY 11769": {
+"lat": 44.985624,
+"lon": -92.9645794,
+"display": "Oakdale, Washington County, Minnesota, 55128, United States",
+"approx": true,
+"query": "157 Franklyn Road, Oakdale, USA"
+},
+"1571 Undercliff Avenue Box 53, New York, New York": {
+"lat": 40.7127281,
+"lon": -74.0060152,
+"display": "New York, United States",
+"approx": true,
+"query": "1571 Undercliff Avenue Box 53, New York, New York, USA"
+},
+"1573 Elmwood Avenue, Rochester, N.Y. 14620": {
+"lat": 43.123883,
+"lon": -77.5961913,
+"display": "1573, Elmwood Avenue, City of Rochester, Monroe County, New York, 14620, United States",
+"approx": false,
+"query": "1573 Elmwood Avenue, Rochester, N.Y. 14620, USA"
+},
+"158 Granada, Corte Madera California 94925": {
+"lat": 37.9138713,
+"lon": -122.5010739,
+"display": "158, Granada Drive, Meadowsweet, Corte Madera, Marin County, California, 94925, United States",
+"approx": false,
+"query": "158 Granada, Corte Madera California 94925, USA"
+},
+"1600 Valley Road, Wayne, New Jersey 07470": {
+"lat": 40.9673924,
+"lon": -74.2225531,
+"display": "1600 Valley Road, 1600, Valley Road, Wayne, Passaic County, New Jersey, 07470, United States",
+"approx": false,
+"query": "1600 Valley Road, Wayne, New Jersey 07470, USA"
+},
+"1605 Park Avenue, Asbury Park, New Jersey 07712": {
+"lat": 40.2280064,
+"lon": -74.002908,
+"display": "1605, Park Avenue, Asbury Park, Monmouth County, New Jersey, 07712, United States",
+"approx": false,
+"query": "1605 Park Avenue, Asbury Park, New Jersey 07712, USA"
+},
+"166 East 96th Street, New York City, New York 10028": {
+"lat": 40.785342,
+"lon": -73.9503169,
+"display": "166, East 96th Street, Carnegie Hill, Manhattan Community Board 8, Manhattan, New York County, New York, 10128, United States",
+"approx": false,
+"query": "166 East 96th Street, New York City, New York 10028, USA"
+},
+"17 Stoneyhill Place": null,
+"170 Claumont Ave. N.Y. 10027": null,
+"173 Jackson St, Brooklyn, New York 11211": {
+"lat": 40.7168693,
+"lon": -73.9438498,
+"display": "173, Jackson Street, Williamsburg, Brooklyn, Kings County, New York, 11211, United States",
+"approx": false,
+"query": "173 Jackson St, Brooklyn, New York 11211, USA"
+},
+"1740 Broadway, New York, NY": {
+"lat": 40.7649371,
+"lon": -73.9816783,
+"display": "1740, Broadway, Manhattan Community Board 5, Manhattan, New York County, New York, 10019, United States",
+"approx": false,
+"query": "1740 Broadway, New York, NY, USA"
+},
+"175 West 79th Street, New York, New York": {
+"lat": 40.7831423,
+"lon": -73.9779165,
+"display": "175, West 79th Street, Upper West Side, Manhattan Community Board 7, Manhattan, New York County, New York, 10024, United States",
+"approx": false,
+"query": "175 West 79th Street, New York, New York, USA"
+},
+"18 Kawanee Road, New Rochelle, New York": {
+"lat": 40.7127281,
+"lon": -74.0060152,
+"display": "New York, United States",
+"approx": true,
+"query": "18 Kawanee Road, New Rochelle, New York, USA"
+},
+"18 Nottingham Road, West Orange, New Jersey": {
+"lat": 40.7941912,
+"lon": -74.2630027,
+"display": "18, Nottingham Road, West Orange, Essex County, New Jersey, 07052, United States",
+"approx": false,
+"query": "18 Nottingham Road, West Orange, New Jersey, USA"
+},
+"18 Raymon Avenue, Spring Valley, New York 10977": {
+"lat": 40.7127281,
+"lon": -74.0060152,
+"display": "New York, United States",
+"approx": true,
+"query": "18 Raymon Avenue, Spring Valley, New York 10977, USA"
+},
+"180 West End Avenue, New York, New York 10023": {
+"lat": 40.7773878,
+"lon": -73.9854966,
+"display": "180, West End Avenue, Lincoln Towers, Manhattan Community Board 7, Manhattan, New York County, New York, 10023, United States",
+"approx": false,
+"query": "180 West End Avenue, New York, New York 10023, USA"
+},
+"182 Sullivan Road, New York, New York 10012": {
+"lat": 40.7375184,
+"lon": -73.4391295,
+"display": "182, Sullivan Road, Village of Farmingdale, Town of Oyster Bay, Nassau County, New York, 11735, United States",
+"approx": false,
+"query": "182 Sullivan Road, New York, New York 10012, USA"
+},
+"184 Hewes St, Brooklyn, New York 11211": {
+"lat": 40.7037557,
+"lon": -73.9570389,
+"display": "184, Hewes Street, Williamsburg, Brooklyn, Kings County, New York, 11211, United States",
+"approx": false,
+"query": "184 Hewes St, Brooklyn, New York 11211, USA"
+},
+"1842 West Fifth Avenue, Columbus, Ohio": {
+"lat": 40.2253569,
+"lon": -82.6881395,
+"display": "Ohio, United States",
+"approx": true,
+"query": "1842 West Fifth Avenue, Columbus, Ohio, USA"
+},
+"1850 Dwight Way, Berkeley, Calif. 94703": {
+"lat": 37.8630978,
+"lon": -122.2727456,
+"display": "1850;1852;1854;1856, Dwight Way, Berkeley, Alameda County, California, 94703, United States",
+"approx": false,
+"query": "1850 Dwight Way, Berkeley, Calif. 94703, USA"
+},
+"1850 Dwight Way, Berkeley, Calif., 94703": {
+"lat": 37.8630978,
+"lon": -122.2727456,
+"display": "1850;1852;1854;1856, Dwight Way, Berkeley, Alameda County, California, 94703, United States",
+"approx": false,
+"query": "1850 Dwight Way, Berkeley, Calif., 94703, USA"
+},
+"186 Grand Street, New York, NY": {
+"lat": 40.7142078,
+"lon": -73.960876,
+"display": "The Residence of Mr. Moto, 186, Grand Street, Williamsburg, Brooklyn, Kings County, New York, 11211, United States",
+"approx": false,
+"query": "186 Grand Street, New York, NY, USA"
+},
+"19 Elkan Road, Larchmont, New York 10538": {
+"lat": 40.939197,
+"lon": -73.7493767,
+"display": "19, Elkan Road, Town of Mamaroneck, Westchester County, New York, 10538, United States",
+"approx": false,
+"query": "19 Elkan Road, Larchmont, New York 10538, USA"
+},
+"19 Sutton Place, New York, NY 10017": {
+"lat": 40.7577939,
+"lon": -73.9600341,
+"display": "19, Sutton Place, Sutton, Manhattan Community Board 6, Manhattan, New York County, New York, 10022, United States",
+"approx": false,
+"query": "19 Sutton Place, New York, USA"
+},
+"1900 Alabama, Lawrence, Kansas": {
+"lat": 38.9499587,
+"lon": -95.2466393,
+"display": "1900, Alabama Street, University Place, Lawrence, Douglas County, Kansas, 66046, United States",
+"approx": false,
+"query": "1900 Alabama, Lawrence, Kansas, USA"
+},
+"191 Cypress Dr., Colonia, New Jersey 07067": {
+"lat": 40.6037262,
+"lon": -74.3340867,
+"display": "191, Cypress Drive, Colonia, Woodbridge Township, Middlesex County, New Jersey, 07067, United States",
+"approx": false,
+"query": "191 Cypress Dr., Colonia, New Jersey 07067, USA"
+},
+"1945 Loring Place, Bronx, New York": {
+"lat": 40.8553189,
+"lon": -73.9143214,
+"display": "1945, Loring Place South, University Heights, The Bronx, Bronx County, New York, 10453, United States",
+"approx": false,
+"query": "1945 Loring Place, Bronx, New York, USA"
+},
+"1975 Ouest De Maisonneuve, Apartment 806, Montreal, 108, Quebec, Canada": {
+"lat": 52.4760892,
+"lon": -71.8258668,
+"display": "Québec, Canada",
+"approx": true,
+"query": "1975 Ouest De Maisonneuve, Apartment 806, Montreal, 108, Quebec, Canada"
+},
+"1E-444 Bell Laboratories, Murray Hill, New Jersey": {
+"lat": 40.0757384,
+"lon": -74.4041622,
+"display": "New Jersey, United States",
+"approx": true,
+"query": "1E-444 Bell Laboratories, Murray Hill, New Jersey, USA"
+},
+"1G635 Bell Telephone Laboratories, Holmdel, New Jersey 07733": {
+"lat": 40.2951597,
+"lon": -74.0321611,
+"display": "Cabinets Direct USA, 145, Monmouth Road, Fort Monmouth, West Long Branch, Monmouth County, New Jersey, 07764, United States",
+"approx": true,
+"query": "1G635 Bell Telephone Laboratories, Holmdel, New Jersey 07733, USA"
+},
+"2 Baldwin St., New Brunswick, New Jersey 08901": {
+"lat": 40.481962,
+"lon": -74.440644,
+"display": "2, Baldwin Street, Feaster Park, New Brunswick, Middlesex County, New Jersey, 08901, United States",
+"approx": false,
+"query": "2 Baldwin St., New Brunswick, New Jersey 08901, USA"
+},
+"2 Devon Lane, Media, Pennsylvania 19063": {
+"lat": 40.0439862,
+"lon": -75.3960692,
+"display": "Seafood USA, 330, West Lancaster Avenue, Wayne, Radnor Township, Delaware County, Pennsylvania, 19087, United States",
+"approx": true,
+"query": "2 Devon Lane, Media, Pennsylvania 19063, USA"
+},
+"2 Fowler Ave, Lynbrook, NY 11563": {
+"lat": 40.6587041,
+"lon": -73.6747336,
+"display": "Lynbrook Gardens, 2, Fowler Avenue, Village of Lynbrook, Town of Hempstead, Nassau County, New York, 11563, United States",
+"approx": false,
+"query": "2 Fowler Ave, Lynbrook, USA"
+},
+"2 North Broadway, White Plains": {
+"lat": 41.0346089,
+"lon": -73.7627119,
+"display": "2, North Broadway, City of White Plains, Westchester County, New York, 10601, United States",
+"approx": false,
+"query": "2 North Broadway, White Plains, USA"
+},
+"201 East 25th Street, New York City, New York 10010": {
+"lat": 40.7400913,
+"lon": -73.981896,
+"display": "201, East 25th Street, Kips Bay, Manhattan Community Board 6, Manhattan, New York County, New York, 10010, United States",
+"approx": false,
+"query": "201 East 25th Street, New York City, New York 10010, USA"
+},
+"201 East 66th Street, New York, New York 10021": {
+"lat": 40.7658889,
+"lon": -73.9630197,
+"display": "201, East 66th Street, Lenox Hill, Manhattan Community Board 8, Manhattan, New York County, New York, 10065, United States",
+"approx": false,
+"query": "201 East 66th Street, New York, New York 10021, USA"
+},
+"201 Lanford Lane, Prospect Heights, Illinois 60070": {
+"lat": 42.092504,
+"lon": -87.931521,
+"display": "201, Lanford Lane, Prospect Heights, Wheeling Township, Cook County, Illinois, 60070, United States",
+"approx": false,
+"query": "201 Lanford Lane, Prospect Heights, Illinois 60070, USA"
+},
+"2037 Balmoral Avenue, Union, New Jersey": {
+"lat": 40.7042617,
+"lon": -74.2645831,
+"display": "2037, Balmoral Avenue, Unionburg, Union, Union County, New Jersey, 07083, United States",
+"approx": false,
+"query": "2037 Balmoral Avenue, Union, New Jersey, USA"
+},
+"205 E. 60th St., New York, NY": {
+"lat": 40.7621165,
+"lon": -73.9655308,
+"display": "205, East 60th Street, Manhattan Community Board 8, Manhattan, New York County, New York, 10065, United States",
+"approx": false,
+"query": "205 E. 60th St., New York, NY, USA"
+},
+"205 Laurel Place, San Rafael, California": {
+"lat": 37.9753332,
+"lon": -122.5252109,
+"display": "205, Laurel Place, San Rafael, Marin County, California, 94901, United States",
+"approx": false,
+"query": "205 Laurel Place, San Rafael, California, USA"
+},
+"205 West End Avenue Apartment 24-A, New York, New York 10023": {
+"lat": 40.750632,
+"lon": -73.9687884,
+"display": "Permanent Mission of the United States to the United Nations, 799, 1st Avenue, Turtle Bay, Manhattan Community Board 6, Manhattan, New York County, New York, 10017, United States",
+"approx": true,
+"query": "205 West End Avenue Apartment 24-A, New York, New York 10023, USA"
+},
+"2058 Powell Avenue, Bronx, New York 10473": {
+"lat": 40.8304938,
+"lon": -73.8546587,
+"display": "2058, Powell Avenue, Unionport, The Bronx, Bronx County, New York, 10472, United States",
+"approx": false,
+"query": "2058 Powell Avenue, Bronx, New York 10473, USA"
+},
+"206 West 21 Street, Apartment c-12": {
+"lat": 33.647114,
+"lon": -117.5771513,
+"display": "Shell, 12, Via Amistosa, Robinson Ranch, Trabuco Canyon, Orange County, California, 92688, United States",
+"approx": true,
+"query": "206 West 21 Street, Apartment c-12, USA"
+},
+"207 East 37th Street": {
+"lat": 40.7475681,
+"lon": -73.9759757,
+"display": "207, East 37th Street, Murray Hill, Manhattan Community Board 6, Manhattan, New York County, New York, 10016, United States",
+"approx": false,
+"query": "207 East 37th Street, USA"
+},
+"209-25 18th Avenue, Bayside, New York 11360": {
+"lat": 40.7000871,
+"lon": -73.6909527,
+"display": "USA, Meacham Avenue, North Valley Stream, Town of Hempstead, Nassau County, New York, 11003, United States",
+"approx": true,
+"query": "209-25 18th Avenue, Bayside, New York 11360, USA"
+},
+"21 Grandview Avenue, West Orange, New Jersey": {
+"lat": 40.0757384,
+"lon": -74.4041622,
+"display": "New Jersey, United States",
+"approx": true,
+"query": "21 Grandview Avenue, West Orange, New Jersey, USA"
+},
+"21-2 Latham Village, Latham, New York 12110": {
+"lat": 42.7465034,
+"lon": -73.7511469,
+"display": "Latham Village Lane, Latham Village Apartments, Latham, Town of Colonie, Albany County, New York, 12110, United States",
+"approx": false,
+"query": "21-2 Latham Village, Latham, New York 12110, USA"
+},
+"210 Locust St. Society Hill Towers, Apt. 3-G, Philadelphia, Pennsylvania 19106": {
+"lat": 39.9776543,
+"lon": -75.1739615,
+"display": "Help USA, West Jefferson Street, Sharswood Townhouses II, North Philadelphia, Philadelphia, Philadelphia County, Pennsylvania, 19121, United States",
+"approx": true,
+"query": "210 Locust St. Society Hill Towers, Apt. 3-G, Philadelphia, Pennsylvania 19106, USA"
+},
+"210 West 78th Street, New York, New York 10024": {
+"lat": 40.7825275,
+"lon": -73.9795513,
+"display": "210, West 78th Street, Upper West Side, Manhattan Community Board 7, Manhattan, New York County, New York, 10024, United States",
+"approx": false,
+"query": "210 West 78th Street, New York, New York 10024, USA"
+},
+"2108 Spruce St., Philadelphia, PA": {
+"lat": 39.9482704,
+"lon": -75.1767396,
+"display": "2108, Spruce Street, Fitler Square, Center City, Philadelphia, Philadelphia County, Pennsylvania, 19101, United States",
+"approx": false,
+"query": "2108 Spruce St., Philadelphia, PA, USA"
+},
+"211 West 106 str. nyc 10025": null,
+"212 East Broadway, New York, New York 10002; (studio) Leather Hill Road, Wingdale, New York": {
+"lat": 40.7127281,
+"lon": -74.0060152,
+"display": "New York, United States",
+"approx": true,
+"query": "212 East Broadway, New York, New York 10002; (studio) Leather Hill Road, Wingdale, New York, USA"
+},
+"213 East 89th St., N.Y. 10028": {
+"lat": 40.7805209,
+"lon": -73.9515066,
+"display": "213, East 89th Street, Carnegie Hill, Manhattan Community Board 8, Manhattan, New York County, New York, 10128, United States",
+"approx": false,
+"query": "213 East 89th St., N.Y. 10028, USA"
+},
+"215 \"C\" Street, Southeast Washington District of Columbia 2000": {
+"lat": 38.8857303,
+"lon": -76.9978869,
+"display": "Amnesty International USA, Mid-Atlantic, Pennsylvania Avenue Southeast, Barracks Row, Southeast, Capitol Hill, Ward 6, Washington, District of Columbia, 20003, United States",
+"approx": true,
+"query": "215 \"C\" Street, Southeast Washington District of Columbia 2000, USA"
+},
+"215 Ave A, N.Y.C.": {
+"lat": 40.8308108,
+"lon": -73.0774347,
+"display": "215, Avenue A, Holtsville, Town of Brookhaven, Suffolk County, New York, 11779, United States",
+"approx": false,
+"query": "215 Ave A, N.Y.C, USA"
+},
+"215 E. 25th Street, New York, NY": {
+"lat": 40.7399604,
+"lon": -73.9813053,
+"display": "215, East 25th Street, Kips Bay, Manhattan Community Board 6, Manhattan, New York County, New York, 10010, United States",
+"approx": false,
+"query": "215 E. 25th Street, New York, NY, USA"
+},
+"215 East 68th Street, New York, New York 10021": {
+"lat": 40.7665241,
+"lon": -73.9606045,
+"display": "215, East 68th Street, Lenox Hill, Manhattan Community Board 8, Manhattan, New York County, New York, 10065, United States",
+"approx": false,
+"query": "215 East 68th Street, New York, New York 10021, USA"
+},
+"21531 Almaden Road, San Jose, California 95120": {
+"lat": 37.1770512,
+"lon": -121.8220484,
+"display": "21531, Almaden Road, New Almaden, San Jose, Santa Clara County, California, 95120, United States",
+"approx": false,
+"query": "21531 Almaden Road, San Jose, California 95120, USA"
+},
+"217 E 9th Hazelton, PA.": {
+"lat": 40.9699889,
+"lon": -77.7278831,
+"display": "Pennsylvania, United States",
+"approx": true,
+"query": "217 E 9th Hazelton, PA, USA"
+},
+"218 Linden Blvd, Brooklyn, New York": {
+"lat": 40.6522332,
+"lon": -73.950822,
+"display": "218, Linden Boulevard, Brooklyn Community District 17, Brooklyn, Kings County, New York, 11226, United States",
+"approx": false,
+"query": "218 Linden Blvd, Brooklyn, New York, USA"
+},
+"22 Woods End Road, Florham Park, New Jersey": {
+"lat": 40.7702312,
+"lon": -74.3898946,
+"display": "22, Woods End Road, Afton, Florham Park, Morris County, New Jersey, 07932, United States",
+"approx": false,
+"query": "22 Woods End Road, Florham Park, New Jersey, USA"
+},
+"220 Pelham Road, New Rochelle, New York 10805": {
+"lat": 40.9021567,
+"lon": -73.7760961,
+"display": "220, Pelham Road, New Rochelle, Westchester County, New York, 10805, United States",
+"approx": false,
+"query": "220 Pelham Road, New Rochelle, New York 10805, USA"
+},
+"2200 McNary Blvd, PGH 21 PA": {
+"lat": 40.3816456,
+"lon": -80.0362265,
+"display": "21, Catalpa Place, Sunset Hills, Pittsburgh, Allegheny County, Pennsylvania, 15228, United States",
+"approx": true,
+"query": "2200 McNary Blvd, PGH 21 PA, USA"
+},
+"221 Mount Auburn Street, Apartment 403, Cambridge, Massachusetts": {
+"lat": 42.3788774,
+"lon": -72.032366,
+"display": "Massachusetts, United States",
+"approx": true,
+"query": "221 Mount Auburn Street, Apartment 403, Cambridge, Massachusetts, USA"
+},
+"222 Bowery, New York City, New York": {
+"lat": 40.7221308,
+"lon": -73.9937434,
+"display": "222, Bowery, Little Italy, Lower Manhattan, Manhattan, New York County, New York, 10012, United States",
+"approx": false,
+"query": "222 Bowery, New York City, New York, USA"
+},
+"224 South Stewart, Bremen, Indiana 46506": {
+"lat": 41.4452585,
+"lon": -86.1585579,
+"display": "224, South Stewart Street, Bremen, Marshall County, Indiana, 46506, United States",
+"approx": false,
+"query": "224 South Stewart, Bremen, Indiana 46506, USA"
+},
+"228 Crestview Drive, Middletown, New Jersey 07748": {
+"lat": 40.3807066,
+"lon": -74.0832919,
+"display": "228, Crestview Drive, The Village at Chapel Hill, Fairview, Middletown Township, Monmouth County, New Jersey, 07748, United States",
+"approx": false,
+"query": "228 Crestview Drive, Middletown, New Jersey 07748, USA"
+},
+"232 Harrison Avenue, Highland Park, New Jersey": {
+"lat": 40.5031051,
+"lon": -74.4335048,
+"display": "232, Harrison Avenue, Highland Park, Middlesex County, New Jersey, 08904, United States",
+"approx": false,
+"query": "232 Harrison Avenue, Highland Park, New Jersey, USA"
+},
+"2329 Ward Street, Berkeley, California 94705": {
+"lat": 37.8605302,
+"lon": -122.2608999,
+"display": "2327;2329, Ward Street, LeConte, Berkeley, Alameda County, California, 94705, United States",
+"approx": false,
+"query": "2329 Ward Street, Berkeley, California 94705, USA"
+},
+"2347 Tiebout Avenue, Bronx, New York 10458": {
+"lat": 40.8578495,
+"lon": -73.8969911,
+"display": "The Rosemary, 2347, Tiebout Avenue, Fordham, The Bronx, Bronx County, New York, 10458, United States",
+"approx": false,
+"query": "2347 Tiebout Avenue, Bronx, New York 10458, USA"
+},
+"235 Park Avenue South New York New York 10003": {
+"lat": 40.7378193,
+"lon": -73.9878523,
+"display": "235, Park Avenue South, Union Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10003, United States",
+"approx": false,
+"query": "235 Park Avenue South New York New York 10003, USA"
+},
+"237 W54 St. NY": {
+"lat": 39.7837304,
+"lon": -100.445882,
+"display": "United States",
+"approx": false,
+"query": "237 W54 St. NY, USA"
+},
+"24 East 82nd Street, New York, NY 10028": {
+"lat": 40.7782793,
+"lon": -73.9609837,
+"display": "24, East 82nd Street, Upper East Side, Manhattan Community Board 8, Manhattan, New York County, New York, 10028, United States",
+"approx": false,
+"query": "24 East 82nd Street, New York, USA"
+},
+"24 Stillwell Place, Long Island, New York": {
+"lat": 40.7127281,
+"lon": -74.0060152,
+"display": "New York, United States",
+"approx": true,
+"query": "24 Stillwell Place, Long Island, New York, USA"
+},
+"244 West 74th Street, Apartment 4C, New York, NY 10023": {
+"lat": 40.7127281,
+"lon": -74.0060152,
+"display": "New York, United States",
+"approx": true,
+"query": "244 West 74th Street, Apartment 4C, New York, USA"
+},
+"246 1/2 Sixth Avenue, Huntington, West Virginia 25701": {
+"lat": 38.4207427,
+"lon": -82.4487403,
+"display": "Star USA Federal Credit Union, 3rd Avenue, Huntington, Cabell County, West Virginia, 25701, United States",
+"approx": true,
+"query": "246 1/2 Sixth Avenue, Huntington, West Virginia 25701, USA"
+},
+"246 Vanderbilt Avenue, Brooklyn, New York": {
+"lat": 40.6900122,
+"lon": -73.9694783,
+"display": "246, Vanderbilt Avenue, Clinton Hill, Brooklyn, Kings County, New York, 11205, United States",
+"approx": false,
+"query": "246 Vanderbilt Avenue, Brooklyn, New York, USA"
+},
+"25 Duncan Street, Toronto, Ontario, Canada": {
+"lat": 43.648476,
+"lon": -79.388655,
+"display": "25, Duncan Street, Wellington Place, Downtown, Toronto, Ontario, M5V 1V3, Canada",
+"approx": false,
+"query": "25 Duncan Street, Toronto, Ontario, Canada"
+},
+"250 East 49th street, New York City": {
+"lat": 40.7546088,
+"lon": -73.9700517,
+"display": "250, East 49th Street, Turtle Bay, Manhattan Community Board 6, Manhattan, New York County, New York, 10017, United States",
+"approx": false,
+"query": "250 East 49th street, New York City, USA"
+},
+"2504 Bronx Park East": {
+"lat": 40.8634381,
+"lon": -73.8702524,
+"display": "2504, Bronx Park East, The Bronx, Bronx County, New York, 10467, United States",
+"approx": false,
+"query": "2504 Bronx Park East, USA"
+},
+"252 Conestoga Road, Wayne, Pennsylvania": {
+"lat": 40.039774,
+"lon": -75.391228,
+"display": "252, Conestoga Road, West Wayne, Wayne, Radnor Township, Delaware County, Pennsylvania, 19087, United States",
+"approx": false,
+"query": "252 Conestoga Road, Wayne, Pennsylvania, USA"
+},
+"252 Elizabeth Street, New York City, New York 10012": {
+"lat": 40.7236292,
+"lon": -73.9935817,
+"display": "252, Elizabeth Street, NoHo, Manhattan, New York County, New York, 10012, United States",
+"approx": false,
+"query": "252 Elizabeth Street, New York City, New York 10012, USA"
+},
+"253 West 16th Street, New York, New York 10011": {
+"lat": 40.7409732,
+"lon": -74.0007248,
+"display": "253, West 16th Street, Chelsea District, Manhattan Community Board 4, Manhattan, New York County, New York, 10011, United States",
+"approx": false,
+"query": "253 West 16th Street, New York, New York 10011, USA"
+},
+"254 Collins Avenue, Williston Park, New York 11596": {
+"lat": 40.7620332,
+"lon": -73.6512898,
+"display": "254, Collins Avenue, Williston Garden Estates, Village of Williston Park, Town of North Hempstead, Nassau County, New York, 11596, United States",
+"approx": false,
+"query": "254 Collins Avenue, Williston Park, New York 11596, USA"
+},
+"254 East 203rd Street, Bronx, New York": {
+"lat": 40.8732559,
+"lon": -73.8846192,
+"display": "254, East 203rd Street, Bedford Park, The Bronx, Bronx County, New York, 10458, United States",
+"approx": false,
+"query": "254 East 203rd Street, Bronx, New York, USA"
+},
+"25th Street and Lexington Avenue": null,
+"26 West 9th Street, New York, New York": {
+"lat": 40.7332692,
+"lon": -73.9974433,
+"display": "26, West 9th Street, Greenwich Village, Manhattan, New York County, New York, 10011, United States",
+"approx": false,
+"query": "26 West 9th Street, New York, New York, USA"
+},
+"260 West 25th Street, New York, NY": {
+"lat": 40.7460032,
+"lon": -73.9967412,
+"display": "260, West 25th Street, Chelsea District, Manhattan Community Board 4, Manhattan, New York County, New York, 10001, United States",
+"approx": false,
+"query": "260 West 25th Street, New York, NY, USA"
+},
+"263-42 74th Avenue, Glen Oaks, New York 11004 (Apartment H-10)": null,
+"27 Highland Drive, Englishtown New Jersey": {
+"lat": 40.2973319,
+"lon": -74.3582041,
+"display": "Englishtown, Monmouth County, New Jersey, United States",
+"approx": true,
+"query": "27 Highland Drive, Englishtown New Jersey, USA"
+},
+"27 Howard Street, New York, NY": {
+"lat": 40.7193636,
+"lon": -74.0007233,
+"display": "27, Howard Street, Little Italy, Lower Manhattan, Manhattan, New York County, New York, 10013, United States",
+"approx": false,
+"query": "27 Howard Street, New York, NY, USA"
+},
+"2705 California Avenue, Southwest, Seattle, Washington 98166": {
+"lat": 38.8950982,
+"lon": -77.0363849,
+"display": "Washington, District of Columbia, United States",
+"approx": true,
+"query": "2705 California Avenue, Southwest, Seattle, Washington 98166, USA"
+},
+"2739 Wemberly Drive, Belmont, California 94002": {
+"lat": 37.5058025,
+"lon": -122.3158739,
+"display": "2739, Wemberly Drive, Belmont, San Mateo County, California, 94002, United States",
+"approx": false,
+"query": "2739 Wemberly Drive, Belmont, California 94002, USA"
+},
+"2796 Brighton 8 st, Brooklyn, NY 11235": {
+"lat": 40.6526006,
+"lon": -73.9497211,
+"display": "Brooklyn, Kings County, New York, United States",
+"approx": true,
+"query": "2796 Brighton 8 st, Brooklyn, USA"
+},
+"28 Walnut Terrace, Bloomfield, New Jersey 07003": {
+"lat": 40.79431,
+"lon": -74.1894449,
+"display": "28, Walnut Terrace, Bloomfield, Essex County, New Jersey, 07003, United States",
+"approx": false,
+"query": "28 Walnut Terrace, Bloomfield, New Jersey 07003, USA"
+},
+"281 Park Avenue, Weehawken, New Jersey": {
+"lat": 40.7648637,
+"lon": -74.02453,
+"display": "281, Park Avenue, Lincoln Harbor, Weehawken, Hudson County, New Jersey, 07086, United States",
+"approx": false,
+"query": "281 Park Avenue, Weehawken, New Jersey, USA"
+},
+"285 Ayrault Road, Fairport, New York 14450": {
+"lat": 43.0786487,
+"lon": -77.4655783,
+"display": "285, Ayrault Road, Village of Fairport, Town of Perinton, Monroe County, New York, 14450, United States",
+"approx": false,
+"query": "285 Ayrault Road, Fairport, New York 14450, USA"
+},
+"287 Broadway, New York, NY 10007": {
+"lat": 40.7146984,
+"lon": -74.006256,
+"display": "287, Broadway, Tribeca, Lower Manhattan, Manhattan, New York County, New York, 10007, United States",
+"approx": false,
+"query": "287 Broadway, New York, USA"
+},
+"288 Granite Court, Bricktown, New Jersey": {
+"lat": 40.0757384,
+"lon": -74.4041622,
+"display": "New Jersey, United States",
+"approx": true,
+"query": "288 Granite Court, Bricktown, New Jersey, USA"
+},
+"2940 Ocean Parkway, Brooklyn, New York 11235": {
+"lat": 40.5795707,
+"lon": -73.9685425,
+"display": "Shorecrest Towers 1, 2940, Ocean Parkway, West Brighton, Brooklyn, Kings County, New York, 11235, United States",
+"approx": false,
+"query": "2940 Ocean Parkway, Brooklyn, New York 11235, USA"
+},
+"295 Church Street, New York, NY": {
+"lat": 40.719131,
+"lon": -74.0043456,
+"display": "295, Church Street, Tribeca, Lower Manhattan, Manhattan, New York County, New York, 10013, United States",
+"approx": false,
+"query": "295 Church Street, New York, NY, USA"
+},
+"296 South Chester, Pasadena, California 91106": {
+"lat": 34.14114,
+"lon": -118.1243832,
+"display": "296, South Chester Avenue, Pasadena Council District 7, Pasadena, Los Angeles County, California, 91106, United States",
+"approx": false,
+"query": "296 South Chester, Pasadena, California 91106, USA"
+},
+"3 West 61st Street, New York, NY 10023": {
+"lat": 40.7698866,
+"lon": -73.9822367,
+"display": "3, West 61st Street, Lincoln Square, Manhattan Community Board 7, Manhattan, New York County, New York, 10023, United States",
+"approx": false,
+"query": "3 West 61st Street, New York, USA"
+},
+"30 Union St. F-1, Bordentown, N.J. 08505": {
+"lat": 40.2045745,
+"lon": -74.7445142,
+"display": "NetLink USA, South Broad Street, Chambersburg, Trenton, Mercer County, New Jersey, 08611, United States",
+"approx": true,
+"query": "30 Union St. F-1, Bordentown, N.J. 08505, USA"
+},
+"30 West Glen Avenue, Port Chester, New York": {
+"lat": 41.0170796,
+"lon": -73.6754043,
+"display": "30, West Glen Avenue, Village of Port Chester, Town of Rye, Westchester County, New York, 10573, United States",
+"approx": false,
+"query": "30 West Glen Avenue, Port Chester, New York, USA"
+},
+"300 East 46th street, New York City, New York 10017": {
+"lat": 40.7521949,
+"lon": -73.970176,
+"display": "300, East 46th Street, Turtle Bay, Manhattan Community Board 6, Manhattan, New York County, New York, 10017, United States",
+"approx": false,
+"query": "300 East 46th street, New York City, New York 10017, USA"
+},
+"301 Heights Lane, apartment 30, Feasterville, Pennsylvania 19047": {
+"lat": 40.1777089,
+"lon": -74.7627135,
+"display": "Univar USA, Steel Road East, Falls Township, Bucks County, Pennsylvania, 19067, United States",
+"approx": true,
+"query": "301 Heights Lane, apartment 30, Feasterville, Pennsylvania 19047, USA"
+},
+"302 East 88th Street, New York, NY 10028": {
+"lat": 40.7787522,
+"lon": -73.9503096,
+"display": "302, East 88th Street, Yorkville, Manhattan Community Board 8, Manhattan, New York County, New York, 10128, United States",
+"approx": false,
+"query": "302 East 88th Street, New York, USA"
+},
+"302 Silver Hall, New York University 10453": {
+"lat": 40.7292053,
+"lon": -73.9950148,
+"display": "New York University, West Houston Street, University Village, Manhattan, New York County, New York, 10012, United States",
+"approx": true,
+"query": "302 Silver Hall, New York University 10453, USA"
+},
+"3022 University Pl. NW, Washington, D.C.": {
+"lat": 38.9230545,
+"lon": -77.0340225,
+"display": "University Place Northwest, Columbia Heights, Ward 1, Washington, District of Columbia, 20009, United States",
+"approx": false,
+"query": "3022 University Pl. NW, Washington, D.C, USA"
+},
+"303 Ardmore Ave, Trenton, New Jersey": {
+"lat": 40.220972,
+"lon": -74.7384404,
+"display": "303, Ardmore Avenue, Trenton, Mercer County, New Jersey, 08629, United States",
+"approx": false,
+"query": "303 Ardmore Ave, Trenton, New Jersey, USA"
+},
+"303 Stadium Place, Syracuse New York 13210": {
+"lat": 43.0347393,
+"lon": -76.1387391,
+"display": "Lawrinson Garage, 303, Stadium Place, City of Syracuse, Onondaga County, New York, 13210, United States",
+"approx": false,
+"query": "303 Stadium Place, Syracuse New York 13210, USA"
+},
+"305 East 24th Street": {
+"lat": 40.7384711,
+"lon": -73.9799658,
+"display": "305, East 24th Street, Kips Bay, Manhattan Community Board 6, Manhattan, New York County, New York, 10010, United States",
+"approx": false,
+"query": "305 East 24th Street, USA"
+},
+"305 West 72nd Street, New York, NY 10023": {
+"lat": 40.780283,
+"lon": -73.9849482,
+"display": "305, West 72nd Street, Upper West Side, Manhattan Community Board 7, Manhattan, New York County, New York, 10023, United States",
+"approx": false,
+"query": "305 West 72nd Street, New York, USA"
+},
+"3054 Clovermere Road, Wantaugh, New York 11793": {
+"lat": 40.7000871,
+"lon": -73.6909527,
+"display": "USA, Meacham Avenue, North Valley Stream, Town of Hempstead, Nassau County, New York, 11003, United States",
+"approx": true,
+"query": "3054 Clovermere Road, Wantaugh, New York 11793, USA"
+},
+"309 East 48th Street, Apartment 4B, New York City, New York 10017": {
+"lat": 40.750632,
+"lon": -73.9687884,
+"display": "Permanent Mission of the United States to the United Nations, 799, 1st Avenue, Turtle Bay, Manhattan Community Board 6, Manhattan, New York County, New York, 10017, United States",
+"approx": true,
+"query": "309 East 48th Street, Apartment 4B, New York City, New York 10017, USA"
+},
+"31 Union Square, New York 10003": {
+"lat": 40.7366794,
+"lon": -73.9907622,
+"display": "31, Union Square West, Union Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10003, United States",
+"approx": false,
+"query": "31 Union Square, New York 10003, USA"
+},
+"312 Parkview Drive, Schenectady, NY 12303": {
+"lat": 42.721683,
+"lon": -73.9384054,
+"display": "312, Parkview Drive, Guilderland, City of Schenectady, Albany County, New York, 12303, United States",
+"approx": false,
+"query": "312 Parkview Drive, Schenectady, USA"
+},
+"314 1/2 East Smith Avenue, Bloomington, Indiana 47401": {
+"lat": 39.1628303,
+"lon": -86.5298128,
+"display": "East Smith Avenue, Elm Heights, Bloomington, Monroe County, Indiana, 47401, United States",
+"approx": false,
+"query": "314 1/2 East Smith Avenue, Bloomington, Indiana 47401, USA"
+},
+"314 9th. st. SE Washington DC 20003": {
+"lat": 38.8855092,
+"lon": -76.9934674,
+"display": "314, 9th Street Southeast, Barracks Row, Southeast, Capitol Hill, Ward 6, Washington, District of Columbia, 20003, United States",
+"approx": false,
+"query": "314 9th. st. SE Washington, USA"
+},
+"315 South 22nd Street, Philadelphia, Pennsylvania": {
+"lat": 39.9245077,
+"lon": -75.1830906,
+"display": "South 22nd Street, Girard Estates, South Philadelphia, Philadelphia, Philadelphia County, Pennsylvania, 19145, United States",
+"approx": false,
+"query": "315 South 22nd Street, Philadelphia, Pennsylvania, USA"
+},
+"316 West 75th Street, New York, New York": {
+"lat": 40.7821214,
+"lon": -73.9844128,
+"display": "316, West 75th Street, Upper West Side, Manhattan Community Board 7, Manhattan, New York County, New York, 10023, United States",
+"approx": false,
+"query": "316 West 75th Street, New York, New York, USA"
+},
+"33 Marylyn Place, Clifton, New Jersey 07011": {
+"lat": 40.9008989,
+"lon": -74.1649829,
+"display": "Club Metro USA, 775, Main Street, Paterson, Passaic County, New Jersey, 07503, United States",
+"approx": true,
+"query": "33 Marylyn Place, Clifton, New Jersey 07011, USA"
+},
+"330 East 33rd Street, New York, NY": {
+"lat": 40.7432298,
+"lon": -73.9755711,
+"display": "330, East 33rd Street, Kips Bay, Manhattan Community Board 6, Manhattan, New York County, New York, 10016, United States",
+"approx": false,
+"query": "330 East 33rd Street, New York, NY, USA"
+},
+"331 North Pennsylvania Avenue, Glendora, California 91740": {
+"lat": 34.1403001,
+"lon": -117.8681116,
+"display": "331, North Pennsylvania Avenue, Glendora, Los Angeles County, California, 91741, United States",
+"approx": false,
+"query": "331 North Pennsylvania Avenue, Glendora, California 91740, USA"
+},
+"331 West 19th Street, New York, New York": {
+"lat": 40.7435242,
+"lon": -74.0013736,
+"display": "331, West 19th Street, Chelsea District, Manhattan Community Board 4, Manhattan, New York County, New York, 10011, United States",
+"approx": false,
+"query": "331 West 19th Street, New York, New York, USA"
+},
+"332 2nd Street, Dunellen, New Jersey": {
+"lat": 40.593368,
+"lon": -74.4689763,
+"display": "2nd Street, Dunellen, Middlesex County, New Jersey, 08812, United States",
+"approx": false,
+"query": "332 2nd Street, Dunellen, New Jersey, USA"
+},
+"333 Blvd of Allies, Pittsburgh, Pa 15222": {
+"lat": 40.438233,
+"lon": -80.000785,
+"display": "333, Boulevard of the Allies, Firstside Historic District, Downtown, Pittsburgh, Allegheny County, Pennsylvania, 15222, United States",
+"approx": false,
+"query": "333 Blvd of Allies, Pittsburgh, Pa 15222, USA"
+},
+"333 W57th St. NY 10019": {
+"lat": 38.5845228,
+"lon": -121.4912957,
+"display": "F St + 10th St, F Street, Alkali Flat, Sacramento, Sacramento County, California, 95814, United States",
+"approx": false,
+"query": "333 W57th St, USA"
+},
+"336 Avenue F, Forest Hills, Pennsylvania, 15221": {
+"lat": 40.4151367,
+"lon": -79.84236,
+"display": "336, Avenue F, Forest Hills, Allegheny County, Pennsylvania, 15221, United States",
+"approx": false,
+"query": "336 Avenue F, Forest Hills, Pennsylvania, 15221, USA"
+},
+"337 east 5th. st. apt. 5FW. Ny": null,
+"338 East 13th Street, Apartment C-1, New York City, New York 10003": {
+"lat": 40.750632,
+"lon": -73.9687884,
+"display": "Permanent Mission of the United States to the United Nations, 799, 1st Avenue, Turtle Bay, Manhattan Community Board 6, Manhattan, New York County, New York, 10017, United States",
+"approx": true,
+"query": "338 East 13th Street, Apartment C-1, New York City, New York 10003, USA"
+},
+"341 West 24th Street, New York, New York": {
+"lat": 40.7468479,
+"lon": -73.9996078,
+"display": "Penn South Housing, 341, West 24th Street, Penn South, Manhattan Community Board 4, Manhattan, New York County, New York, 10011, United States",
+"approx": false,
+"query": "341 West 24th Street, New York, New York, USA"
+},
+"3451 Seymour Avenue, Bronx New York 10469": {
+"lat": 40.8769741,
+"lon": -73.8496468,
+"display": "3451, Seymour Avenue, Baychester, The Bronx, Bronx County, New York, 10469, United States",
+"approx": false,
+"query": "3451 Seymour Avenue, Bronx New York 10469, USA"
+},
+"347 East 10th Street, New York City, New York 10009": {
+"lat": 40.7268523,
+"lon": -73.9796223,
+"display": "347, East 10th Street, Alphabet City, Manhattan Community Board 3, Manhattan, New York County, New York, 10009, United States",
+"approx": false,
+"query": "347 East 10th Street, New York City, New York 10009, USA"
+},
+"35 Byway, Hartsdale, New York": {
+"lat": 41.0247626,
+"lon": -73.8336498,
+"display": "35, Byway, Woodlands, Greenville, Town of Greenburgh, Westchester County, New York, 10530, United States",
+"approx": false,
+"query": "35 Byway, Hartsdale, New York, USA"
+},
+"35-01, Queens Blvd, L.I. City, N.Y.": {
+"lat": 43.1561681,
+"lon": -75.8449946,
+"display": "New York, United States",
+"approx": true,
+"query": "35-01, Queens Blvd, L.I. City, N.Y, USA"
+},
+"350 east 30th. st. NY 10016": {
+"lat": 40.7413178,
+"lon": -73.9757407,
+"display": "350, East 30th Street, Kips Bay, Manhattan Community Board 6, Manhattan, New York County, New York, 10016, United States",
+"approx": false,
+"query": "350 east 30th. st, USA"
+},
+"351 Broad Street, Newark, New Jersey": {
+"lat": 40.7513001,
+"lon": -74.1697626,
+"display": "351, Broad Street, Newark, Essex County, New Jersey, 07104, United States",
+"approx": false,
+"query": "351 Broad Street, Newark, New Jersey, USA"
+},
+"3535 Red Bluff Road, apartment 126K, Pasadena, Texas 77503": {
+"lat": 29.6667112,
+"lon": -95.1549568,
+"display": "Texas Roadhouse, 3033, East Sam Houston Parkway South, Golden Acres, Pasadena, Harris County, Texas, 77503, United States",
+"approx": true,
+"query": "3535 Red Bluff Road, apartment 126K, Pasadena, Texas 77503, USA"
+},
+"36 Wellington Street East, Toronto, Ontario, Canada": {
+"lat": 43.648461,
+"lon": -79.375043,
+"display": "36, Wellington Street East, Downtown Yonge East, Toronto Centre, Toronto, Ontario, M5E 1C9, Canada",
+"approx": false,
+"query": "36 Wellington Street East, Toronto, Ontario, Canada"
+},
+"36 West 76th Street apartment 7 New York": null,
+"363 19th Street, Santa Monica, California": {
+"lat": 34.0409146,
+"lon": -118.4963492,
+"display": "363, 19th Street, Santa Monica, Los Angeles County, California, 90402, United States",
+"approx": false,
+"query": "363 19th Street, Santa Monica, California, USA"
+},
+"365 West 20th Street, New York, New York 10011": {
+"lat": 40.7445936,
+"lon": -74.0023724,
+"display": "365, West 20th Street, Chelsea District, Manhattan Community Board 4, Manhattan, New York County, New York, 10011, United States",
+"approx": false,
+"query": "365 West 20th Street, New York, New York 10011, USA"
+},
+"368 Browncroft Boulevard, Rochester, New York 14609": {
+"lat": 43.1580977,
+"lon": -77.5377439,
+"display": "368, Browncroft Boulevard, City of Rochester, Monroe County, New York, 14609, United States",
+"approx": false,
+"query": "368 Browncroft Boulevard, Rochester, New York 14609, USA"
+},
+"3707 Kressin Lane, Lake Elmo, Minnesota 55042": {
+"lat": 44.9773471,
+"lon": -93.0552855,
+"display": "Super USA, Maryland Avenue East, Payne - Phalen, Saint Paul, Ramsey County, Minnesota, 55106, United States",
+"approx": true,
+"query": "3707 Kressin Lane, Lake Elmo, Minnesota 55042, USA"
+},
+"3742 Maple Avenue, Brooklyn, New York 11224": {
+"lat": 40.5792514,
+"lon": -74.0053323,
+"display": "3742, Maple Avenue, Sea Gate, Brooklyn, Kings County, New York, 11224, United States",
+"approx": false,
+"query": "3742 Maple Avenue, Brooklyn, New York 11224, USA"
+},
+"38 Perry St. NY, NY 10014": {
+"lat": 40.7355197,
+"lon": -74.0025839,
+"display": "38, Perry Street, West Village, Manhattan, New York County, New York, 10014, United States",
+"approx": false,
+"query": "38 Perry St. NY, USA"
+},
+"380 Mountain Rd, Union City, New Jersey 07087": {
+"lat": 40.7609956,
+"lon": -74.0287251,
+"display": "Troy Towers, 380, Mountain Road, Union City, Hudson County, New Jersey, 07087, United States",
+"approx": false,
+"query": "380 Mountain Rd, Union City, New Jersey 07087, USA"
+},
+"381 Lafayette": {
+"lat": 39.2292365,
+"lon": -92.8436715,
+"display": "381, Lafayette, Glasgow, Howard County, Missouri, 65254, United States",
+"approx": false,
+"query": "381 Lafayette, USA"
+},
+"381 Lafayette Street": {
+"lat": 40.7274184,
+"lon": -73.9930542,
+"display": "381, Lafayette Street, NoHo, Manhattan, New York County, New York, 10012, United States",
+"approx": false,
+"query": "381 Lafayette Street, USA"
+},
+"381 Lafayette Street, New York, NY": {
+"lat": 40.7274184,
+"lon": -73.9930542,
+"display": "381, Lafayette Street, NoHo, Manhattan, New York County, New York, 10012, United States",
+"approx": false,
+"query": "381 Lafayette Street, New York, NY, USA"
+},
+"39 Terrace Place, Mount Kisco, New York 10549": {
+"lat": 41.2016705,
+"lon": -73.7236908,
+"display": "39, Terrace Place, Village/Town of Mount Kisco, Westchester County, New York, 10549, United States",
+"approx": false,
+"query": "39 Terrace Place, Mount Kisco, New York 10549, USA"
+},
+"390 Wadsworth Ave, NY NY 10040": {
+"lat": 40.8569154,
+"lon": -73.9290251,
+"display": "390, Wadsworth Avenue, Fort George, Manhattan Community Board 12, Manhattan, New York County, New York, 10040, United States",
+"approx": false,
+"query": "390 Wadsworth Ave, NY, USA"
+},
+"3939 Fabian Way, Palo Alto, California 94303": {
+"lat": 37.4249462,
+"lon": -122.1042736,
+"display": "3939, Fabian Way, Palo Alto, Santa Clara County, California, 94303, United States",
+"approx": false,
+"query": "3939 Fabian Way, Palo Alto, California 94303, USA"
+},
+"4 Ambassador Lane, Selden, New York": {
+"lat": 40.8579333,
+"lon": -73.0459422,
+"display": "4, Ambassador Lane, Selden, Town of Brookhaven, Suffolk County, New York, 11784, United States",
+"approx": false,
+"query": "4 Ambassador Lane, Selden, New York, USA"
+},
+"4 Dibling St, Union Beach, New Jersey": {
+"lat": 40.440401,
+"lon": -74.178393,
+"display": "4, Dibling Street, Union Beach, Monmouth County, New Jersey, 07735, United States",
+"approx": false,
+"query": "4 Dibling St, Union Beach, New Jersey, USA"
+},
+"4 Fairway Court, Somerville, New Jersey": {
+"lat": 40.0757384,
+"lon": -74.4041622,
+"display": "New Jersey, United States",
+"approx": true,
+"query": "4 Fairway Court, Somerville, New Jersey, USA"
+},
+"4 Washington Square Village, New York, New York 10012": {
+"lat": 40.7280556,
+"lon": -73.9977778,
+"display": "Washington Square Village, Manhattan, New York County, New York, 10012, United States",
+"approx": false,
+"query": "4 Washington Square Village, New York, New York 10012, USA"
+},
+"4 Willow Place, Brooklyn, New York 11201": {
+"lat": 40.6934764,
+"lon": -73.997841,
+"display": "4, Willow Place, Brooklyn Heights, Brooklyn, Kings County, New York, 11201, United States",
+"approx": false,
+"query": "4 Willow Place, Brooklyn, New York 11201, USA"
+},
+"40 Vantana Drive, Bristol, Connecticut": {
+"lat": 41.6876134,
+"lon": -72.9141368,
+"display": "40, Vantana Drive, Forestville, Bristol, Naugatuck Valley Planning Region, Connecticut, 06010, United States",
+"approx": false,
+"query": "40 Vantana Drive, Bristol, Connecticut, USA"
+},
+"40 West 75 Street, New York, New York 10023": {
+"lat": 40.7807752,
+"lon": -73.9807113,
+"display": "West 75th Street, Upper West Side, Manhattan Community Board 7, Manhattan, New York County, New York, 10023, United States",
+"approx": false,
+"query": "40 West 75 Street, New York, New York 10023, USA"
+},
+"40-05 Jasper Rd, Fair Lawn, New Jersey": {
+"lat": 40.9500134,
+"lon": -74.1073907,
+"display": "40-05, Jasper Road, Fair Lawn, Bergen County, New Jersey, 07410, United States",
+"approx": false,
+"query": "40-05 Jasper Rd, Fair Lawn, New Jersey, USA"
+},
+"405 East 56th Street, New York, New York 10022": {
+"lat": 40.7574509,
+"lon": -73.9625142,
+"display": "405, East 56th Street, Sutton, Manhattan Community Board 6, Manhattan, New York County, New York, 10022, United States",
+"approx": false,
+"query": "405 East 56th Street, New York, New York 10022, USA"
+},
+"408 East 83rd Street, New York, New York": {
+"lat": 40.7744576,
+"lon": -73.9502399,
+"display": "408, East 83rd Street, Upper East Side, Manhattan Community Board 8, Manhattan, New York County, New York, 10028, United States",
+"approx": false,
+"query": "408 East 83rd Street, New York, New York, USA"
+},
+"415 Beverly Road, Brooklyn, New York 11218": {
+"lat": 40.6434168,
+"lon": -73.97599,
+"display": "415, Beverley Road, Kensington, Brooklyn, Kings County, New York, 11218, United States",
+"approx": false,
+"query": "415 Beverly Road, Brooklyn, New York 11218, USA"
+},
+"416 E. 58th St., New York, NY": {
+"lat": 40.7587145,
+"lon": -73.9620212,
+"display": "416, East 58th Street, Sutton, Manhattan Community Board 6, Manhattan, New York County, New York, 10022, United States",
+"approx": false,
+"query": "416 E. 58th St., New York, NY, USA"
+},
+"419 West 119th Street #63, New York City, New York 10025": {
+"lat": 40.750632,
+"lon": -73.9687884,
+"display": "Permanent Mission of the United States to the United Nations, 799, 1st Avenue, Turtle Bay, Manhattan Community Board 6, Manhattan, New York County, New York, 10017, United States",
+"approx": true,
+"query": "419 West 119th Street #63, New York City, New York 10025, USA"
+},
+"42 W. 29th St., New York, NY": {
+"lat": 40.7461246,
+"lon": -73.9890252,
+"display": "42, West 29th Street, NoMad, Manhattan Community Board 5, Manhattan, New York County, New York, 10001, United States",
+"approx": false,
+"query": "42 W. 29th St., New York, NY, USA"
+},
+"42-15 81 Street, Elmhurst, New York 11373": {
+"lat": 40.7000871,
+"lon": -73.6909527,
+"display": "USA, Meacham Avenue, North Valley Stream, Town of Hempstead, Nassau County, New York, 11003, United States",
+"approx": true,
+"query": "42-15 81 Street, Elmhurst, New York 11373, USA"
+},
+"420 East 80th Street, Apartment 2F, New York City, New York 10021": {
+"lat": 40.750632,
+"lon": -73.9687884,
+"display": "Permanent Mission of the United States to the United Nations, 799, 1st Avenue, Turtle Bay, Manhattan Community Board 6, Manhattan, New York County, New York, 10017, United States",
+"approx": true,
+"query": "420 East 80th Street, Apartment 2F, New York City, New York 10021, USA"
+},
+"424 W. 33rd St., New York, NY": {
+"lat": 40.7530576,
+"lon": -73.9981293,
+"display": "Four Manhattan West, 424, West 33rd Street, Chelsea District, Manhattan Community Board 4, Manhattan, New York County, New York, 10001, United States",
+"approx": false,
+"query": "424 W. 33rd St., New York, NY, USA"
+},
+"432 Rustic Road, Santa Monica, California 90402": {
+"lat": 34.0204568,
+"lon": -118.4956771,
+"display": "Soka Gakkai International-USA Head Office, 6th Court, Downtown Santa Monica, Santa Monica, Los Angeles County, California, 90401, United States",
+"approx": true,
+"query": "432 Rustic Road, Santa Monica, California 90402, USA"
+},
+"435 Riverside Drive, New York, New York 10025": {
+"lat": 40.8085279,
+"lon": -73.9658887,
+"display": "435, Riverside Drive, Morningside Heights, Manhattan Community Board 9, Manhattan, New York County, New York, 10025, United States",
+"approx": false,
+"query": "435 Riverside Drive, New York, New York 10025, USA"
+},
+"435 West 119th Street, New York, New York 10027": {
+"lat": 40.8086833,
+"lon": -73.9592127,
+"display": "435, West 119th Street, Morningside Heights, Manhattan Community Board 9, Manhattan, New York County, New York, 10027, United States",
+"approx": false,
+"query": "435 West 119th Street, New York, New York 10027, USA"
+},
+"436 Bellevue Avenue, Yonkers New York 10703": {
+"lat": 40.9610757,
+"lon": -73.8797677,
+"display": "436, Bellevue Avenue, City of Yonkers, Westchester County, New York, 10703, United States",
+"approx": false,
+"query": "436 Bellevue Avenue, Yonkers New York 10703, USA"
+},
+"44 Hill Street, Apartment 1-L, Morristown, New Jersey 07960": {
+"lat": 40.8646161,
+"lon": -74.3960616,
+"display": "Soccer Zone USA, 120, Baldwin Road, Lake Hiawatha, Parsippany-Troy Hills, Morris County, New Jersey, 07054, United States",
+"approx": true,
+"query": "44 Hill Street, Apartment 1-L, Morristown, New Jersey 07960, USA"
+},
+"445 Fairfield Ave, Stamford, Connecticut": {
+"lat": 41.0363495,
+"lon": -73.5525785,
+"display": "445, Fairfield Avenue, Waterside, Dolphin Cove, Stamford, Western Connecticut Planning Region, Connecticut, 06902, United States",
+"approx": false,
+"query": "445 Fairfield Ave, Stamford, Connecticut, USA"
+},
+"45 Covert Street, Hempstead, Long Island, New York; 93 Glen Cove Avenue, Glen Cove, New York 11542": {
+"lat": 40.7000871,
+"lon": -73.6909527,
+"display": "USA, Meacham Avenue, North Valley Stream, Town of Hempstead, Nassau County, New York, 11003, United States",
+"approx": true,
+"query": "45 Covert Street, Hempstead, Long Island, New York; 93 Glen Cove Avenue, Glen Cove, New York 11542, USA"
+},
+"45 East 59th Street, New York City, New York": {
+"lat": 40.6532239,
+"lon": -73.921626,
+"display": "45, East 59th Street, Brooklyn Community District 17, Brooklyn, Kings County, New York, 11203, United States",
+"approx": false,
+"query": "45 East 59th Street, New York City, New York, USA"
+},
+"45 East 85th Street, New York, New York 10028": {
+"lat": 40.7799567,
+"lon": -73.9584283,
+"display": "45, East 85th Street, Upper East Side, Manhattan Community Board 8, Manhattan, New York County, New York, 10028, United States",
+"approx": false,
+"query": "45 East 85th Street, New York, New York 10028, USA"
+},
+"45 deKalb Place, Morristown, New Jersey 07960": {
+"lat": 40.7907159,
+"lon": -74.4645382,
+"display": "45, Dekalb Place, Morristown, Morris County, New Jersey, 07960, United States",
+"approx": false,
+"query": "45 deKalb Place, Morristown, New Jersey 07960, USA"
+},
+"4542 Auhay Drive, Santa Barbara, California 93015; 95 La Patera Lane, Goleta, California 93017": {
+"lat": 38.628683,
+"lon": -92.5659635,
+"display": "California, Moniteau County, Missouri, 65018, United States",
+"approx": true,
+"query": "4542 Auhay Drive, Santa Barbara, California 93015; 95 La Patera Lane, Goleta, California 93017, USA"
+},
+"46 Bradford Street, Brooklyn, New York": {
+"lat": 40.6785039,
+"lon": -73.8938881,
+"display": "46, Bradford Street, Cypress Hills, Brooklyn, Kings County, New York, 11207, United States",
+"approx": false,
+"query": "46 Bradford Street, Brooklyn, New York, USA"
+},
+"46 West 37th Street, New York, New York 10018": {
+"lat": 40.7511389,
+"lon": -73.9853629,
+"display": "46, West 37th Street, Midtown South, Manhattan Community Board 5, Manhattan, New York County, New York, 10018, United States",
+"approx": false,
+"query": "46 West 37th Street, New York, New York 10018, USA"
+},
+"4605 East 355th Street, Willoughby, Ohio 44094": {
+"lat": 41.6309474,
+"lon": -81.4348572,
+"display": "4605, East 355th Street, Willoughby, Lake County, Ohio, 44094, United States",
+"approx": false,
+"query": "4605 East 355th Street, Willoughby, Ohio 44094, USA"
+},
+"463 River Road, Chatham, New Jersey 07928": {
+"lat": 40.7114312,
+"lon": -74.4126869,
+"display": "463, River Road, The Highlands, Chatham Township, Morris County, New Jersey, 07928, United States",
+"approx": false,
+"query": "463 River Road, Chatham, New Jersey 07928, USA"
+},
+"47 Ethan Drive, Murray Hill, New Jersey 07974": {
+"lat": 40.6933881,
+"lon": -74.4024116,
+"display": "47, Ethan Drive, Murray Hill Apartments, New Providence, Union County, New Jersey, 07974, United States",
+"approx": false,
+"query": "47 Ethan Drive, Murray Hill, New Jersey 07974, USA"
+},
+"47 Roneck Street, Shirley, New York": {
+"lat": 40.7127281,
+"lon": -74.0060152,
+"display": "New York, United States",
+"approx": true,
+"query": "47 Roneck Street, Shirley, New York, USA"
+},
+"47 Sayre Street, Elizabeth, New Jersey 07208": {
+"lat": 40.669278,
+"lon": -74.2210364,
+"display": "47, Sayre Street, Elmora, Elizabeth, Union County, New Jersey, 07208, United States",
+"approx": false,
+"query": "47 Sayre Street, Elizabeth, New Jersey 07208, USA"
+},
+"4704 11th Street Northeast, #103, Seattle, Washington 98105": {
+"lat": 47.580138,
+"lon": -122.3273036,
+"display": "Made in USA, SODO Trail, Yesler Terrace, Seattle, King County, Washington, 98134, United States",
+"approx": true,
+"query": "4704 11th Street Northeast, #103, Seattle, Washington 98105, USA"
+},
+"49 E 69th St.": {
+"lat": 40.7693473,
+"lon": -73.965438,
+"display": "49, East 69th Street, Lenox Hill, Manhattan Community Board 8, Manhattan, New York County, New York, 10021, United States",
+"approx": false,
+"query": "49 E 69th St, USA"
+},
+"49 East 68th Street": {
+"lat": 40.7689906,
+"lon": -73.9661166,
+"display": "49, East 68th Street, Upper East Side, Manhattan Community Board 8, Manhattan, New York County, New York, 10065, United States",
+"approx": false,
+"query": "49 East 68th Street, USA"
+},
+"49 East 68th Street, NYC NY 10021": {
+"lat": 40.7689906,
+"lon": -73.9661166,
+"display": "49, East 68th Street, Upper East Side, Manhattan Community Board 8, Manhattan, New York County, New York, 10065, United States",
+"approx": false,
+"query": "49 East 68th Street, NYC, USA"
+},
+"49 East 68th Street, New York, NY 10021": {
+"lat": 40.7689906,
+"lon": -73.9661166,
+"display": "49, East 68th Street, Upper East Side, Manhattan Community Board 8, Manhattan, New York County, New York, 10065, United States",
+"approx": false,
+"query": "49 East 68th Street, New York, USA"
+},
+"49 Finnigan Avenue, Saddle Brook, New Jersey": {
+"lat": 40.8956943,
+"lon": -74.0900399,
+"display": "49, Finnigan Avenue, Saddle Brook, Bergen County, New Jersey, 07663, United States",
+"approx": false,
+"query": "49 Finnigan Avenue, Saddle Brook, New Jersey, USA"
+},
+"49 Ronald Drive, Clifton, New Jersey 07013": {
+"lat": 40.864359,
+"lon": -74.1849448,
+"display": "49, Ronald Drive, Richfield, Clifton, Passaic County, New Jersey, 07013, United States",
+"approx": false,
+"query": "49 Ronald Drive, Clifton, New Jersey 07013, USA"
+},
+"5 Kinsella street, Deer Park, NY 11729": {
+"lat": 42.1608585,
+"lon": -88.0814651,
+"display": "Deer Park, Ela Township, Lake County, Illinois, United States",
+"approx": true,
+"query": "5 Kinsella street, Deer Park, USA"
+},
+"5 North Cobane Terrace, West Orange, New Jersey 07052": {
+"lat": 40.7773175,
+"lon": -74.2534401,
+"display": "5, North Cobane Terrace, Hutton Park, West Orange, Essex County, New Jersey, 07052, United States",
+"approx": false,
+"query": "5 North Cobane Terrace, West Orange, New Jersey 07052, USA"
+},
+"5 South Brookside Drive, Rockaway, New Jersey 07866": {
+"lat": 40.922668,
+"lon": -74.5270625,
+"display": "5, South Brookside Drive, Mount Hope, Rockaway Township, Morris County, New Jersey, 07866, United States",
+"approx": false,
+"query": "5 South Brookside Drive, Rockaway, New Jersey 07866, USA"
+},
+"500 Riverside Drive, New York City, New York 10027": {
+"lat": 40.8138908,
+"lon": -73.9618008,
+"display": "500, Riverside Drive, Morningside Heights, Manhattan Community Board 9, Manhattan, New York County, New York, 10027, United States",
+"approx": false,
+"query": "500 Riverside Drive, New York City, New York 10027, USA"
+},
+"505 Grand st NYC, N.Y. 10002": {
+"lat": 40.714502,
+"lon": -73.9823517,
+"display": "505, Grand Street, Lower East Side, Manhattan Community Board 3, Manhattan, New York County, New York, 10002, United States",
+"approx": false,
+"query": "505 Grand st NYC, N.Y. 10002, USA"
+},
+"51 Burwell St, New Haven, Conn.": {
+"lat": 41.2919286,
+"lon": -72.8905468,
+"display": "51;53, Burwell Street, Fair Haven East, New Haven, Connecticut, 06513, United States",
+"approx": false,
+"query": "51 Burwell St, New Haven, Conn, USA"
+},
+"51 West 52nd Street, New York, New York 10019": {
+"lat": 40.7612541,
+"lon": -73.9787812,
+"display": "CBS Building, 51, West 52nd Street, Theater District, Manhattan Community Board 5, Manhattan, New York County, New York, 10019, United States",
+"approx": false,
+"query": "51 West 52nd Street, New York, New York 10019, USA"
+},
+"52 E. 66th St, New York, NY": {
+"lat": 40.7675352,
+"lon": -73.9676662,
+"display": "52, East 66th Street, Upper East Side, Manhattan Community Board 8, Manhattan, New York County, New York, 10065, United States",
+"approx": false,
+"query": "52 E. 66th St, New York, NY, USA"
+},
+"52 East 66th St": {
+"lat": 40.7675352,
+"lon": -73.9676662,
+"display": "52, East 66th Street, Upper East Side, Manhattan Community Board 8, Manhattan, New York County, New York, 10065, United States",
+"approx": false,
+"query": "52 East 66th St, USA"
+},
+"52 East 66th Street New York 21, New York": {
+"lat": 40.7127281,
+"lon": -74.0060152,
+"display": "New York, United States",
+"approx": true,
+"query": "52 East 66th Street New York 21, New York, USA"
+},
+"52 Seminary Street, New Canaan, Connecticut": {
+"lat": 41.1466799,
+"lon": -73.4977508,
+"display": "52, Seminary Street, New Canaan, Western Connecticut Planning Region, Connecticut, 06840, United States",
+"approx": false,
+"query": "52 Seminary Street, New Canaan, Connecticut, USA"
+},
+"523 Howe Rde., Merion, PA": {
+"lat": 40.9699889,
+"lon": -77.7278831,
+"display": "Pennsylvania, United States",
+"approx": true,
+"query": "523 Howe Rde., Merion, PA, USA"
+},
+"530 west end ave, NY 10024": {
+"lat": 40.788569,
+"lon": -73.9778635,
+"display": "530, West End Avenue, Upper West Side, Manhattan Community Board 7, Manhattan, New York County, New York, 10024, United States",
+"approx": false,
+"query": "530 west end ave, USA"
+},
+"54-45 69th Lane, Queens, New York": {
+"lat": 40.7279609,
+"lon": -73.8935557,
+"display": "54-45, 69th Lane, Queens, Queens County, New York, 11378, United States",
+"approx": false,
+"query": "54-45 69th Lane, Queens, New York, USA"
+},
+"549 Edgar Road, Westfield, New Jersey 07090": {
+"lat": 40.6431786,
+"lon": -74.3534576,
+"display": "549, Edgar Road, Westfield, Union County, New Jersey, 07090, United States",
+"approx": false,
+"query": "549 Edgar Road, Westfield, New Jersey 07090, USA"
+},
+"55 Canoe Brook Parkway, Summit, New Jersey 07901": {
+"lat": 40.7341366,
+"lon": -74.3679286,
+"display": "55, Canoe Brook Parkway, Summit, Union County, New Jersey, 07901, United States",
+"approx": false,
+"query": "55 Canoe Brook Parkway, Summit, New Jersey 07901, USA"
+},
+"55 Montbern Boulevard, Greenvale, New York 11548": {
+"lat": 40.7000871,
+"lon": -73.6909527,
+"display": "USA, Meacham Avenue, North Valley Stream, Town of Hempstead, Nassau County, New York, 11003, United States",
+"approx": true,
+"query": "55 Montbern Boulevard, Greenvale, New York 11548, USA"
+},
+"5523 Bartlett Street, Pittsburgh, Pennsylvania 15217": {
+"lat": 40.4357845,
+"lon": -79.9296756,
+"display": "5523, Bartlett Street, Squirrel Hill South, Pittsburgh, Allegheny County, Pennsylvania, 15217, United States",
+"approx": false,
+"query": "5523 Bartlett Street, Pittsburgh, Pennsylvania 15217, USA"
+},
+"555 Elizabeth Avenue, apartment 10-I, Newark, New Jersey 07112": {
+"lat": 40.6923484,
+"lon": -74.1438704,
+"display": "AAK USA Inc, 131, Marsh Street, Port Newark-Elizabeth, Newark, Essex County, New Jersey, 07114, United States",
+"approx": true,
+"query": "555 Elizabeth Avenue, apartment 10-I, Newark, New Jersey 07112, USA"
+},
+"56 Water Street, Jersey City, New Jersey 07666": {
+"lat": 40.715708,
+"lon": -74.0953963,
+"display": "56, Water Street, Jersey City, Hudson County, New Jersey, 07305, United States",
+"approx": false,
+"query": "56 Water Street, Jersey City, New Jersey 07666, USA"
+},
+"56 West hills Road, Huntington Station, New York 11746": {
+"lat": 40.835984,
+"lon": -73.4157277,
+"display": "56, West Hills Road, Huntington Station, Town of Huntington, Suffolk County, New York, 11746, United States",
+"approx": false,
+"query": "56 West hills Road, Huntington Station, New York 11746, USA"
+},
+"57 East 7th Street, New York City": {
+"lat": 40.7277601,
+"lon": -73.9870935,
+"display": "57, East 7th Street, East Village, Manhattan Community Board 3, Manhattan, New York County, New York, 10003, United States",
+"approx": false,
+"query": "57 East 7th Street, New York City, USA"
+},
+"57 Poplar Plains Rd. Toronto, Ontario, Canada.": {
+"lat": 43.6799329,
+"lon": -79.4027316,
+"display": "57, Poplar Plains Road, Casa Loma, Toronto—St. Paul's, Toronto, Ontario, M4V 1A4, Canada",
+"approx": false,
+"query": "57 Poplar Plains Rd. Toronto, Ontario, Canada"
+},
+"5754 Howe Street, Pittsburgh, Pennsylvania 15232": {
+"lat": 40.4517061,
+"lon": -79.9285494,
+"display": "5754, Howe Street, Shadyside, Pittsburgh, Allegheny County, Pennsylvania, 15232, United States",
+"approx": false,
+"query": "5754 Howe Street, Pittsburgh, Pennsylvania 15232, USA"
+},
+"59 W. 28th St, New York, NY": {
+"lat": 40.7460064,
+"lon": -73.9901865,
+"display": "59, West 28th Street, NoMad, Manhattan Community Board 5, Manhattan, New York County, New York, 10001, United States",
+"approx": false,
+"query": "59 W. 28th St, New York, NY, USA"
+},
+"5B Parijat Society, Anandnagar, Ahmedabad 7, India": {
+"lat": 40.3764599,
+"lon": -79.1194757,
+"display": "India, West Wheatfield Township, Indiana County, Pennsylvania, 15949, United States",
+"approx": true,
+"query": "5B Parijat Society, Anandnagar, Ahmedabad 7, India, USA"
+},
+"6 Lucille Lane, Old Bethpage, New York 11804": {
+"lat": 40.7706689,
+"lon": -73.4476173,
+"display": "6, Lucille Lane, Old Bethpage, Town of Oyster Bay, Nassau County, New York, 11804, United States",
+"approx": false,
+"query": "6 Lucille Lane, Old Bethpage, New York 11804, USA"
+},
+"60 Riverside Drive, New York, New York": {
+"lat": 40.9199792,
+"lon": -72.6522386,
+"display": "60, Riverside Drive, Downtown Riverhead, Riverhead, Town of Riverhead, Suffolk County, New York, 11901, United States",
+"approx": false,
+"query": "60 Riverside Drive, New York, New York, USA"
+},
+"60 east 79th [St] N.Y.": {
+"lat": 40.7758481,
+"lon": -73.9615496,
+"display": "60, East 79th Street, Upper East Side, Manhattan Community Board 8, Manhattan, New York County, New York, 10075, United States",
+"approx": false,
+"query": "60 east 79th [St] N.Y, USA"
+},
+"61 East 97 Street Apartment 19, New York, New York": {
+"lat": 40.7127281,
+"lon": -74.0060152,
+"display": "New York, United States",
+"approx": true,
+"query": "61 East 97 Street Apartment 19, New York, New York, USA"
+},
+"612 West 115 Street, New York, New York 10025": {
+"lat": 40.8057939,
+"lon": -73.9606875,
+"display": "West 115th Street, Morningside Heights, Manhattan Community Board 9, Manhattan, New York County, New York, 10115, United States",
+"approx": false,
+"query": "612 West 115 Street, New York, New York 10025, USA"
+},
+"616 Chestnut Avenue, apartment 4, Niagara Falls, New York": {
+"lat": 40.7127281,
+"lon": -74.0060152,
+"display": "New York, United States",
+"approx": true,
+"query": "616 Chestnut Avenue, apartment 4, Niagara Falls, New York, USA"
+},
+"622 White Horse Pike, New Jersey": {
+"lat": 39.6615089,
+"lon": -74.8103881,
+"display": "622, White Horse Pike, Hammonton, Atlantic County, New Jersey, 08037, United States",
+"approx": false,
+"query": "622 White Horse Pike, New Jersey, USA"
+},
+"624 E 11th St. N.Y. 10009": {
+"lat": 40.7268492,
+"lon": -73.9785345,
+"display": "624, East 11th Street, Alphabet City, Manhattan Community Board 3, Manhattan, New York County, New York, 10009, United States",
+"approx": false,
+"query": "624 E 11th St. N.Y. 10009, USA"
+},
+"626 Bush Street #21, San Francisco, California 94108": {
+"lat": 37.7922457,
+"lon": -122.409238,
+"display": "Powell Street & California Street, Powell Street, Chinatown, San Francisco, California, 94108, United States",
+"approx": true,
+"query": "626 Bush Street #21, San Francisco, California 94108, USA"
+},
+"629 West 115th Street, New York, New York": {
+"lat": 40.8080614,
+"lon": -73.9656339,
+"display": "629, West 115th Street, Morningside Heights, Manhattan Community Board 9, Manhattan, New York County, New York, 10025, United States",
+"approx": false,
+"query": "629 West 115th Street, New York, New York, USA"
+},
+"6315 N. Camac, Phila, Pa 19141": {
+"lat": 39.9776543,
+"lon": -75.1739615,
+"display": "Help USA, Bucknell Way, Blumberg 83, North Philadelphia, Philadelphia, Philadelphia County, Pennsylvania, 19121, United States",
+"approx": true,
+"query": "6315 N. Camac, Phila, Pa 19141, USA"
+},
+"632 W125 St NYC 10027": null,
+"633 Third Ave. N.Y. 10017": {
+"lat": 40.8088444,
+"lon": -73.9303577,
+"display": "Third Avenue, The Bronx, Bronx County, New York, 10454, United States",
+"approx": false,
+"query": "633 Third Ave. N.Y. 10017, USA"
+},
+"635 West 174th Street, New York, New York 10033": {
+"lat": 40.8456767,
+"lon": -73.9390853,
+"display": "635, West 174th Street, Washington Heights, Manhattan Community Board 12, Manhattan, New York County, New York, 10033, United States",
+"approx": false,
+"query": "635 West 174th Street, New York, New York 10033, USA"
+},
+"640 Suge Kawasaki City, Kanagawa, Japan": {
+"lat": 35.4342935,
+"lon": 139.374753,
+"display": "神奈川県, 日本",
+"approx": true,
+"query": "640 Suge Kawasaki City, Kanagawa, Japan"
+},
+"6434 Raymond Street, Oakland, California 94609": {
+"lat": 37.850533,
+"lon": -122.2620246,
+"display": "6434, Raymond Street, North Oakland, Oakland, Alameda County, California, 94705, United States",
+"approx": false,
+"query": "6434 Raymond Street, Oakland, California 94609, USA"
+},
+"65 Mountain Ave, Warren, N.J. 07060": {
+"lat": 40.7118642,
+"lon": -74.3877868,
+"display": "Teen Coach USA, 851, Springfield Avenue, Summit, Union County, New Jersey, 07901, United States",
+"approx": true,
+"query": "65 Mountain Ave, Warren, N.J. 07060, USA"
+},
+"67 Evergreen Place, East Orange, New Jersey 07019": {
+"lat": 40.7632887,
+"lon": -74.2212181,
+"display": "67, Evergreen Place, East Orange, Essex County, New Jersey, 07018, United States",
+"approx": false,
+"query": "67 Evergreen Place, East Orange, New Jersey 07019, USA"
+},
+"67 Rumsey road, Toronto 17, Ontario": {
+"lat": 34.0308819,
+"lon": -117.6106533,
+"display": "Ontario, San Bernardino County, California, United States",
+"approx": true,
+"query": "67 Rumsey road, Toronto 17, Ontario, USA"
+},
+"67-76 Booth St, Forest Hills, New York 11375": {
+"lat": 40.7246211,
+"lon": -73.8518766,
+"display": "67-76, Booth Street, Forest Hills, Queens, Queens County, New York, 11375, United States",
+"approx": false,
+"query": "67-76 Booth St, Forest Hills, New York 11375, USA"
+},
+"6777 Quaker Road, Orchard Park, New York 14127": {
+"lat": 42.7710104,
+"lon": -78.7252397,
+"display": "Quaker Road, Village of Orchard Park, Town of Orchard Park, Erie County, New York, 14127, United States",
+"approx": false,
+"query": "6777 Quaker Road, Orchard Park, New York 14127, USA"
+},
+"68 Lexington Ave, New York, NY": {
+"lat": 40.7413379,
+"lon": -73.9842315,
+"display": "69th Regiment Armory, 68, Lexington Avenue, Rose Hill, Manhattan Community Board 5, Manhattan, New York County, New York, 10010, United States",
+"approx": false,
+"query": "68 Lexington Ave, New York, NY, USA"
+},
+"68 Sagamore Drive, Port Washington, New York 11050": {
+"lat": 40.8397156,
+"lon": -73.7097843,
+"display": "68, Sagamore Hill Drive, Manhasset Isle, Port Washington, Town of North Hempstead, Nassau County, New York, 11050, United States",
+"approx": false,
+"query": "68 Sagamore Drive, Port Washington, New York 11050, USA"
+},
+"680 West End Ave, New York, New York 10025": {
+"lat": 40.7934224,
+"lon": -73.9742625,
+"display": "680, West End Avenue, Upper West Side, Manhattan Community Board 7, Manhattan, New York County, New York, 10025, United States",
+"approx": false,
+"query": "680 West End Ave, New York, New York 10025, USA"
+},
+"684 Undercliff Ave, Edgewater, New Jersey 07020": {
+"lat": 40.838662,
+"lon": -73.97214,
+"display": "684, Undercliff Avenue, Edgewater, Bergen County, New Jersey, 07020, United States",
+"approx": false,
+"query": "684 Undercliff Ave, Edgewater, New Jersey 07020, USA"
+},
+"689 Hope Street, Stamford, Connecticut 06907": {
+"lat": 41.082761,
+"lon": -73.520158,
+"display": "689, Hope Street, Springdale, Stamford, Western Connecticut Planning Region, Connecticut, 06907, United States",
+"approx": false,
+"query": "689 Hope Street, Stamford, Connecticut 06907, USA"
+},
+"69 Frankel Road, Massapequa, New York": {
+"lat": 40.6612105,
+"lon": -73.4653436,
+"display": "69, Frankel Road, Biltmore Shores, Massapequa, Town of Oyster Bay, Nassau County, New York, 11758, United States",
+"approx": false,
+"query": "69 Frankel Road, Massapequa, New York, USA"
+},
+"693 Thomas Avenue, Baldwin, New York 11510": {
+"lat": 40.6448695,
+"lon": -73.6142617,
+"display": "693, Thomas Avenue, Millburn, Baldwin, Town of Hempstead, Nassau County, New York, 11510, United States",
+"approx": false,
+"query": "693 Thomas Avenue, Baldwin, New York 11510, USA"
+},
+"7 East 81st Street, New York, New York 10028": {
+"lat": 40.7781091,
+"lon": -73.962018,
+"display": "7, East 81st Street, Upper East Side, Manhattan Community Board 8, Manhattan, New York County, New York, 10028, United States",
+"approx": false,
+"query": "7 East 81st Street, New York, New York 10028, USA"
+},
+"7 Lefurgy Avenue, Hastings on Hudson, New York 10706": {
+"lat": 40.9903227,
+"lon": -73.8697978,
+"display": "7, Lefurgy Avenue, Mount Hope, Village of Hastings-on-Hudson, Town of Greenburgh, Westchester County, New York, 10706, United States",
+"approx": false,
+"query": "7 Lefurgy Avenue, Hastings on Hudson, New York 10706, USA"
+},
+"70 Lyndhurst Avenue, Toronto 4, Ontario": {
+"lat": 34.0308819,
+"lon": -117.6106533,
+"display": "Ontario, San Bernardino County, California, United States",
+"approx": true,
+"query": "70 Lyndhurst Avenue, Toronto 4, Ontario, USA"
+},
+"70 Riverside Drive, New York, New York 10024": {
+"lat": 40.7850133,
+"lon": -73.9822,
+"display": "70, Riverside Drive, Upper West Side, Manhattan Community Board 7, Manhattan, New York County, New York, 10024, United States",
+"approx": false,
+"query": "70 Riverside Drive, New York, New York 10024, USA"
+},
+"700 Boulevard East, Weehawken, New Jersey 07087": {
+"lat": 40.7621637,
+"lon": -74.0258165,
+"display": "Boulevard East, Lincoln Harbor, Weehawken, Hudson County, New Jersey, 07086, United States",
+"approx": false,
+"query": "700 Boulevard East, Weehawken, New Jersey 07087, USA"
+},
+"7000 Southridges Drive, McLean, Virginia 22101": {
+"lat": 38.9053176,
+"lon": -77.1582558,
+"display": "Virginia Avenue, Franklin Forest, Chesterbrook, McLean, Fairfax County, Virginia, 22101, United States",
+"approx": true,
+"query": "7000 Southridges Drive, McLean, Virginia 22101, USA"
+},
+"709 West 14 Street, Austin, Texas, 78701": {
+"lat": 30.2701271,
+"lon": -97.742966,
+"display": "78701, Austin, Travis County, Texas, United States",
+"approx": true,
+"query": "709 West 14 Street, Austin, Texas, 78701, USA"
+},
+"72 Ethan Drive, Murray Hill, New Jersey 07974": {
+"lat": 40.6932381,
+"lon": -74.4034832,
+"display": "72, Ethan Drive, Murray Hill Apartments, New Providence, Union County, New Jersey, 07974, United States",
+"approx": false,
+"query": "72 Ethan Drive, Murray Hill, New Jersey 07974, USA"
+},
+"72 Hattie Court, Middletown, New Jersey 07748": {
+"lat": 40.3654864,
+"lon": -74.1243002,
+"display": "72, Hattie Court, Oak Hill, Middletown Township, Monmouth County, New Jersey, 07748, United States",
+"approx": false,
+"query": "72 Hattie Court, Middletown, New Jersey 07748, USA"
+},
+"724 Colonial Arms Road, Union, New Jersey 07083": {
+"lat": 40.6805469,
+"lon": -74.2485251,
+"display": "724, Colonial Arms Road, Union, Union County, New Jersey, 07083, United States",
+"approx": false,
+"query": "724 Colonial Arms Road, Union, New Jersey 07083, USA"
+},
+"73-37 Austin St., Forest Hills, New York 11375": {
+"lat": 40.7178066,
+"lon": -73.8391088,
+"display": "Holland House, 73-37, Austin Street, Forest Hills, Queens, Queens County, New York, 11375, United States",
+"approx": false,
+"query": "73-37 Austin St., Forest Hills, New York 11375, USA"
+},
+"74 Riverside Drive, New York, New York 10024": {
+"lat": 40.7851993,
+"lon": -73.98204,
+"display": "74, Riverside Drive, Upper West Side, Manhattan Community Board 7, Manhattan, New York County, New York, 10024, United States",
+"approx": false,
+"query": "74 Riverside Drive, New York, New York 10024, USA"
+},
+"75 E. 55th St., New York, NY": {
+"lat": 40.6563551,
+"lon": -73.9257763,
+"display": "75, East 55th Street, East Flatbush, Brooklyn Community District 17, Brooklyn, Kings County, New York, 11203, United States",
+"approx": false,
+"query": "75 E. 55th St., New York, NY, USA"
+},
+"75 East 7 Street, New York City, New York 10003": {
+"lat": 40.7275066,
+"lon": -73.9863473,
+"display": "73-75, East 7th Street, East Village, Manhattan Community Board 3, Manhattan, New York County, New York, 10003, United States",
+"approx": false,
+"query": "75 East 7 Street, New York City, New York 10003, USA"
+},
+"75 Groves Street, North Plainfield, New Jersey; 1620 Mermaid Avenue, Brooklyn 24, New York": {
+"lat": 40.7127281,
+"lon": -74.0060152,
+"display": "New York, United States",
+"approx": true,
+"query": "75 Groves Street, North Plainfield, New Jersey; 1620 Mermaid Avenue, Brooklyn 24, New York, USA"
+},
+"75 Summit Avenue Newark, New Jersey 07112": {
+"lat": 40.7084182,
+"lon": -74.2228394,
+"display": "75, Summit Avenue, Newark, Essex County, New Jersey, 07112, United States",
+"approx": false,
+"query": "75 Summit Avenue Newark, New Jersey 07112, USA"
+},
+"750 S. Fulton, Mount Vernon, New York": {
+"lat": 40.89491,
+"lon": -73.8248962,
+"display": "750, South Fulton Avenue, Parkside, City of Mount Vernon, Westchester County, New York, 10550, United States",
+"approx": false,
+"query": "750 S. Fulton, Mount Vernon, New York, USA"
+},
+"76 Charles Street, New York, New York": {
+"lat": 40.7346733,
+"lon": -74.003683,
+"display": "76, Charles Street, West Village, Manhattan, New York County, New York, 10014, United States",
+"approx": false,
+"query": "76 Charles Street, New York, New York, USA"
+},
+"784 Columbus Avenue, New York, New York": {
+"lat": 40.794283,
+"lon": -73.9674853,
+"display": "784,782, Columbus Avenue, Manhattan Valley, Manhattan Community Board 7, Manhattan, New York County, New York, 10025, United States",
+"approx": false,
+"query": "784 Columbus Avenue, New York, New York, USA"
+},
+"787 United Nations Plaza, NY 10017": {
+"lat": 40.7504677,
+"lon": -73.968881,
+"display": "787, 1st Avenue, Turtle Bay, Manhattan Community Board 6, Manhattan, New York County, New York, 10017, United States",
+"approx": false,
+"query": "787 United Nations Plaza, USA"
+},
+"788 West End Avenue, New York, New York 10025": {
+"lat": 40.7966192,
+"lon": -73.9717381,
+"display": "788, West End Avenue, Manhattan Valley, Manhattan Community Board 7, Manhattan, New York County, New York, 10025, United States",
+"approx": false,
+"query": "788 West End Avenue, New York, New York 10025, USA"
+},
+"80 Knightsbridge Road, Apartment 1C, Great Neck, New York": {
+"lat": 40.7127281,
+"lon": -74.0060152,
+"display": "New York, United States",
+"approx": true,
+"query": "80 Knightsbridge Road, Apartment 1C, Great Neck, New York, USA"
+},
+"800 Eagle Farm Rd., Villanova, PA": {
+"lat": 40.046714,
+"lon": -75.3168223,
+"display": "800, Eagle Farm Road, Villanova, Lower Merion Township, Montgomery County, Pennsylvania, 19085, United States",
+"approx": false,
+"query": "800 Eagle Farm Rd., Villanova, PA, USA"
+},
+"800 East 13th Street, Brooklyn, New York 11230": {
+"lat": 40.6294722,
+"lon": -73.9642676,
+"display": "800, East 13th Street, Brooklyn, Kings County, New York, 11230, United States",
+"approx": false,
+"query": "800 East 13th Street, Brooklyn, New York 11230, USA"
+},
+"8054 Quoit, Downey, California 90242": {
+"lat": 33.9258768,
+"lon": -118.1489802,
+"display": "8054, Quoit Street, Downey, Los Angeles County, California, 90242, United States",
+"approx": false,
+"query": "8054 Quoit, Downey, California 90242, USA"
+},
+"816 Grand Avenue, Rochester, New York": {
+"lat": 43.1645095,
+"lon": -77.5583464,
+"display": "816, Grand Avenue, Beechwood, City of Rochester, Monroe County, New York, 14609, United States",
+"approx": false,
+"query": "816 Grand Avenue, Rochester, New York, USA"
+},
+"817 West End Avenue, New York, NY 10025": {
+"lat": 40.7976948,
+"lon": -73.9716509,
+"display": "817, West End Avenue, Manhattan Valley, Manhattan Community Board 7, Manhattan, New York County, New York, 10025, United States",
+"approx": false,
+"query": "817 West End Avenue, New York, USA"
+},
+"844 East 55th Street, Brooklyn, New York 11234": {
+"lat": 40.6367347,
+"lon": -73.9241956,
+"display": "844, East 55th Street, Paerdegat, Brooklyn, Kings County, New York, 11234, United States",
+"approx": false,
+"query": "844 East 55th Street, Brooklyn, New York 11234, USA"
+},
+"8501 Bergenline Avenue, North Bergen, New Jersey 07047": {
+"lat": 40.805374,
+"lon": -74.004186,
+"display": "8501, Bergenline Avenue, Hudson Heights, North Bergen, Hudson County, New Jersey, 07047, United States",
+"approx": false,
+"query": "8501 Bergenline Avenue, North Bergen, New Jersey 07047, USA"
+},
+"8507 Widener Road, Philadelphia, Pennsylvania 19118": {
+"lat": 40.0364729,
+"lon": -75.2187086,
+"display": "USA Tax Service, Ridge Avenue, Roxborough, Northwest Philadelphia, Philadelphia, Philadelphia County, Pennsylvania, 19427, United States",
+"approx": true,
+"query": "8507 Widener Road, Philadelphia, Pennsylvania 19118, USA"
+},
+"86 Denton Ave, New Hyde Park, New York": {
+"lat": 40.7398526,
+"lon": -73.6712942,
+"display": "86, Denton Avenue, Hillside Manor, Village of New Hyde Park, Town of North Hempstead, Nassau County, New York, 11040, United States",
+"approx": false,
+"query": "86 Denton Ave, New Hyde Park, New York, USA"
+},
+"86 South Lake Drive, Red Bank, New Jersey": {
+"lat": 40.0757384,
+"lon": -74.4041622,
+"display": "New Jersey, United States",
+"approx": true,
+"query": "86 South Lake Drive, Red Bank, New Jersey, USA"
+},
+"867 Madison Avenue, New York, New York 10021": {
+"lat": 40.7714825,
+"lon": -73.9654692,
+"display": "Ralph Lauren, 867, Madison Avenue, Upper East Side, Manhattan Community Board 8, Manhattan, New York County, New York, 10021, United States",
+"approx": false,
+"query": "867 Madison Avenue, New York, New York 10021, USA"
+},
+"88 Emporia Ave. Elmont NY 11003": {
+"lat": 40.7062906,
+"lon": -73.7038683,
+"display": "88, Emporia Avenue, Elmont, Town of Hempstead, Nassau County, New York, 11003, United States",
+"approx": false,
+"query": "88 Emporia Ave. Elmont, USA"
+},
+"9 Buchanan Road, Pittsford, New York 14534": {
+"lat": 43.0658395,
+"lon": -77.5123039,
+"display": "9, Buchanan Road, Town of Pittsford, Monroe County, New York, 14534, United States",
+"approx": false,
+"query": "9 Buchanan Road, Pittsford, New York 14534, USA"
+},
+"9 East 16th St": {
+"lat": 40.7370779,
+"lon": -73.9917377,
+"display": "9, East 16th Street, Union Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10003, United States",
+"approx": false,
+"query": "9 East 16th St, USA"
+},
+"9 East 16th Street": {
+"lat": 40.7370779,
+"lon": -73.9917377,
+"display": "9, East 16th Street, Union Square, Manhattan Community Board 5, Manhattan, New York County, New York, 10003, United States",
+"approx": false,
+"query": "9 East 16th Street, USA"
+},
+"9 Hardscrabble Circle, Armonk, New York 10504": {
+"lat": 41.1488394,
+"lon": -73.6794114,
+"display": "9, Hardscrabble Circle, Windmill Farm, Armonk, Town of North Castle, Westchester County, New York, 10504, United States",
+"approx": false,
+"query": "9 Hardscrabble Circle, Armonk, New York 10504, USA"
+},
+"9 Meadow Road, Newtown, Connecticut 06470": {
+"lat": 41.4086362,
+"lon": -73.3018987,
+"display": "9, Meadow Road, Newtown, Western Connecticut Planning Region, Connecticut, 06470, United States",
+"approx": false,
+"query": "9 Meadow Road, Newtown, Connecticut 06470, USA"
+},
+"90 West Eckerson Road, Spring Valley, New York": {
+"lat": 41.1277768,
+"lon": -74.0440631,
+"display": "90, West Eckerson Road, Village of Spring Valley, Town of Ramapo, Rockland County, New York, 10977, United States",
+"approx": false,
+"query": "90 West Eckerson Road, Spring Valley, New York, USA"
+},
+"91 Martha Road, Harrington Park, New Jersey 07640": {
+"lat": 40.9834787,
+"lon": -73.982879,
+"display": "91, Martha Road, Harrington Park, Bergen County, New Jersey, 07640, United States",
+"approx": false,
+"query": "91 Martha Road, Harrington Park, New Jersey 07640, USA"
+},
+"915 West End Avenue, New York, New York": {
+"lat": 40.8008452,
+"lon": -73.9693393,
+"display": "915, West End Avenue, Manhattan Valley, Manhattan Community Board 7, Manhattan, New York County, New York, 10025, United States",
+"approx": false,
+"query": "915 West End Avenue, New York, New York, USA"
+},
+"939 Garden Street, Hoboken, New Jersey 07030": {
+"lat": 40.7481066,
+"lon": -74.0293807,
+"display": "939, Garden Street, Uptown, Hoboken, Hudson County, New Jersey, 07030, United States",
+"approx": false,
+"query": "939 Garden Street, Hoboken, New Jersey 07030, USA"
+},
+"9741 Blantyre Drive, Beverly Hills, California 90210": {
+"lat": 34.1274409,
+"lon": -118.4232232,
+"display": "9741, Blantyre Drive, Beverly Crest, Beverly Hills, Los Angeles County, California, 90210, United States",
+"approx": false,
+"query": "9741 Blantyre Drive, Beverly Hills, California 90210, USA"
+},
+"98 Van Cortland Pk, S. Bronx, N.Y. 10463": {
+"lat": 40.750632,
+"lon": -73.9687884,
+"display": "Permanent Mission of the United States to the United Nations, 799, 1st Avenue, Turtle Bay, Manhattan Community Board 6, Manhattan, New York County, New York, 10017, United States",
+"approx": true,
+"query": "98 Van Cortland Pk, S. Bronx, N.Y. 10463, USA"
+},
+"99 Simo-odanaka, Kawasaki City, Japan": {
+"lat": 35.5361402,
+"lon": 139.6699083,
+"display": "川崎市立看護大学, 1, 小倉四丁目, 小倉, 幸区, 川崎市, 神奈川県, 212-0054, 日本",
+"approx": true,
+"query": "99 Simo-odanaka, Kawasaki City, Japan"
+},
+"APO San Francisco 96248": null,
+"Allison Apts 109 F, Marlton N.J.": {
+"lat": 39.8975873,
+"lon": -74.9203005,
+"display": "Allison Apartments, Marlboro, Marlton, Evesham Township, Burlington County, New Jersey, United States",
+"approx": false,
+"query": "Allison Apts 109 F, Marlton N.J, USA"
+},
+"Apartment 11B Paradise Inn, Sulphur Springs, Texas 75482": {
+"lat": 33.1139158,
+"lon": -95.610763,
+"display": "Texas Street, Sulphur Springs, Hopkins County, Texas, 75482, United States",
+"approx": true,
+"query": "Apartment 11B Paradise Inn, Sulphur Springs, Texas 75482, USA"
+},
+"Apartment 23a, 20 East 9th Street, New York, New York 10003": {
+"lat": 40.750632,
+"lon": -73.9687884,
+"display": "Permanent Mission of the United States to the United Nations, 799, 1st Avenue, Turtle Bay, Manhattan Community Board 6, Manhattan, New York County, New York, 10017, United States",
+"approx": true,
+"query": "Apartment 23a, 20 East 9th Street, New York, New York 10003, USA"
+},
+"Apartment 7, 908 Devonshire Avenue, Woodstock, Ontario, Canada": {
+"lat": 50.000678,
+"lon": -86.000977,
+"display": "Ontario, Canada",
+"approx": true,
+"query": "Apartment 7, 908 Devonshire Avenue, Woodstock, Ontario, Canada"
+},
+"Apartment C14, 560 Burnside Avenue, East Hartford, Connecticut": {
+"lat": 41.6500201,
+"lon": -72.7342163,
+"display": "Connecticut, United States",
+"approx": true,
+"query": "Apartment C14, 560 Burnside Avenue, East Hartford, Connecticut, USA"
+},
+"Apt. 8A, 2500 Johnson Ave, New York": {
+"lat": 40.7127281,
+"lon": -74.0060152,
+"display": "New York, United States",
+"approx": true,
+"query": "Apt. 8A, 2500 Johnson Ave, New York, USA"
+},
+"At the lighthouse, Foot of Burd St, Nyack, NY": {
+"lat": 43.1561681,
+"lon": -75.8449946,
+"display": "New York, United States",
+"approx": true,
+"query": "At the lighthouse, Foot of Burd St, Nyack, NY, USA"
+},
+"Box 107, Port Jervis, New York 12771": {
+"lat": 40.7127281,
+"lon": -74.0060152,
+"display": "New York, United States",
+"approx": true,
+"query": "Box 107, Port Jervis, New York 12771, USA"
+},
+"Box 231 Rural Delivery 1, Skillman, New Jersey 08540": {
+"lat": 40.2204228,
+"lon": -74.7640415,
+"display": "Pawn USA, 6, North Broad Street, Mill Hill, Trenton, Mercer County, New Jersey, 08608, United States",
+"approx": true,
+"query": "Box 231 Rural Delivery 1, Skillman, New Jersey 08540, USA"
+},
+"Box 304, Staatsburg, New York": {
+"lat": 40.7127281,
+"lon": -74.0060152,
+"display": "New York, United States",
+"approx": true,
+"query": "Box 304, Staatsburg, New York, USA"
+},
+"Box 3673 Grand Central Station, New York, New York 10017": {
+"lat": 40.750632,
+"lon": -73.9687884,
+"display": "Permanent Mission of the United States to the United Nations, 799, 1st Avenue, Turtle Bay, Manhattan Community Board 6, Manhattan, New York County, New York, 10017, United States",
+"approx": true,
+"query": "Box 3673 Grand Central Station, New York, New York 10017, USA"
+},
+"Box 523, Mohegan Lake New York": {
+"lat": 41.314821,
+"lon": -73.8461971,
+"display": "Lake Mohegan, Town of Yorktown, Westchester County, New York, 10547, United States",
+"approx": true,
+"query": "Box 523, Mohegan Lake New York, USA"
+},
+"Calais Road, Mendham, New Jersey": {
+"lat": 40.7989878,
+"lon": -74.6103332,
+"display": "Calais Road, Mendham Township, Morris County, New Jersey, 07945, United States",
+"approx": false,
+"query": "Calais Road, Mendham, New Jersey, USA"
+},
+"Care Of Coil Winding Equipment Company, Railroad Plaza, Oyster Bay, New York 11771": {
+"lat": 40.7127281,
+"lon": -74.0060152,
+"display": "New York, United States",
+"approx": true,
+"query": "Care Of Coil Winding Equipment Company, Railroad Plaza, Oyster Bay, New York 11771, USA"
+},
+"Church St, Matawan, New Jersey": {
+"lat": 40.4098806,
+"lon": -74.230839,
+"display": "Church Street, Freneau, Matawan, Monmouth County, New Jersey, 07747, United States",
+"approx": false,
+"query": "Church St, Matawan, New Jersey, USA"
+},
+"Comac Road, Deer Park, Long Island, New York": {
+"lat": 40.7127281,
+"lon": -74.0060152,
+"display": "New York, United States",
+"approx": true,
+"query": "Comac Road, Deer Park, Long Island, New York, USA"
+},
+"Department of Materials Science, State University of New York at Stony Brook, New York 11790": {
+"lat": 40.7127281,
+"lon": -74.0060152,
+"display": "New York, United States",
+"approx": true,
+"query": "Department of Materials Science, State University of New York at Stony Brook, New York 11790, USA"
+},
+"General Delivery, Main Post Office, New York City, New York 10001": {
+"lat": 40.750632,
+"lon": -73.9687884,
+"display": "Permanent Mission of the United States to the United Nations, 799, 1st Avenue, Turtle Bay, Manhattan Community Board 6, Manhattan, New York County, New York, 10017, United States",
+"approx": true,
+"query": "General Delivery, Main Post Office, New York City, New York 10001, USA"
+},
+"General Post Office Box 1414, New York City, New York 10001; 9 Bleeker Street, New York City, New York 10012": {
+"lat": 40.750632,
+"lon": -73.9687884,
+"display": "Permanent Mission of the United States to the United Nations, 799, 1st Avenue, Turtle Bay, Manhattan Community Board 6, Manhattan, New York County, New York, 10017, United States",
+"approx": true,
+"query": "General Post Office Box 1414, New York City, New York 10001; 9 Bleeker Street, New York City, New York 10012, USA"
+},
+"Governors Island, New York, New York 10004": {
+"lat": 40.6932017,
+"lon": -74.0150361,
+"display": "Ilha dos governadores, Carder Road, Nolan Park, Colonels Row, Manhattan, New York County, New York, 10004, United States",
+"approx": false,
+"query": "Governors Island, New York, New York 10004, USA"
+},
+"Hightstown Road, Princeton Junction, New Jersey 08550": {
+"lat": 40.3083838,
+"lon": -74.6177173,
+"display": "Princeton-Hightstown Road, Princeton Colonial Park, West Windsor, Mercer County, New Jersey, 08520, United States",
+"approx": false,
+"query": "Hightstown Road, Princeton Junction, New Jersey 08550, USA"
+},
+"Jericho Road, Sherman, Connecticut 06784": {
+"lat": 41.5897136,
+"lon": -73.4938835,
+"display": "Jericho Road, Sherman, Western Connecticut Planning Region, Connecticut, 06784, United States",
+"approx": false,
+"query": "Jericho Road, Sherman, Connecticut 06784, USA"
+},
+"Knoxville, Tennessee 37916": {
+"lat": 35.9603948,
+"lon": -83.9210261,
+"display": "Knoxville, Knox County, East Tennessee, Tennessee, United States",
+"approx": false,
+"query": "Knoxville, Tennessee 37916, USA"
+},
+"Mail station 32, Westinghouse Electric Corp, Youngwood, Penna.": {
+"lat": 40.9699889,
+"lon": -77.7278831,
+"display": "Pennsylvania, United States",
+"approx": true,
+"query": "Mail station 32, Westinghouse Electric Corp, Youngwood, Penna, USA"
+},
+"Midtown Plaza 700 East Water Street, Syracuse, New York 13210": {
+"lat": 40.7127281,
+"lon": -74.0060152,
+"display": "New York, United States",
+"approx": true,
+"query": "Midtown Plaza 700 East Water Street, Syracuse, New York 13210, USA"
+},
+"Mountainview Road, Warren, New Jersey 07060": {
+"lat": 40.6378158,
+"lon": -74.5144674,
+"display": "Mountainview Road, Mount Bethel, Warren Township, Somerset County, New Jersey, 07059, United States",
+"approx": false,
+"query": "Mountainview Road, Warren, New Jersey 07060, USA"
+},
+"Newark, New Jersey 07102": {
+"lat": 40.735657,
+"lon": -74.1723667,
+"display": "Newark, Essex County, New Jersey, United States",
+"approx": false,
+"query": "Newark, New Jersey 07102, USA"
+},
+"Old York Road, 2, Neshanic Station, New Jersey": {
+"lat": 40.0757384,
+"lon": -74.4041622,
+"display": "New Jersey, United States",
+"approx": true,
+"query": "Old York Road, 2, Neshanic Station, New Jersey, USA"
+},
+"P.O. Box 128, Vails Gate, New York": {
+"lat": 41.4603375,
+"lon": -74.0534646,
+"display": "Vails Gate, Vails Gate Junction, Vails Gate, Town of New Windsor, Orange County, New York, 12584, United States",
+"approx": false,
+"query": "P.O. Box 128, Vails Gate, New York, USA"
+},
+"P.O. Box 281, Pasadena California 91102": {
+"lat": 33.6860896,
+"lon": -117.3391398,
+"display": "Fix Auto USA, 18560, Pasadena Avenue, North Elsinore, Business District, Lake Elsinore, Riverside County, California, 92530, United States",
+"approx": false,
+"query": "P.O. Box 281, Pasadena California 91102, USA"
+},
+"P.O. Box 30211, Bethesda, Maryland 20014": {
+"lat": 42.5364661,
+"lon": -74.8865453,
+"display": "Town of Maryland, Otsego County, New York, 12155, United States",
+"approx": true,
+"query": "P.O. Box 30211, Bethesda, Maryland 20014, USA"
+},
+"P.O. Box 44 Oakville, California 94562": {
+"lat": 38.628683,
+"lon": -92.5659635,
+"display": "California, Moniteau County, Missouri, 65018, United States",
+"approx": true,
+"query": "P.O. Box 44 Oakville, California 94562, USA"
+},
+"PO Box 608, Carpinteria, California 93013": {
+"lat": 34.2727885,
+"lon": -119.2609533,
+"display": "USA, East Thompson Boulevard, The Marketplace, Ventura, Ventura County, California, 93003, United States",
+"approx": true,
+"query": "PO Box 608, Carpinteria, California 93013, USA"
+},
+"Penzel Apts C-33, Upper Darby, Pa 19082": {
+"lat": 39.9116437,
+"lon": -75.235325,
+"display": "H.E.L.P. USA, Grovers Avenue, Elmwood Park, Southwest Philadelphia, Philadelphia, Philadelphia County, Pennsylvania, 19153, United States",
+"approx": true,
+"query": "Penzel Apts C-33, Upper Darby, Pa 19082, USA"
+},
+"Pinewood Drive, Amherst, New Hampshire 03031": {
+"lat": 42.8256746,
+"lon": -71.6119094,
+"display": "Pinewood Drive, Ponemah, Amherst, Hillsborough County, New Hampshire, 03031, United States",
+"approx": false,
+"query": "Pinewood Drive, Amherst, New Hampshire 03031, USA"
+},
+"Prastgatan 28 Stockholm, Sweden": {
+"lat": 59.3251311,
+"lon": 18.0695272,
+"display": "28, Prästgatan, Gamla stan, Södermalms stadsdelsområde, Stockholm, Stockholms kommun, Stockholms län, 111 28, Sverige",
+"approx": false,
+"query": "Prastgatan 28 Stockholm, Sweden"
+},
+"R.R.1 Box 25013, Penkasie, Pa. 822-0838": {
+"lat": 44.2898688,
+"lon": -70.0404764,
+"display": "Pa, Winthrop, Kennebec County, Maine, 04364, United States",
+"approx": true,
+"query": "R.R.1 Box 25013, Penkasie, Pa. 822-0838, USA"
+},
+"R.R.1 Box 25013, Pensakie, Pa.": {
+"lat": 40.9699889,
+"lon": -77.7278831,
+"display": "Pennsylvania, United States",
+"approx": true,
+"query": "R.R.1 Box 25013, Pensakie, Pa, USA"
+},
+"RFD #1 Wall Street Hebron, Connecticut 06248": {
+"lat": 41.5884995,
+"lon": -72.4930976,
+"display": "Pumpkintown USA, East High Street, East Hampton, Lower Connecticut River Valley Planning Region, Connecticut, 06424, United States",
+"approx": true,
+"query": "RFD #1 Wall Street Hebron, Connecticut 06248, USA"
+},
+"Rio Torto, Fiesole, Florence, Italy, 59775": {
+"lat": 32.1840381,
+"lon": -96.8847194,
+"display": "Italy, Ellis County, Texas, 76651, United States",
+"approx": true,
+"query": "Rio Torto, Fiesole, Florence, Italy, 59775"
+},
+"Rock Hill, Wanaque, New Jersey 07465": {
+"lat": 40.9903003,
+"lon": -74.2993594,
+"display": "Camfil USA, 1, North Corporate Drive, Riverdale, Morris County, New Jersey, 07457, United States",
+"approx": true,
+"query": "Rock Hill, Wanaque, New Jersey 07465, USA"
+},
+"Route 23 & Riverdale Circle, Post Office Box 5, Riverdale, New Jersey 07457": {
+"lat": 40.9903003,
+"lon": -74.2993594,
+"display": "Camfil USA, 1, North Corporate Drive, Riverdale, Morris County, New Jersey, 07457, United States",
+"approx": true,
+"query": "Route 23 & Riverdale Circle, Post Office Box 5, Riverdale, New Jersey 07457, USA"
+},
+"Rural Delivery 2, Route 33, Farmingdale, New Jersey": {
+"lat": 40.0757384,
+"lon": -74.4041622,
+"display": "New Jersey, United States",
+"approx": true,
+"query": "Rural Delivery 2, Route 33, Farmingdale, New Jersey, USA"
+},
+"School House Lane, Philadelphia, PA 19144": {
+"lat": 40.0344825,
+"lon": -75.1726025,
+"display": "East School House Lane, Wister, Northwest Philadelphia, Philadelphia, Philadelphia County, Pennsylvania, 19144, United States",
+"approx": false,
+"query": "School House Lane, Philadelphia, USA"
+},
+"South Highland Road, Wappingers Falls, New York 12590": {
+"lat": 40.7127281,
+"lon": -74.0060152,
+"display": "New York, United States",
+"approx": true,
+"query": "South Highland Road, Wappingers Falls, New York 12590, USA"
+},
+"Spear Lane, Denville, New Jersey 07834": {
+"lat": 40.905762,
+"lon": -74.4943963,
+"display": "Spear Lane, Denville, Morris County, New Jersey, 07834, United States",
+"approx": false,
+"query": "Spear Lane, Denville, New Jersey 07834, USA"
+},
+"Stony Point, NY": {
+"lat": 41.2295386,
+"lon": -73.9870847,
+"display": "Town of Stony Point, Rockland County, New York, United States",
+"approx": false,
+"query": "Stony Point, NY, USA"
+},
+"Sutton Drive, Apartment I-2, Matawan, New Jersey 07747": {
+"lat": 40.4143935,
+"lon": -74.3657016,
+"display": "Tai Chi USA, 177, Main Street, Old Bridge, East Brunswick Township, Middlesex County, New Jersey, 08816, United States",
+"approx": true,
+"query": "Sutton Drive, Apartment I-2, Matawan, New Jersey 07747, USA"
+},
+"Syosset, Long Island, NY": {
+"lat": 43.1561681,
+"lon": -75.8449946,
+"display": "New York, United States",
+"approx": true,
+"query": "Syosset, Long Island, NY, USA"
+},
+"Tucuman 141, Buenos Aires, Argentina": {
+"lat": 40.7352578,
+"lon": -73.8625831,
+"display": "Argentina, 97-05, Horace Harding Expressway, Queens, Queens County, New York, 11368, United States",
+"approx": true,
+"query": "Tucuman 141, Buenos Aires, Argentina, USA"
+},
+"Via Grossich 17, 20131 Milano Italia": null,
+"W120 Century Rd, Paramus, New Jersey 07653": {
+"lat": 40.9285962,
+"lon": -74.071295,
+"display": "East Century Road, Paramus, Bergen County, New Jersey, 07653, United States",
+"approx": false,
+"query": "W120 Century Rd, Paramus, New Jersey 07653, USA"
+},
+"apartment 11, 57 Brighton Avenue, Boston, Massachusetts 02134": {
+"lat": 42.3304772,
+"lon": -71.1247763,
+"display": "SGI-USA New England Buddhist Center, 303, Boylston Street, Brookline Village, North Brookline, Brookline, Norfolk County, Massachusetts, 02445, United States",
+"approx": true,
+"query": "apartment 11, 57 Brighton Avenue, Boston, Massachusetts 02134, USA"
+},
+"apt I-6, Sutton Dr. Matawan, New Jersey": {
+"lat": 40.0757384,
+"lon": -74.4041622,
+"display": "New Jersey, United States",
+"approx": true,
+"query": "apt I-6, Sutton Dr. Matawan, New Jersey, USA"
+},
+"c/o Just Plastics Incorporated, 250 Dyckman Street, New York, New York 10034": {
+"lat": 40.7127281,
+"lon": -74.0060152,
+"display": "New York, United States",
+"approx": true,
+"query": "c/o Just Plastics Incorporated, 250 Dyckman Street, New York, New York 10034, USA"
+},
+"c/o Stanford Research Institute, Menlo Park, California 94025": {
+"lat": 37.4501963,
+"lon": -122.1842937,
+"display": "State of California Dept. Of Rehabilitiation, 800, Menlo Avenue, Downtown Menlo Park, Menlo Park, San Mateo County, California, 94025, United States",
+"approx": true,
+"query": "c/o Stanford Research Institute, Menlo Park, California 94025, USA"
+},
+"via Cittadella 19, Pinerolo, Torino, Italy": {
+"lat": 44.8909677,
+"lon": 7.3271999,
+"display": "Via della Cittadella, Abbadia Alpina, Pinerolo, Torino, Piemonte, 10064, Italia",
+"approx": false,
+"query": "via Cittadella 19, Pinerolo, Torino, Italy"
+}
+}

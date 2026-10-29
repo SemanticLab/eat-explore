@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Matchmaking File</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;900&family=Courier+Prime:wght@400;700&display=swap">
+<link rel="stylesheet" href="../shared/style.css">
+<style>
+.layout{display:grid;gap:20px;grid-template-columns:minmax(280px,360px) minmax(0,1fr)}
+@media (max-width:900px){.layout{grid-template-columns:1fr}}
+.englist{list-style:none;margin:0;padding:0;max-height:70vh;overflow:auto;border:1px solid var(--rule);background:var(--panel)}
+.englist li{padding:8px 12px;border-bottom:1px solid var(--rule);cursor:pointer;display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+.englist li:hover{background:var(--panel2)}
+.englist li[aria-selected="true"]{background:var(--enc)}
+.englist .name{font-weight:600}
+.englist .sub{font-size:12.5px;color:var(--muted);display:block}
+.scans{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin:12px 0}
+.scans figure{margin:0}.scans figcaption{font-size:12px;color:var(--muted);margin-top:4px}
+.artists{list-style:none;padding:0;margin:0;columns:2;column-gap:24px}
+@media (max-width:600px){.artists{columns:1}}
+.artists li{break-inside:avoid;padding:5px 0;border-bottom:1px solid var(--rule);font-size:14.5px}
+.tabs{display:flex;gap:6px;margin:0 0 14px}
+#graph{width:100%;height:70vh;border:1px solid var(--rule);background:var(--panel);display:block}
+#graph text{font-family:var(--sans);font-size:11px;fill:var(--fg)}
+.legend{font-size:13px;color:var(--muted);display:flex;gap:16px;flex-wrap:wrap;margin:8px 0}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;vertical-align:-1px;margin-right:4px}
+.stats{display:flex;gap:22px;flex-wrap:wrap;margin:6px 0 16px;font-size:14px}
+.stats b{font-size:22px;font-weight:900;display:block;line-height:1.1}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div id="top"></div>
+<header class="page">
+  <div class="eyebrow">E.A.T. Technical Services Program · McBee edge-notched cards · Getty Research Institute</div>
+  <h1>The Matchmaking File</h1>
+  <p class="lede">In 1966–67 E.A.T. kept one card per engineer who volunteered to work with an artist. The typed front gives employer, address and specialities; the handwritten back lists the artists the engineer was proposed to. Pick an engineer to see both sides of the card and the proposed pairings.</p>
+</header>
+<div class="stats" id="stats"></div>
+<div class="tabs" role="tablist">
+  <button id="tab-cards" role="tab" aria-pressed="true">Cards</button>
+  <button id="tab-graph" role="tab" aria-pressed="false">Engineer–artist graph</button>
+</div>
+<section id="view-cards">
+<div class="toolbar">
+  <div class="field"><label for="q">Search</label><input id="q" type="search" placeholder="engineer, artist, employer, field"></div>
+  <div class="field"><label for="fow">Field of work</label><select id="fow"><option value="">All</option></select></div>
+  <div class="field"><label for="emp">Employer</label><select id="emp"><option value="">All</option></select></div>
+  <div class="field"><label for="region">Region</label><select id="region"><option value="">All</option></select></div>
+  <div class="field"><label for="sort">Sort</label><select id="sort"><option value="name">Name</option><option value="artists">Most artists proposed</option><option value="kg">In Knowledge Graph first</option></select></div>
+</div>
+<div class="layout">
+  <div><div class="count" id="listcount"></div><ul class="englist" id="list" role="listbox"></ul></div>
+  <div id="detail" class="panel"><div class="loading">Querying query.semlab.io</div></div>
+</div>
+</section>
+<section id="view-graph" hidden>
+  <p class="small muted">Every engineer (yellow) linked to every artist (blue) named on a card back. Drag to rearrange; click a node to open the engineer's card or the artist's list. Size follows the number of proposals.</p>
+  <div class="legend"><span><span class="dot" style="background:var(--accent)"></span>engineer (card subject)</span><span><span class="dot" style="background:var(--ink)"></span>artist</span><span><span class="dot" style="background:var(--ok)"></span>artist who also exists in the Knowledge Graph</span></div>
+  <svg id="graph"></svg>
+</section>
+<div id="foot"></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>

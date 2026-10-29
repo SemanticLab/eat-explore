@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Technology as the Join</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;900&family=Courier+Prime:wght@400;700&display=swap">
+<link rel="stylesheet" href="../shared/style.css">
+<style>
+.tiles{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));margin:10px 0 18px}
+.tile{background:var(--panel);border:1px solid var(--rule);padding:12px 14px}
+.tile b{display:block;font-size:30px;font-weight:900;line-height:1.05}
+.tile span{font-size:13px;color:var(--muted)}
+.cols{display:grid;gap:20px;grid-template-columns:minmax(260px,1fr) minmax(0,1.6fr)}
+@media (max-width:900px){.cols{grid-template-columns:1fr}}
+.terms{list-style:none;margin:0;padding:0;max-height:70vh;overflow:auto;border:1px solid var(--rule);background:var(--panel)}
+.terms li{display:grid;grid-template-columns:1fr auto;gap:8px;padding:6px 12px;border-bottom:1px solid var(--rule);cursor:pointer;font-size:14px;align-items:center}
+.terms li:hover{background:var(--panel2)} .terms li[aria-selected="true"]{background:var(--enc)}
+.terms .cls{display:block;font-size:11.5px;color:var(--muted)}
+.terms .bars{display:flex;gap:3px;align-items:center;font-family:var(--mono);font-size:11px;color:var(--muted)}
+.terms .bars i{display:inline-block;height:9px;border-radius:2px}
+.two{display:grid;gap:18px;grid-template-columns:1fr 1fr}
+@media (max-width:700px){.two{grid-template-columns:1fr}}
+.two h3{display:flex;justify-content:space-between;border-bottom:2px solid var(--rule);padding-bottom:3px}
+.two ul{list-style:none;margin:0;padding:0;font-size:14.5px}
+.two li{padding:5px 0;border-bottom:1px solid var(--rule)}
+.sugg li{display:flex;justify-content:space-between;gap:10px}
+.score{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.legend{display:flex;gap:16px;font-size:13px;color:var(--muted);margin:4px 0 8px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;vertical-align:-1px;margin-right:5px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div id="top"></div>
+<header class="page">
+  <div class="eyebrow">What works used · what engineers worked in</div>
+  <h1>Technology as the Join</h1>
+  <p class="lede">Works and performances say what they <span class="mono">use</span>: devices, materials, phenomena. Engineers on the cards say their <span class="mono">field of work</span>. Where the two vocabularies share a term you can ask which volunteers worked in the technologies E.A.T. actually needed. Where they do not, this page suggests reconciliations.</p>
+</header>
+<div class="tiles" id="tiles"></div>
+<div class="toolbar">
+  <div class="field"><label for="q">Search terms</label><input id="q" type="search" placeholder="laser, sound, television…"></div>
+  <div class="field"><label for="show">Show</label><select id="show"><option value="all">All terms</option><option value="shared">Shared by both vocabularies</option><option value="uses">Used by works only</option><option value="fow">Fields of work only</option></select></div>
+  <div class="field"><label for="sort">Sort</label><select id="sort"><option value="total">Most connected</option><option value="works">Most works</option><option value="eng">Most engineers</option><option value="name">Name</option></select></div>
+</div>
+<div class="legend"><span><i style="background:var(--chart1)"></i>works that use the term</span><span><i style="background:var(--chart2)"></i>engineers in the field</span></div>
+<div class="cols">
+  <div><div class="count" id="tcount"></div><ul class="terms" id="terms" role="listbox"></ul></div>
+  <div id="detail" class="panel"><div class="loading">Querying query.semlab.io</div></div>
+</div>
+<div id="foot"></div>
+</div>
+<script type="module" src="app.js"></script>
+</body>
+</html>

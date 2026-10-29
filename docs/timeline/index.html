@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Archive Against Press</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;900&family=Courier+Prime:wght@400;700&display=swap">
+<link rel="stylesheet" href="../shared/style.css">
+<style>
+.chart{position:relative;background:var(--panel);border:1px solid var(--rule);padding:12px 12px 6px;margin:10px 0 6px}
+.chart svg{display:block;width:100%;height:auto}
+.chart .tip{position:absolute;pointer-events:none;background:var(--fg);color:var(--bg);font-size:12.5px;padding:6px 9px;border-radius:3px;white-space:nowrap;transform:translate(-50%,-110%);display:none;z-index:2}
+.legend{display:flex;gap:18px;flex-wrap:wrap;font-size:13.5px;margin:4px 0 10px}
+.legend .sw{display:inline-block;width:12px;height:12px;border-radius:2px;vertical-align:-1px;margin-right:6px}
+.lanes{display:grid;gap:20px;grid-template-columns:1fr 1fr}
+@media (max-width:860px){.lanes{grid-template-columns:1fr}}
+.lane h3{display:flex;justify-content:space-between;border-bottom:2px solid var(--rule);padding-bottom:3px}
+.lane h3 .n{font-weight:400;color:var(--muted);font-family:var(--mono);font-size:13px}
+.lane ul{list-style:none;margin:0;padding:0;font-size:14.5px}
+.lane li{padding:6px 0;border-bottom:1px solid var(--rule);display:flex;gap:10px;align-items:flex-start}
+.lane li:last-child{border:none}
+.lane .d{font-family:var(--mono);font-size:12px;color:var(--muted);flex:none;width:86px;padding-top:2px}
+.lane .cls{font-size:12px;color:var(--muted)}
+.linked{background:var(--bib);font-size:11px;padding:0 6px;border-radius:2px;font-family:var(--mono)}
+.months{display:grid;grid-template-columns:repeat(12,1fr);gap:4px;margin:8px 0 14px}
+.months button{padding:6px 2px;font-size:12px;display:flex;flex-direction:column;gap:2px;align-items:center}
+.months button b{font-size:14px}
+.months button[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.months .bars{display:flex;gap:2px;align-items:flex-end;height:22px}
+.months .bars i{display:block;width:6px;border-radius:2px 2px 0 0}
+table.tv{margin:10px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div id="top"></div>
+<header class="page">
+  <div class="eyebrow">Knowledge Graph dated items · Bibliography references · 1960–1980</div>
+  <h1>Archive Against Press</h1>
+  <p class="lede">Two lanes on one axis. The amber lane is what E.A.T. itself produced and kept: performances, letters, press releases, photographs. The blue lane is what the world printed about it. Click a year, then a month, to read the items.</p>
+</header>
+<div class="toolbar">
+  <div class="field"><label for="cls">Archive lane: type</label><select id="cls"><option value="">All types</option></select></div>
+  <div class="field"><label for="pub">Press lane: publication</label><select id="pub"><option value="">All publications</option></select></div>
+  <div class="field"><label for="q">Search</label><input id="q" type="search" placeholder="title, author, place"></div>
+  <button id="tableview" aria-pressed="false">Table view</button>
+</div>
+<div class="legend"><span><span class="sw" style="background:var(--chart1)"></span>Archive: dated Knowledge Graph items</span><span><span class="sw" style="background:var(--chart2)"></span>Press: bibliography references</span><span class="muted" id="range"></span></div>
+<div class="chart" id="chart"><div class="loading">Querying query.semlab.io</div><div class="tip" id="tip"></div></div>
+<div id="months"></div>
+<div id="table" hidden></div>
+<div id="lists"></div>
+<div id="foot"></div>
+</div>
+<script type="module" src="app.js"></script>
+</body>
+</html>

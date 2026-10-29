@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>9 Evenings, Night by Night</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;900&family=Courier+Prime:wght@400;700&display=swap">
+<link rel="stylesheet" href="../shared/style.css">
+<style>
+.calendar{display:grid;grid-template-columns:repeat(9,minmax(96px,1fr));gap:6px;margin:16px 0 22px}
+.night{background:var(--panel);border:1px solid var(--rule);padding:8px 8px 6px;min-width:0}
+.night .d{font-family:var(--mono);font-size:12px;color:var(--muted);letter-spacing:.05em}
+.night .d b{display:block;font-family:var(--sans);font-size:22px;font-weight:900;color:var(--fg);line-height:1.1}
+.night button{display:block;width:100%;text-align:left;margin-top:6px;padding:5px 7px;font-size:13px;line-height:1.25;border-radius:2px}
+.night button[aria-pressed="true"]{background:var(--accent);color:var(--accent-fg);border-color:var(--accent)}
+.night .dark{font-size:12px;color:var(--muted);margin-top:8px;font-style:italic}
+.cal-scroll{overflow-x:auto}
+.detail{display:grid;gap:20px;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr)}
+@media (max-width:900px){.detail{grid-template-columns:1fr}}
+.roles{display:grid;gap:10px 18px;grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}
+.roles h4{margin:0 0 4px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.roles ul{list-style:none;margin:0;padding:0;font-size:14.5px}
+.roles li{display:flex;gap:8px;align-items:center;padding:3px 0}
+.roles img{width:28px;height:28px;object-fit:cover;border-radius:50%;flex:none;background:var(--panel2)}
+.kit{display:flex;flex-wrap:wrap;gap:6px}
+.kit a{font-size:13px;padding:2px 9px;border:1px solid var(--rule);border-radius:14px;text-decoration:none;color:var(--fg);background:var(--panel)}
+.kit a:hover{border-color:var(--accent)}
+.kit .cls{display:block;width:100%;font-size:11.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin-top:6px}
+.docs li{display:flex;gap:10px;align-items:flex-start}
+.docs img{width:48px;height:60px;object-fit:cover;border:1px solid var(--rule);flex:none}
+.press li{font-size:14px}
+.press .pub{color:var(--muted)}
+.stats{display:flex;gap:22px;flex-wrap:wrap;margin:6px 0 10px;font-size:14px}
+.stats b{font-size:22px;font-weight:900;display:block;line-height:1.1}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div id="top"></div>
+<header class="page">
+  <div class="eyebrow">69th Regiment Armory, Lexington Avenue at 26th Street · 13–23 October 1966</div>
+  <h1>9 Evenings, Night by Night</h1>
+  <p class="lede">Ten works by ten artists, each performed twice, with some thirty Bell Labs engineers behind them. Every performance in the Knowledge Graph is a dated instance with its own crew, roles and equipment, and the programme, press releases and photographs that document it.</p>
+</header>
+<div class="stats" id="stats"></div>
+<div class="cal-scroll"><div class="calendar" id="calendar"></div></div>
+<div id="detail"><div class="loading">Querying query.semlab.io</div></div>
+<div id="foot"></div>
+</div>
+<script type="module" src="app.js"></script>
+</body>
+</html>

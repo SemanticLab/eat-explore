@@ -1,0 +1,3173 @@
+{
+ "Q1193": {
+  "qid": "Q1193",
+  "label": "Bill Barron",
+  "classes": [
+   [
+    "Q1",
+    "person"
+   ]
+  ],
+  "projects": [
+   "Q18807",
+   "Q21217"
+  ]
+ },
+ "Q1571": {
+  "qid": "Q1571",
+  "label": "Ralph Cooper",
+  "classes": [
+   [
+    "Q1",
+    "person"
+   ]
+  ],
+  "projects": [
+   "Q21217"
+  ]
+ },
+ "Q1960": {
+  "qid": "Q1960",
+  "label": "interview transcript",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": [
+   "Q18807",
+   "Q21217"
+  ]
+ },
+ "Q1982": {
+  "qid": "Q1982",
+  "label": "Bob Hope",
+  "classes": [
+   [
+    "Q1",
+    "person"
+   ]
+  ],
+  "projects": [
+   "Q21217"
+  ]
+ },
+ "Q2013": {
+  "qid": "Q2013",
+  "label": "block",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q1014": {
+  "qid": "Q1014",
+  "label": "Yusef Lateef",
+  "classes": [
+   [
+    "Q1",
+    "person"
+   ]
+  ],
+  "projects": [
+   "Q21217"
+  ]
+ },
+ "Q19058": {
+  "qid": "Q19058",
+  "label": "city",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19063": {
+  "qid": "Q19063",
+  "label": "class",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19059": {
+  "qid": "Q19059",
+  "label": "neighborhood",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19049": {
+  "qid": "Q19049",
+  "label": "organization",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19053": {
+  "qid": "Q19053",
+  "label": "place",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19057": {
+  "qid": "Q19057",
+  "label": "state",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19056": {
+  "qid": "Q19056",
+  "label": "country",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": [
+   "Q18807"
+  ]
+ },
+ "Q19085": {
+  "qid": "Q19085",
+  "label": "business",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19047": {
+  "qid": "Q19047",
+  "label": "group",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19091": {
+  "qid": "Q19091",
+  "label": "letter",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19090": {
+  "qid": "Q19090",
+  "label": "memorandum",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19089": {
+  "qid": "Q19089",
+  "label": "press release",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19069": {
+  "qid": "Q19069",
+  "label": "document",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19071": {
+  "qid": "Q19071",
+  "label": "event",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19074": {
+  "qid": "Q19074",
+  "label": "performance",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19072": {
+  "qid": "Q19072",
+  "label": "venue",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19079": {
+  "qid": "Q19079",
+  "label": "publication",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q2033": {
+  "qid": "Q2033",
+  "label": "Smithsonian",
+  "classes": [
+   [
+    "Q1804",
+    "institution"
+   ],
+   [
+    "Q19049",
+    "organization"
+   ]
+  ],
+  "projects": [
+   "Q18807",
+   "Q21217"
+  ]
+ },
+ "Q2032": {
+  "qid": "Q2032",
+  "label": "University of Michigan",
+  "classes": [
+   [
+    "Q1804",
+    "institution"
+   ]
+  ],
+  "projects": [
+   "Q21217"
+  ]
+ },
+ "Q2090": {
+  "qid": "Q2090",
+  "label": "Charles Davis (saxophonist) Hamilton College Interview Block 0",
+  "classes": [
+   [
+    "Q2013",
+    "block"
+   ]
+  ],
+  "projects": [
+   "Q21217"
+  ]
+ },
+ "Q2076": {
+  "qid": "Q2076",
+  "label": "Mona Hinton Hamilton College Interview",
+  "classes": [
+   [
+    "Q1960",
+    "interview transcript"
+   ]
+  ],
+  "projects": [
+   "Q21217"
+  ]
+ },
+ "Q2130": {
+  "qid": "Q2130",
+  "label": "Charles Davis (saxophonist) Hamilton College Interview Block 40",
+  "classes": [
+   [
+    "Q2013",
+    "block"
+   ]
+  ],
+  "projects": [
+   "Q21217"
+  ]
+ },
+ "Q18809": {
+  "qid": "Q18809",
+  "label": "borough",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": [
+   "Q18807"
+  ]
+ },
+ "Q18807": {
+  "qid": "Q18807",
+  "label": "Linking Lost Jazz Shrines",
+  "classes": [
+   [
+    "Q19064",
+    "Semantic Lab project"
+   ]
+  ],
+  "projects": [
+   "Q2"
+  ]
+ },
+ "Q18857": {
+  "qid": "Q18857",
+  "label": "Jazz 966",
+  "classes": [
+   [
+    "Q18806",
+    "Linking Lost Jazz \"Shrine\""
+   ]
+  ],
+  "projects": [
+   "Q18807"
+  ]
+ },
+ "Q18803": {
+  "qid": "Q18803",
+  "label": "women",
+  "classes": [
+   [
+    "Q21151",
+    "demographica"
+   ]
+  ],
+  "projects": [
+   "Q20613",
+   "Q20655",
+   "Q21217"
+  ]
+ },
+ "Q18885": {
+  "qid": "Q18885",
+  "label": "The East",
+  "classes": [
+   [
+    "Q19049",
+    "organization"
+   ],
+   [
+    "Q18806",
+    "Linking Lost Jazz \"Shrine\""
+   ]
+  ],
+  "projects": [
+   "Q18807"
+  ]
+ },
+ "Q18894": {
+  "qid": "Q18894",
+  "label": "The Muse",
+  "classes": [
+   [
+    "Q18806",
+    "Linking Lost Jazz \"Shrine\""
+   ]
+  ],
+  "projects": [
+   "Q18807"
+  ]
+ },
+ "Q18980": {
+  "qid": "Q18980",
+  "label": "Kwesi Mensah Wali",
+  "classes": [
+   [
+    "Q1",
+    "person"
+   ]
+  ],
+  "projects": [
+   "Q18807"
+  ]
+ },
+ "Q19002": {
+  "qid": "Q19002",
+  "label": "Orville O'Brien",
+  "classes": [
+   [
+    "Q1",
+    "person"
+   ]
+  ],
+  "projects": [
+   "Q18807"
+  ]
+ },
+ "Q18806": {
+  "qid": "Q18806",
+  "label": "Linking Lost Jazz \"Shrine\"",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": [
+   "Q18807"
+  ]
+ },
+ "Q10799": {
+  "qid": "Q10799",
+  "label": "Louie Bellson Smithsonian Interview Block 3",
+  "classes": [
+   [
+    "Q2013",
+    "block"
+   ]
+  ],
+  "projects": [
+   "Q21217"
+  ]
+ },
+ "Q19048": {
+  "qid": "Q19048",
+  "label": "agent",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19077": {
+  "qid": "Q19077",
+  "label": "activity",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19086": {
+  "qid": "Q19086",
+  "label": "guest list",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19082": {
+  "qid": "Q19082",
+  "label": "musician",
+  "classes": [
+   [
+    "Q19070",
+    "occupation"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19076": {
+  "qid": "Q19076",
+  "label": "technology",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19073": {
+  "qid": "Q19073",
+  "label": "artwork (concept)",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19104": {
+  "qid": "Q19104",
+  "label": "E.A.T. Knowledge Graph Project",
+  "classes": [
+   [
+    "Q19064",
+    "Semantic Lab project"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19093": {
+  "qid": "Q19093",
+  "label": "address list",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19096": {
+  "qid": "Q19096",
+  "label": "booklet",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19097": {
+  "qid": "Q19097",
+  "label": "family",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19094": {
+  "qid": "Q19094",
+  "label": "newspaper clipping",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19095": {
+  "qid": "Q19095",
+  "label": "newsletter",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19098": {
+  "qid": "Q19098",
+  "label": "cinematic work (concept)",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19070": {
+  "qid": "Q19070",
+  "label": "occupation",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19064": {
+  "qid": "Q19064",
+  "label": "Semantic Lab project",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19065": {
+  "qid": "Q19065",
+  "label": "men",
+  "classes": [
+   [
+    "Q21151",
+    "demographica"
+   ]
+  ],
+  "projects": [
+   "Q20613",
+   "Q20655",
+   "Q21217"
+  ]
+ },
+ "Q19067": {
+  "qid": "Q19067",
+  "label": "Willie Mae Wong",
+  "classes": [
+   [
+    "Q1",
+    "person"
+   ]
+  ],
+  "projects": [
+   "Q20613",
+   "Q20655"
+  ]
+ },
+ "Q19486": {
+  "qid": "Q19486",
+  "label": "New York (N.Y.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19142": {
+  "qid": "Q19142",
+  "label": "Andover (Mass.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19309": {
+  "qid": "Q19309",
+  "label": "Hasbrouck Heights (N.J.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19380": {
+  "qid": "Q19380",
+  "label": "Kewanee (Miss.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q19607": {
+  "qid": "Q19607",
+  "label": "Stockholm (Sweden)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q20540": {
+  "qid": "Q20540",
+  "label": "art critic",
+  "classes": [
+   [
+    "Q19070",
+    "occupation"
+   ]
+  ],
+  "projects": []
+ },
+ "Q20638": {
+  "qid": "Q20638",
+  "label": "article",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q20618": {
+  "qid": "Q20618",
+  "label": "school",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": [
+   "Q18807",
+   "Q20719"
+  ]
+ },
+ "Q20581": {
+  "qid": "Q20581",
+  "label": "Zena Latto",
+  "classes": [
+   [
+    "Q1",
+    "person"
+   ]
+  ],
+  "projects": [
+   "Q20613",
+   "Q20655"
+  ]
+ },
+ "Q20613": {
+  "qid": "Q20613",
+  "label": "Women of Jazz",
+  "classes": [
+   [
+    "Q19064",
+    "Semantic Lab project"
+   ]
+  ],
+  "projects": [
+   "Q2"
+  ]
+ },
+ "Q21217": {
+  "qid": "Q21217",
+  "label": "Linked Jazz Oral History Network",
+  "classes": [
+   [
+    "Q19064",
+    "Semantic Lab project"
+   ]
+  ],
+  "projects": [
+   "Q2"
+  ]
+ },
+ "Q20664": {
+  "qid": "Q20664",
+  "label": "property",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21515": {
+  "qid": "Q21515",
+  "label": "Aberdeen (Scotland)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21516": {
+  "qid": "Q21516",
+  "label": "Atlanta (Ga.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21517": {
+  "qid": "Q21517",
+  "label": "Baltimore (Md.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21518": {
+  "qid": "Q21518",
+  "label": "Boston (Mass.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21519": {
+  "qid": "Q21519",
+  "label": "Bridgeport (Conn.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21522": {
+  "qid": "Q21522",
+  "label": "Buffalo (N.Y.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21523": {
+  "qid": "Q21523",
+  "label": "Chicago (Ill.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21524": {
+  "qid": "Q21524",
+  "label": "Cleveland (Ohio)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21526": {
+  "qid": "Q21526",
+  "label": "Concord (Mass.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21525": {
+  "qid": "Q21525",
+  "label": "College Park (Md.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21528": {
+  "qid": "Q21528",
+  "label": "Frankfurt am Main (Germany)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21530": {
+  "qid": "Q21530",
+  "label": "Göteborg (Sweden)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21529": {
+  "qid": "Q21529",
+  "label": "Garden City (N.Y.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21531": {
+  "qid": "Q21531",
+  "label": "Hamburg (Germany)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21532": {
+  "qid": "Q21532",
+  "label": "Jersey City (N.J.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21533": {
+  "qid": "Q21533",
+  "label": "Jerusalem",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21534": {
+  "qid": "Q21534",
+  "label": "Kansas City (Mo.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21535": {
+  "qid": "Q21535",
+  "label": "Kingston (N.Y.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21538": {
+  "qid": "Q21538",
+  "label": "London (England)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21539": {
+  "qid": "Q21539",
+  "label": "Los Angeles (Calif.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21521": {
+  "qid": "Q21521",
+  "label": "Buenos Aires (Argentina)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21384": {
+  "qid": "Q21384",
+  "label": "Q21384",
+  "classes": [],
+  "projects": []
+ },
+ "Q20719": {
+  "qid": "Q20719",
+  "label": "Local 496",
+  "classes": [
+   [
+    "Q19064",
+    "Semantic Lab project"
+   ]
+  ],
+  "projects": [
+   "Q2"
+  ]
+ },
+ "Q20655": {
+  "qid": "Q20655",
+  "label": "The International Sweethearts of Rhythm Project",
+  "classes": [
+   [
+    "Q19064",
+    "Semantic Lab project"
+   ]
+  ],
+  "projects": [
+   "Q2"
+  ]
+ },
+ "Q21536": {
+  "qid": "Q21536",
+  "label": "Lafayette (Ind.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21537": {
+  "qid": "Q21537",
+  "label": "Lisbon (Portugal)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21540": {
+  "qid": "Q21540",
+  "label": "Lugano (Switzerland)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21542": {
+  "qid": "Q21542",
+  "label": "Middletown (Conn.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21543": {
+  "qid": "Q21543",
+  "label": "Milan (Italy)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21541": {
+  "qid": "Q21541",
+  "label": "Miami (Fla.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21546": {
+  "qid": "Q21546",
+  "label": "Montréal (Québec)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21544": {
+  "qid": "Q21544",
+  "label": "Milwaukee (Wis.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21547": {
+  "qid": "Q21547",
+  "label": "Morris County (N.J.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21545": {
+  "qid": "Q21545",
+  "label": "Minneapolis (Minn.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21548": {
+  "qid": "Q21548",
+  "label": "Murray Hill (N.J.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21549": {
+  "qid": "Q21549",
+  "label": "Nashville (Tenn.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21550": {
+  "qid": "Q21550",
+  "label": "Newton (Mass.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21551": {
+  "qid": "Q21551",
+  "label": "Norfolk (Va.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21552": {
+  "qid": "Q21552",
+  "label": "North Hollywood (Los Angeles, Calif.)",
+  "classes": [
+   [
+    "Q19059",
+    "neighborhood"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21554": {
+  "qid": "Q21554",
+  "label": "Oxford (England)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21553": {
+  "qid": "Q21553",
+  "label": "Oakland (Calif.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21555": {
+  "qid": "Q21555",
+  "label": "Paris (France)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21556": {
+  "qid": "Q21556",
+  "label": "Paterson (N.J.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21558": {
+  "qid": "Q21558",
+  "label": "Phoenix (Ariz.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21557": {
+  "qid": "Q21557",
+  "label": "Philadelphia (Pa.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21559": {
+  "qid": "Q21559",
+  "label": "Portland (Or.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21560": {
+  "qid": "Q21560",
+  "label": "Princeton (N.J.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21561": {
+  "qid": "Q21561",
+  "label": "Purchase (N.Y.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21562": {
+  "qid": "Q21562",
+  "label": "Sacramento (Calif.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21563": {
+  "qid": "Q21563",
+  "label": "San Francisco (Calif.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21564": {
+  "qid": "Q21564",
+  "label": "Seattle (Wash.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21565": {
+  "qid": "Q21565",
+  "label": "Stamford (Conn.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21567": {
+  "qid": "Q21567",
+  "label": "Summit (N.J.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21568": {
+  "qid": "Q21568",
+  "label": "Tennessee",
+  "classes": [
+   [
+    "Q19057",
+    "state"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21570": {
+  "qid": "Q21570",
+  "label": "Toronto (Ont.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21569": {
+  "qid": "Q21569",
+  "label": "Tokyo (Japan)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21571": {
+  "qid": "Q21571",
+  "label": "Trumansburg (N.Y.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q22247": {
+  "qid": "Q22247",
+  "label": "Central Brooklyn Jazz Consortium",
+  "classes": [
+   [
+    "Q19049",
+    "organization"
+   ]
+  ],
+  "projects": [
+   "Q18807"
+  ]
+ },
+ "Q22248": {
+  "qid": "Q22248",
+  "label": "Club Jest Us",
+  "classes": [
+   [
+    "Q19049",
+    "organization"
+   ]
+  ],
+  "projects": [
+   "Q18807"
+  ]
+ },
+ "Q22323": {
+  "qid": "Q22323",
+  "label": "Brooklyn College",
+  "classes": [
+   [
+    "Q18806",
+    "Linking Lost Jazz \"Shrine\""
+   ]
+  ],
+  "projects": [
+   "Q18807"
+  ]
+ },
+ "Q22249": {
+  "qid": "Q22249",
+  "label": "Ki-Ki Records",
+  "classes": [
+   [
+    "Q19049",
+    "organization"
+   ],
+   [
+    "Q19051",
+    "record label"
+   ]
+  ],
+  "projects": [
+   "Q18807"
+  ]
+ },
+ "Q21610": {
+  "qid": "Q21610",
+  "label": "Osaka (Japan)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21572": {
+  "qid": "Q21572",
+  "label": "Washington (D.C.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21573": {
+  "qid": "Q21573",
+  "label": "Westwood (N.J.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21574": {
+  "qid": "Q21574",
+  "label": "Yonkers (N.Y.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q21676": {
+  "qid": "Q21676",
+  "label": "publisher",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q22337": {
+  "qid": "Q22337",
+  "label": "Berkeley Heights (N.J.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q22287": {
+  "qid": "Q22287",
+  "label": "reason for uncertainty",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q22301": {
+  "qid": "Q22301",
+  "label": "postcard",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q22335": {
+  "qid": "Q22335",
+  "label": "schedule",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q22395": {
+  "qid": "Q22395",
+  "label": "art exhibition",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q22373": {
+  "qid": "Q22373",
+  "label": "collection",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q22371": {
+  "qid": "Q22371",
+  "label": "Robert Rauschenberg papers at the Robert Rauschenberg Foundation Archives, New York",
+  "classes": [
+   [
+    "Q22373",
+    "collection"
+   ]
+  ],
+  "projects": []
+ },
+ "Q22387": {
+  "qid": "Q22387",
+  "label": "Photograph Collection. Robert Rauschenberg Foundation Archives, New York",
+  "classes": [
+   [
+    "Q22373",
+    "collection"
+   ]
+  ],
+  "projects": []
+ },
+ "Q22365": {
+  "qid": "Q22365",
+  "label": "artist statement",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q23111": {
+  "qid": "Q23111",
+  "label": "Emancipation Day Celebration in Chilhowee Park, August 8, 1941",
+  "classes": [
+   [
+    "Q22977",
+    "concert"
+   ]
+  ],
+  "projects": [
+   "Q20613",
+   "Q20655"
+  ]
+ },
+ "Q23202": {
+  "qid": "Q23202",
+  "label": "International Sweethearts of Rhythm Concert at Birdsong Warehouse, October 15, 1941",
+  "classes": [
+   [
+    "Q22977",
+    "concert"
+   ]
+  ],
+  "projects": [
+   "Q20613",
+   "Q20655"
+  ]
+ },
+ "Q23439": {
+  "qid": "Q23439",
+  "label": "Bill Tatum",
+  "classes": [
+   [
+    "Q1",
+    "person"
+   ]
+  ],
+  "projects": [
+   "Q18807"
+  ]
+ },
+ "Q22413": {
+  "qid": "Q22413",
+  "label": "annotation",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q22637": {
+  "qid": "Q22637",
+  "label": "Stony Point (N.Y.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q22705": {
+  "qid": "Q22705",
+  "label": "Robert Rauschenberg clipping files at the Robert Rauschenberg Foundation Archives, New York",
+  "classes": [
+   [
+    "Q22373",
+    "collection"
+   ]
+  ],
+  "projects": []
+ },
+ "Q22977": {
+  "qid": "Q22977",
+  "label": "concert",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q23105": {
+  "qid": "Q23105",
+  "label": "composer",
+  "classes": [
+   [
+    "Q19070",
+    "occupation"
+   ]
+  ],
+  "projects": []
+ },
+ "Q22989": {
+  "qid": "Q22989",
+  "label": "price descriptor",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q23416": {
+  "qid": "Q23416",
+  "label": "architect",
+  "classes": [
+   [
+    "Q19070",
+    "occupation"
+   ]
+  ],
+  "projects": []
+ },
+ "Q23485": {
+  "qid": "Q23485",
+  "label": "Dallas (Tex.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q23535": {
+  "qid": "Q23535",
+  "label": "continent",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q23492": {
+  "qid": "Q23492",
+  "label": "Houston (Tex.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q23497": {
+  "qid": "Q23497",
+  "label": "hotel",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q23422": {
+  "qid": "Q23422",
+  "label": "radio station",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q23571": {
+  "qid": "Q23571",
+  "label": "inverse property",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q23509": {
+  "qid": "Q23509",
+  "label": "psychiatrist",
+  "classes": [
+   [
+    "Q19070",
+    "occupation"
+   ]
+  ],
+  "projects": []
+ },
+ "Q23506": {
+  "qid": "Q23506",
+  "label": "senator",
+  "classes": [
+   [
+    "Q19070",
+    "occupation"
+   ],
+   [
+    "Q28961",
+    "role"
+   ]
+  ],
+  "projects": []
+ },
+ "Q23534": {
+  "qid": "Q23534",
+  "label": "Tampa (Fla.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q23572": {
+  "qid": "Q23572",
+  "label": "symmetric property",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q23736": {
+  "qid": "Q23736",
+  "label": "unrealized project",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q22531": {
+  "qid": "Q22531",
+  "label": "qualifier property",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q22704": {
+  "qid": "Q22704",
+  "label": "Audiovisual Collection at the Robert Rauschenberg Foundation Archives, New York",
+  "classes": [
+   [
+    "Q22373",
+    "collection"
+   ]
+  ],
+  "projects": []
+ },
+ "Q22436": {
+  "qid": "Q22436",
+  "label": "sound installation artwork (concept)",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q24237": {
+  "qid": "Q24237",
+  "label": "Q24237",
+  "classes": [],
+  "projects": []
+ },
+ "Q24444": {
+  "qid": "Q24444",
+  "label": "Q24444",
+  "classes": [],
+  "projects": []
+ },
+ "Q24174": {
+  "qid": "Q24174",
+  "label": "Charles Eames",
+  "classes": [],
+  "projects": []
+ },
+ "Q24176": {
+  "qid": "Q24176",
+  "label": "Ingemar Johansson",
+  "classes": [],
+  "projects": []
+ },
+ "Q23769": {
+  "qid": "Q23769",
+  "label": "Ann Arbor (Mich.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q23770": {
+  "qid": "Q23770",
+  "label": "Madrid (Spain)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q23771": {
+  "qid": "Q23771",
+  "label": "Richmond (Va.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q23753": {
+  "qid": "Q23753",
+  "label": "Vancouver (B.C.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q24079": {
+  "qid": "Q24079",
+  "label": "assistant",
+  "classes": [
+   [
+    "Q28961",
+    "role"
+   ]
+  ],
+  "projects": []
+ },
+ "Q23894": {
+  "qid": "Q23894",
+  "label": "Westbury (Nassau County, N.Y.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q24046": {
+  "qid": "Q24046",
+  "label": "Rochester (N.Y.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q24392": {
+  "qid": "Q24392",
+  "label": "Armonk (N.Y.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q24397": {
+  "qid": "Q24397",
+  "label": "Amsterdam (Netherlands)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q24406": {
+  "qid": "Q24406",
+  "label": "curator",
+  "classes": [
+   [
+    "Q19070",
+    "occupation"
+   ]
+  ],
+  "projects": []
+ },
+ "Q24390": {
+  "qid": "Q24390",
+  "label": "Europe",
+  "classes": [
+   [
+    "Q23535",
+    "continent"
+   ]
+  ],
+  "projects": []
+ },
+ "Q24472": {
+  "qid": "Q24472",
+  "label": "color",
+  "classes": [
+   [
+    "Q24451",
+    "color"
+   ]
+  ],
+  "projects": []
+ },
+ "Q24473": {
+  "qid": "Q24473",
+  "label": "gelatin silver print",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q24394": {
+  "qid": "Q24394",
+  "label": "RCA Sarnoff Laboratories",
+  "classes": [
+   [
+    "Q19085",
+    "business"
+   ]
+  ],
+  "projects": []
+ },
+ "Q24391": {
+  "qid": "Q24391",
+  "label": "South America",
+  "classes": [
+   [
+    "Q23535",
+    "continent"
+   ]
+  ],
+  "projects": []
+ },
+ "Q24455": {
+  "qid": "Q24455",
+  "label": "Northfield (Minn.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q24388": {
+  "qid": "Q24388",
+  "label": "United States",
+  "classes": [
+   [
+    "Q19056",
+    "country"
+   ]
+  ],
+  "projects": []
+ },
+ "Q24445": {
+  "qid": "Q24445",
+  "label": "Santa Ana (Calif.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q24446": {
+  "qid": "Q24446",
+  "label": "Sioux Falls (S.D.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q24475": {
+  "qid": "Q24475",
+  "label": "polaroid",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q24474": {
+  "qid": "Q24474",
+  "label": "slide",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q24694": {
+  "qid": "Q24694",
+  "label": "Q24694",
+  "classes": [],
+  "projects": []
+ },
+ "Q24540": {
+  "qid": "Q24540",
+  "label": "Harvard",
+  "classes": [],
+  "projects": []
+ },
+ "Q24527": {
+  "qid": "Q24527",
+  "label": "Ahmadābād (India)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q24626": {
+  "qid": "Q24626",
+  "label": "ethnic group",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q24539": {
+  "qid": "Q24539",
+  "label": "Roxbury (Conn. : Town)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q24678": {
+  "qid": "Q24678",
+  "label": "drawing",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q24692": {
+  "qid": "Q24692",
+  "label": "researcher",
+  "classes": [
+   [
+    "Q19070",
+    "occupation"
+   ]
+  ],
+  "projects": []
+ },
+ "Q24831": {
+  "qid": "Q24831",
+  "label": "Asian American Arts Centre Exhibition History",
+  "classes": [
+   [
+    "Q19064",
+    "Semantic Lab project"
+   ]
+  ],
+  "projects": []
+ },
+ "Q25724": {
+  "qid": "Q25724",
+  "label": "poet",
+  "classes": [
+   [
+    "Q19070",
+    "occupation"
+   ]
+  ],
+  "projects": [
+   "Q24831"
+  ]
+ },
+ "Q26036": {
+  "qid": "Q26036",
+  "label": "Spain",
+  "classes": [
+   [
+    "Q19056",
+    "country"
+   ]
+  ],
+  "projects": [
+   "Q27355"
+  ]
+ },
+ "Q27056": {
+  "qid": "Q27056",
+  "label": "local union",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": [
+   "Q18807",
+   "Q20719"
+  ]
+ },
+ "Q26380": {
+  "qid": "Q26380",
+  "label": "Q26380",
+  "classes": [],
+  "projects": []
+ },
+ "Q25838": {
+  "qid": "Q25838",
+  "label": "project",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q25972": {
+  "qid": "Q25972",
+  "label": "fundraising event",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q25985": {
+  "qid": "Q25985",
+  "label": "Illinois",
+  "classes": [
+   [
+    "Q19057",
+    "state"
+   ]
+  ],
+  "projects": []
+ },
+ "Q25999": {
+  "qid": "Q25999",
+  "label": "New York (State)",
+  "classes": [
+   [
+    "Q19057",
+    "state"
+   ]
+  ],
+  "projects": []
+ },
+ "Q26000": {
+  "qid": "Q26000",
+  "label": "North Carolina",
+  "classes": [
+   [
+    "Q19057",
+    "state"
+   ]
+  ],
+  "projects": []
+ },
+ "Q26001": {
+  "qid": "Q26001",
+  "label": "Ohio",
+  "classes": [
+   [
+    "Q19057",
+    "state"
+   ]
+  ],
+  "projects": []
+ },
+ "Q26031": {
+  "qid": "Q26031",
+  "label": "Germany",
+  "classes": [
+   [
+    "Q19056",
+    "country"
+   ]
+  ],
+  "projects": []
+ },
+ "Q26004": {
+  "qid": "Q26004",
+  "label": "Pennsylvania",
+  "classes": [
+   [
+    "Q19057",
+    "state"
+   ]
+  ],
+  "projects": []
+ },
+ "Q26289": {
+  "qid": "Q26289",
+  "label": "painting",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q27066": {
+  "qid": "Q27066",
+  "label": "Berkeley (C.A.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q27074": {
+  "qid": "Q27074",
+  "label": "Blacksburg (Virginia)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q27085": {
+  "qid": "Q27085",
+  "label": "Barrington (N.J.)",
+  "classes": [
+   [
+    "Q18809",
+    "borough"
+   ]
+  ],
+  "projects": []
+ },
+ "Q27059": {
+  "qid": "Q27059",
+  "label": "Youngwood (Pa.)",
+  "classes": [
+   [
+    "Q18809",
+    "borough"
+   ]
+  ],
+  "projects": []
+ },
+ "Q27081": {
+  "qid": "Q27081",
+  "label": "Pittsburgh (Pa.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q27171": {
+  "qid": "Q27171",
+  "label": "dance performance",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q27168": {
+  "qid": "Q27168",
+  "label": "object",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q27355": {
+  "qid": "Q27355",
+  "label": "Mary Berenson Diaries Project",
+  "classes": [
+   [
+    "Q19064",
+    "Semantic Lab project"
+   ]
+  ],
+  "projects": []
+ },
+ "Q26150": {
+  "qid": "Q26150",
+  "label": "concept",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q27514": {
+  "qid": "Q27514",
+  "label": "bibliography",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q27619": {
+  "qid": "Q27619",
+  "label": "Dunstan Farnum",
+  "classes": [
+   [
+    "Q1",
+    "person"
+   ]
+  ],
+  "projects": []
+ },
+ "Q27735": {
+  "qid": "Q27735",
+  "label": "E.A.T. Datascape Project",
+  "classes": [
+   [
+    "Q25838",
+    "project"
+   ]
+  ],
+  "projects": []
+ },
+ "Q27170": {
+  "qid": "Q27170",
+  "label": "choreographic work (concept)",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q28939": {
+  "qid": "Q28939",
+  "label": "dramatic work (concept)",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": [
+   "Q27355"
+  ]
+ },
+ "Q28612": {
+  "qid": "Q28612",
+  "label": "reference property",
+  "classes": [],
+  "projects": []
+ },
+ "Q28899": {
+  "qid": "Q28899",
+  "label": "Visual Artists and Galleries Association (VAGA)",
+  "classes": [
+   [
+    "Q19049",
+    "organization"
+   ]
+  ],
+  "projects": []
+ },
+ "Q28901": {
+  "qid": "Q28901",
+  "label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+  "classes": [
+   [
+    "Q19064",
+    "Semantic Lab project"
+   ]
+  ],
+  "projects": []
+ },
+ "Q28932": {
+  "qid": "Q28932",
+  "label": "artwork (object)",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q28933": {
+  "qid": "Q28933",
+  "label": "installation artwork (concept)",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q28950": {
+  "qid": "Q28950",
+  "label": "newspaper",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q28948": {
+  "qid": "Q28948",
+  "label": "correspondence",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q28952": {
+  "qid": "Q28952",
+  "label": "notebook",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q28953": {
+  "qid": "Q28953",
+  "label": "typescript",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q28954": {
+  "qid": "Q28954",
+  "label": "envelope",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q29623": {
+  "qid": "Q29623",
+  "label": "Giardini della Biennale",
+  "classes": [
+   [
+    "Q19072",
+    "venue"
+   ],
+   [
+    "Q23077",
+    "park"
+   ],
+   [
+    "Q29622",
+    "garden"
+   ]
+  ],
+  "projects": [
+   "Q28901"
+  ]
+ },
+ "Q29624": {
+  "qid": "Q29624",
+  "label": "biennale",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": [
+   "Q28901"
+  ]
+ },
+ "Q29625": {
+  "qid": "Q29625",
+  "label": "24th Venice Biennale",
+  "classes": [
+   [
+    "Q29624",
+    "biennale"
+   ]
+  ],
+  "projects": [
+   "Q28901"
+  ]
+ },
+ "Q28959": {
+  "qid": "Q28959",
+  "label": "Berenson Bibliography Project",
+  "classes": [
+   [
+    "Q19064",
+    "Semantic Lab project"
+   ]
+  ],
+  "projects": []
+ },
+ "Q28972": {
+  "qid": "Q28972",
+  "label": "Sonnabend Gallery",
+  "classes": [
+   [
+    "Q24537",
+    "art gallery"
+   ]
+  ],
+  "projects": []
+ },
+ "Q28973": {
+  "qid": "Q28973",
+  "label": "Achille Bonito Oliva",
+  "classes": [
+   [
+    "Q1",
+    "person"
+   ]
+  ],
+  "projects": []
+ },
+ "Q29379": {
+  "qid": "Q29379",
+  "label": "AVC",
+  "classes": [
+   [
+    "Q19076",
+    "technology"
+   ]
+  ],
+  "projects": []
+ },
+ "Q29377": {
+  "qid": "Q29377",
+  "label": "demodulator",
+  "classes": [
+   [
+    "Q19076",
+    "technology"
+   ]
+  ],
+  "projects": []
+ },
+ "Q29375": {
+  "qid": "Q29375",
+  "label": "refrigerating apparatus",
+  "classes": [
+   [
+    "Q29599",
+    "device"
+   ]
+  ],
+  "projects": []
+ },
+ "Q29389": {
+  "qid": "Q29389",
+  "label": "Suzanne Konigsberg",
+  "classes": [
+   [
+    "Q1",
+    "person"
+   ]
+  ],
+  "projects": []
+ },
+ "Q29401": {
+  "qid": "Q29401",
+  "label": "Turkey",
+  "classes": [
+   [
+    "Q19056",
+    "country"
+   ]
+  ],
+  "projects": []
+ },
+ "Q29406": {
+  "qid": "Q29406",
+  "label": "Atlantic City (N.J.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q29407": {
+  "qid": "Q29407",
+  "label": "Rahway (N.J.)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q29405": {
+  "qid": "Q29405",
+  "label": "Budapest (Hungary)",
+  "classes": [
+   [
+    "Q19058",
+    "city"
+   ]
+  ],
+  "projects": []
+ },
+ "Q29426": {
+  "qid": "Q29426",
+  "label": "two transistor radio",
+  "classes": [
+   [
+    "Q29603",
+    "communication device"
+   ]
+  ],
+  "projects": []
+ },
+ "Q29543": {
+  "qid": "Q29543",
+  "label": "magnetic tape",
+  "classes": [
+   [
+    "Q29599",
+    "device"
+   ]
+  ],
+  "projects": []
+ },
+ "Q29555": {
+  "qid": "Q29555",
+  "label": "steel",
+  "classes": [
+   [
+    "Q24231",
+    "metal"
+   ]
+  ],
+  "projects": []
+ },
+ "Q29544": {
+  "qid": "Q29544",
+  "label": "sand-blasted Plexiglass panel",
+  "classes": [
+   [
+    "Q29601",
+    "theatrical scenery component"
+   ],
+   [
+    "Q29609",
+    "plastic and foam"
+   ]
+  ],
+  "projects": []
+ },
+ "Q29545": {
+  "qid": "Q29545",
+  "label": "tire",
+  "classes": [
+   [
+    "Q29600",
+    "theatrical prop"
+   ]
+  ],
+  "projects": []
+ },
+ "Q29550": {
+  "qid": "Q29550",
+  "label": "propeller",
+  "classes": [
+   [
+    "Q29599",
+    "device"
+   ]
+  ],
+  "projects": []
+ },
+ "Q29559": {
+  "qid": "Q29559",
+  "label": "linen canvas",
+  "classes": [
+   [
+    "Q29610",
+    "textile"
+   ]
+  ],
+  "projects": []
+ },
+ "Q29556": {
+  "qid": "Q29556",
+  "label": "axel",
+  "classes": [
+   [
+    "Q29599",
+    "device"
+   ]
+  ],
+  "projects": []
+ },
+ "Q29557": {
+  "qid": "Q29557",
+  "label": "cowl",
+  "classes": [
+   [
+    "Q29599",
+    "device"
+   ]
+  ],
+  "projects": []
+ },
+ "Q1": {
+  "qid": "Q1",
+  "label": "person",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": [
+   "Q18807",
+   "Q20719",
+   "Q21217"
+  ]
+ },
+ "Q29627": {
+  "qid": "Q29627",
+  "label": "26th Venice Biennale",
+  "classes": [
+   [
+    "Q29624",
+    "biennale"
+   ]
+  ],
+  "projects": [
+   "Q28901"
+  ]
+ },
+ "Q30282": {
+  "qid": "Q30282",
+  "label": "Josef Albers",
+  "classes": [
+   [
+    "Q1",
+    "person"
+   ]
+  ],
+  "projects": [
+   "Q28901"
+  ]
+ },
+ "Q30281": {
+  "qid": "Q30281",
+  "label": "Irene Brin",
+  "classes": [
+   [
+    "Q1",
+    "person"
+   ]
+  ],
+  "projects": [
+   "Q28901"
+  ]
+ },
+ "Q30286": {
+  "qid": "Q30286",
+  "label": "Peggy Guggenheim",
+  "classes": [
+   [
+    "Q1",
+    "person"
+   ]
+  ],
+  "projects": [
+   "Q28901"
+  ]
+ },
+ "Q30287": {
+  "qid": "Q30287",
+  "label": "Philip Guston",
+  "classes": [
+   [
+    "Q1",
+    "person"
+   ]
+  ],
+  "projects": [
+   "Q28901"
+  ]
+ },
+ "Q30290": {
+  "qid": "Q30290",
+  "label": "Roma-New York, 1948-1964: An Art Exploration (book/catalogue)",
+  "classes": [
+   [
+    "Q21589",
+    "catalogue"
+   ]
+  ],
+  "projects": [
+   "Q28901"
+  ]
+ },
+ "Q20639": {
+  "qid": "Q20639",
+  "label": "book",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q30731": {
+  "qid": "Q30731",
+  "label": "Q30731",
+  "classes": [],
+  "projects": []
+ },
+ "Q30795": {
+  "qid": "Q30795",
+  "label": "Q30795",
+  "classes": [],
+  "projects": []
+ },
+ "Q30810": {
+  "qid": "Q30810",
+  "label": "Q30810",
+  "classes": [],
+  "projects": []
+ },
+ "Q30539": {
+  "qid": "Q30539",
+  "label": "Charles Egan Gallery",
+  "classes": [
+   [
+    "Q19085",
+    "business"
+   ],
+   [
+    "Q24537",
+    "art gallery"
+   ]
+  ],
+  "projects": [
+   "Q28901"
+  ]
+ },
+ "Q30159": {
+  "qid": "Q30159",
+  "label": "wood",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q30600": {
+  "qid": "Q30600",
+  "label": "Hugo Gallery",
+  "classes": [
+   [
+    "Q19085",
+    "business"
+   ],
+   [
+    "Q24537",
+    "art gallery"
+   ]
+  ],
+  "projects": [
+   "Q28901"
+  ]
+ },
+ "Q30604": {
+  "qid": "Q30604",
+  "label": "South Carolina",
+  "classes": [
+   [
+    "Q19057",
+    "state"
+   ]
+  ],
+  "projects": [
+   "Q28901"
+  ]
+ },
+ "Q30606": {
+  "qid": "Q30606",
+  "label": "Fifteen Drawings Based on the Writings of Truman Capote",
+  "classes": [
+   [
+    "Q22395",
+    "art exhibition"
+   ]
+  ],
+  "projects": [
+   "Q28901"
+  ]
+ },
+ "Q30046": {
+  "qid": "Q30046",
+  "label": "theory",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q30045": {
+  "qid": "Q30045",
+  "label": "technique",
+  "classes": [
+   [
+    "Q19063",
+    "class"
+   ]
+  ],
+  "projects": []
+ },
+ "Q30169": {
+  "qid": "Q30169",
+  "label": "wood (material)",
+  "classes": [
+   [
+    "Q30159",
+    "wood"
+   ]
+  ],
+  "projects": []
+ },
+ "Q202": {
+  "qid": "Q202",
+  "label": "Cal Massey",
+  "classes": [
+   [
+    "Q1",
+    "person"
+   ]
+  ],
+  "projects": [
+   "Q18807",
+   "Q21217"
+  ]
+ }
+}

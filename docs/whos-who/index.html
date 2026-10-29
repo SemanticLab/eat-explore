@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Who's Who in E.A.T.</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;900&family=Courier+Prime:wght@400;700&display=swap">
+<link rel="stylesheet" href="../shared/style.css">
+<style>
+.results{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.person{display:flex;gap:10px;align-items:center;background:var(--panel);border:1px solid var(--rule);padding:8px 10px;text-decoration:none;color:var(--fg);min-width:0}
+.person:hover{border-color:var(--accent)}
+.person .nm{font-weight:600}.person .sub{font-size:12.5px;color:var(--muted);display:block}
+.profile{display:grid;gap:22px;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr)}
+@media (max-width:900px){.profile{grid-template-columns:1fr}}
+.sec h3{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--rule);padding-bottom:3px}
+.sec h3 .count{font-weight:400}
+.sec ul{list-style:none;margin:0;padding:0;font-size:14.5px}
+.sec li{padding:5px 0;border-bottom:1px solid var(--rule)}
+.sec li:last-child{border:none}
+.sources{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 14px}
+.sources a,.sources span{font-size:13px;padding:3px 10px;border:1px solid var(--rule);border-radius:3px;text-decoration:none;color:var(--fg);background:var(--panel)}
+.sources a:hover{border-color:var(--accent)}
+.sources .off{color:var(--muted);border-style:dashed}
+.hero{display:flex;gap:18px;align-items:flex-start;flex-wrap:wrap}
+.hero img{width:140px;height:140px;object-fit:cover;border:1px solid var(--rule);background:var(--panel2)}
+.alpha{display:flex;flex-wrap:wrap;gap:2px;margin:6px 0 12px}
+.alpha button{padding:3px 7px;font-size:12.5px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div id="top"></div>
+<header class="page">
+  <div class="eyebrow">1,900 artists, engineers, critics and administrators across four projects</div>
+  <h1>Who's Who in E.A.T.</h1>
+  <p class="lede">One profile per person, assembled live from everything the four projects say: roles and memberships in the Knowledge Graph, the engineer's card, bibliography entries they wrote, passages that mention them, and the pointer to their Datascape actor page.</p>
+</header>
+<section id="search-mode">
+<div class="toolbar">
+  <div class="field"><label for="q">Name</label><input id="q" type="search" placeholder="Klüver, Tudor, Denes…"></div>
+  <div class="field"><label for="proj">Project</label><select id="proj"><option value="">Any</option><option value="Q19104">Knowledge Graph</option><option value="Q28603">Edge-notched cards</option><option value="Q20517">Bibliography</option><option value="Q27735">Datascape</option></select></div>
+  <div class="field"><label for="occ">Occupation</label><select id="occ"><option value="">Any</option><option value="Q19157">artist</option><option value="Q19081">engineer</option><option value="Q19082">musician</option><option value="Q24692">researcher</option><option value="Q20540">art critic</option><option value="Q24624">choreographer</option><option value="Q20538">photographer</option><option value="Q24406">curator</option></select></div>
+  <div class="field"><label for="pic">&nbsp;</label><label><input type="checkbox" id="pic"> with portrait only</label></div>
+  <button id="go" class="primary">Search</button>
+</div>
+<div class="alpha" id="alpha"></div>
+<div class="count" id="rcount"></div>
+<div class="results" id="results"></div>
+</section>
+<section id="profile-mode" hidden><div id="profile"></div></section>
+<div id="foot"></div>
+</div>
+<script type="module" src="app.js"></script>
+</body>
+</html>
