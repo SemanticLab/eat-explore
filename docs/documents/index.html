@@ -26,6 +26,7 @@ body{padding-block:0 0}
 .card img{width:100%;max-height:140px;object-fit:contain;border:1px solid var(--rule);background:var(--panel2)}
 .card .acts{display:flex;flex-wrap:wrap;gap:5px;margin-top:2px}
 .card .acts button,.card .acts .btn{font-size:12px;padding:4px 8px}
+.stageload{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:1;font-size:14px}
 .hint{position:absolute;left:12px;bottom:10px;font-size:12.5px;color:var(--muted);background:var(--panel);padding:4px 8px;border:1px solid var(--rule);border-radius:3px;z-index:2;max-width:70%}
 .legend{position:absolute;right:12px;bottom:10px;z-index:2;display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;color:var(--muted);background:var(--panel);padding:5px 8px;border:1px solid var(--rule);border-radius:3px;max-width:60%}
 .legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:4px;vertical-align:0}
@@ -80,6 +81,7 @@ svg .frame{fill:var(--panel);stroke:var(--rule);stroke-width:1.5}
     </div>
     <div class="trail" id="trail"></div>
     <div class="card" id="card" hidden></div>
+    <div class="loading stageload" id="stageload">Loading documents from query.semlab.io</div>
     <svg id="g" role="img" aria-label="Documents floating; click one to expand its connections"></svg>
     <div class="hint" id="hint">Documents from the Rauschenberg Foundation and Getty archives, grouped by what they share. Click one: its relations fan out to the right, hop by hop. Click any node to make it the root. Dashed lines are passage mentions, solid lines recorded facts. Wheel to zoom, drag to pan. In the tree, wheel scrolls and ⌘/Ctrl + wheel zooms.</div>
     <div class="legend"><span><i style="background:var(--panel);border:1px solid var(--muted)"></i>document</span><span><i style="background:var(--ink)"></i>person</span><span><i style="background:var(--ok)"></i>organization</span><span><i style="background:var(--accent)"></i>work · event</span><span><i style="background:var(--warn)"></i>device · material</span><span><i style="background:#9a6fb0"></i>place</span><span><i style="background:var(--muted)"></i>other</span></div>

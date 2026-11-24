@@ -64,10 +64,10 @@ async function load() {
     for (const d of docs.values()) addNode({ ...d, x: Math.random() * W(), y: Math.random() * H() });
     query(Q_DOCENTS).then(ents => { buildDocLinks(ents); sim.force('rel', d3.forceLink(docLinks).id(d => d.id).distance(l => 110 + (1 - l.w) * 110).strength(l => 0.1 + l.w * 0.5)); sim.alpha(0.8).restart(); draw(); }).catch(() => {});
     $('doclist').replaceChildren(...[...docs.values()].sort((a, b) => a.label.localeCompare(b.label)).map(d => h('option', { value: d.label })));
-    setStatus(`${docs.size} documents`);
+    setStatus(`${docs.size} documents`); $('stageload')?.remove();
     initGraph();
     const hs = getHash(); if (hs.doc && docs.has(hs.doc)) select(hs.doc);
-  } catch (err) { setStatus('query failed', true); $('panel').replaceChildren(errorBox(err)); }
+  } catch (err) { setStatus('query failed', true); $('stageload')?.remove(); $('panel').replaceChildren(errorBox(err)); }
 }
 
 /* Document-to-document relatedness: shared subjects, people, places and mentions, with common entities down-weighted. */

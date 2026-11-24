@@ -36,12 +36,34 @@ export async function query(q, { raw = false, cache = true, signal } = {}) {
   if (cache && mem.has(key)) return mem.get(key);
   if (cache) { try { const s = sessionStorage.getItem(key); if (s) { const v = JSON.parse(s); mem.set(key, v); return v; } } catch (e) {} }
   const url = ENDPOINT + '?' + new URLSearchParams({ query: PREFIX + q });
-  const res = await fetch(url, { headers: { Accept: 'application/sparql-results+json' }, signal });
-  if (!res.ok) throw new Error('SPARQL ' + res.status + ' ' + res.statusText);
-  const json = await res.json();
-  const rows = raw ? json : json.results.bindings.map(simplify);
-  if (cache) { mem.set(key, rows); try { sessionStorage.setItem(key, JSON.stringify(rows)); } catch (e) {} }
-  return rows;
+  loadingStart();
+  try {
+    const res = await fetch(url, { headers: { Accept: 'application/sparql-results+json' }, signal });
+    if (!res.ok) throw new Error('SPARQL ' + res.status + ' ' + res.statusText);
+    const json = await res.json();
+    const rows = raw ? json : json.results.bindings.map(simplify);
+    if (cache) { mem.set(key, rows); try { sessionStorage.setItem(key, JSON.stringify(rows)); } catch (e) {} }
+    return rows;
+  } finally { loadingEnd(); }
+}
+
+/* Page-wide loading indicator: a bar across the top and a 'Loading data' pill while any query is in flight.
+   Appears after a short delay so cached and instant queries do not flash it. */
+let pending = 0, loadingEl = null, showTimer = null, hideTimer = null;
+function loadingEl_() {
+  if (loadingEl) return loadingEl;
+  loadingEl = document.createElement('div'); loadingEl.className = 'loadbar'; loadingEl.setAttribute('role', 'status'); loadingEl.setAttribute('aria-live', 'polite'); loadingEl.hidden = true;
+  loadingEl.innerHTML = '<div class="loadbar-track"><div class="loadbar-fill"></div></div><div class="loadbar-pill"><span class="loadbar-spin"></span><span class="loadbar-text">Loading data</span><span class="loadbar-count"></span></div>';
+  document.body.appendChild(loadingEl); return loadingEl;
+}
+function loadingUpdate() { const el = loadingEl_(); el.querySelector('.loadbar-count').textContent = pending > 1 ? ` · ${pending} queries` : ''; }
+function loadingStart() {
+  pending++; loadingUpdate(); clearTimeout(hideTimer);
+  if (!showTimer && loadingEl_().hidden) showTimer = setTimeout(() => { showTimer = null; if (pending > 0) loadingEl_().hidden = false; }, 250);
+}
+function loadingEnd() {
+  pending = Math.max(0, pending - 1); loadingUpdate();
+  if (pending === 0) { clearTimeout(showTimer); showTimer = null; hideTimer = setTimeout(() => { if (pending === 0) loadingEl_().hidden = true; }, 200); }
 }
 /* The Rauschenberg Foundation re-uploaded its archive files into a 2026-10 folder; the dated paths stored in the Wikibase 404. 139 of 142 resolve after this rewrite. */
 export function fixUrl(v) { return typeof v === 'string' && v.includes('rauschenbergfoundation.org/sites/default/files/') ? v.replace(/\/sites\/default\/files\/\d{4}-\d{2}\//, '/sites/default/files/2026-10/') : v; }
